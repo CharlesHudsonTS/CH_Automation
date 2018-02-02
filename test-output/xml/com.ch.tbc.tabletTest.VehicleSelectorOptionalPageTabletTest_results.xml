@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TBC Suite"
+           tests="13"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="1312.459">
+  <properties />
+  
+  
+            <testcase name="verifyAddCustomizeSizeTest" time="139.405" classname="com.ch.tbc.tabletTest.VehicleSelectorOptionalPageTabletTest" />
+                <testcase name="isCancelButtonlabelTest" time="44.233" classname="com.ch.tbc.tabletTest.VehicleSelectorOptionalPageTabletTest" />
+                <testcase name="typeDataInEditBoxTest" time="102.824" classname="com.ch.tbc.tabletTest.VehicleSelectorOptionalPageTabletTest" />
+                <testcase name="getCarModelNickNameTest" time="86.939" classname="com.ch.tbc.tabletTest.VehicleSelectorOptionalPageTabletTest" />
+                <testcase name="verifySaveVehicleButtonTest" time="154.278" classname="com.ch.tbc.tabletTest.VehicleSelectorOptionalPageTabletTest" />
+                <testcase name="validMileageTest" time="75.465" classname="com.ch.tbc.tabletTest.VehicleSelectorOptionalPageTabletTest" />
+                <testcase name="verifyWhereMyTireSizeTest" time="99.964" classname="com.ch.tbc.tabletTest.VehicleSelectorOptionalPageTabletTest" />
+                <testcase name="clickCancelCancelButtonlabelTest" time="101.298" classname="com.ch.tbc.tabletTest.VehicleSelectorOptionalPageTabletTest" />
+                <testcase name="editNickNameTest" time="81.985" classname="com.ch.tbc.tabletTest.VehicleSelectorOptionalPageTabletTest" />
+                <testcase name="isMyGarageLabelAndPlaceHolderTest" time="93.339" classname="com.ch.tbc.tabletTest.VehicleSelectorOptionalPageTabletTest" />
+                <testcase name="verifyEditModelTest" time="115.469" classname="com.ch.tbc.tabletTest.VehicleSelectorOptionalPageTabletTest" />
+                <testcase name="isColorChangeTest" time="102.157" classname="com.ch.tbc.tabletTest.VehicleSelectorOptionalPageTabletTest" />
+                <testcase name="selectValuesFromDropDownTest" time="115.103" classname="com.ch.tbc.tabletTest.VehicleSelectorOptionalPageTabletTest" />
+      
+</testsuite>

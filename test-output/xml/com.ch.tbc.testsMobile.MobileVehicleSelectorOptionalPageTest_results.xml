@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TBC Suite"
+           tests="13"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="1365.491">
+  <properties />
+  
+  
+            <testcase name="selectValuesFromDropDownTest" time="117.187" classname="com.ch.tbc.testsMobile.MobileVehicleSelectorOptionalPageTest" />
+                <testcase name="verifyEditModelTest" time="95.925" classname="com.ch.tbc.testsMobile.MobileVehicleSelectorOptionalPageTest" />
+                <testcase name="isCancelButtonlabelTest" time="88.440" classname="com.ch.tbc.testsMobile.MobileVehicleSelectorOptionalPageTest" />
+                <testcase name="verifyWhereMyTireSizeTest" time="91.468" classname="com.ch.tbc.testsMobile.MobileVehicleSelectorOptionalPageTest" />
+                <testcase name="typeDataInEditBoxTest" time="100.734" classname="com.ch.tbc.testsMobile.MobileVehicleSelectorOptionalPageTest" />
+                <testcase name="editNickNameTest" time="89.533" classname="com.ch.tbc.testsMobile.MobileVehicleSelectorOptionalPageTest" />
+                <testcase name="verifySaveVehicleButtonTest" time="134.538" classname="com.ch.tbc.testsMobile.MobileVehicleSelectorOptionalPageTest" />
+                <testcase name="isColorChangeTest" time="113.473" classname="com.ch.tbc.testsMobile.MobileVehicleSelectorOptionalPageTest" />
+                <testcase name="isMyGarageLabelAndPlaceHolderTest" time="94.077" classname="com.ch.tbc.testsMobile.MobileVehicleSelectorOptionalPageTest" />
+                <testcase name="clickCancelCancelButtonlabelTest" time="98.490" classname="com.ch.tbc.testsMobile.MobileVehicleSelectorOptionalPageTest" />
+                <testcase name="validMileageTest" time="98.830" classname="com.ch.tbc.testsMobile.MobileVehicleSelectorOptionalPageTest" />
+                <testcase name="verifyAddCustomizeSizeTest" time="145.814" classname="com.ch.tbc.testsMobile.MobileVehicleSelectorOptionalPageTest" />
+                <testcase name="getCarModelNickNameTest" time="96.982" classname="com.ch.tbc.testsMobile.MobileVehicleSelectorOptionalPageTest" />
+      
+</testsuite>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TBC Suite"
+           tests="20"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="1522.266">
+  <properties />
+  
+  
+            <testcase name="clickAddVehicleTest" time="19.471" classname="com.ch.tbc.tests.VehicleSelectorMYMTest" />
+                <testcase name="verifyMYMSectionTest" time="79.865" classname="com.ch.tbc.tests.VehicleSelectorMYMTest" />
+                <testcase name="verifyCancelButtonTest" time="75.534" classname="com.ch.tbc.tests.VehicleSelectorMYMTest" />
+                <testcase name="disableYearDropDownTest" time="71.401" classname="com.ch.tbc.tests.VehicleSelectorMYMTest" />
+                <testcase name="verifyMyGarageLabelAndPlaceHolderTest" time="43.581" classname="com.ch.tbc.tests.VehicleSelectorMYMTest" />
+                <testcase name="isYearAndModelDisableMYM" time="32.180" classname="com.ch.tbc.tests.VehicleSelectorMYMTest" />
+                <testcase name="verifyINVaildMYMSectionTest" time="74.353" classname="com.ch.tbc.tests.VehicleSelectorMYMTest" />
+                <testcase name="verifyEditVehicle" time="304.352" classname="com.ch.tbc.tests.VehicleSelectorMYMTest" />
+                <testcase name="verifyThreeValuesMYMTest" time="81.441" classname="com.ch.tbc.tests.VehicleSelectorMYMTest" />
+                <testcase name="verifyValidMYMSectionTest" time="59.784" classname="com.ch.tbc.tests.VehicleSelectorMYMTest" />
+                <testcase name="clickBreadCrumbTest" time="63.914" classname="com.ch.tbc.tests.VehicleSelectorMYMTest" />
+                <testcase name="verifyEditVehicleEditTest" time="129.610" classname="com.ch.tbc.tests.VehicleSelectorMYMTest" />
+                <testcase name="verifyTollMessageMYMTest" time="28.234" classname="com.ch.tbc.tests.VehicleSelectorMYMTest" />
+                <testcase name="verifyDOYouKnowLabelMYMSectionTest" time="84.463" classname="com.ch.tbc.tests.VehicleSelectorMYMTest" />
+                <testcase name="clickMYMSectionTest" time="33.332" classname="com.ch.tbc.tests.VehicleSelectorMYMTest" />
+                <testcase name="typeMYMValuesTest" time="45.452" classname="com.ch.tbc.tests.VehicleSelectorMYMTest" />
+                <testcase name="verifyEditVehicleRemoveVehicleTest" time="167.523" classname="com.ch.tbc.tests.VehicleSelectorMYMTest" />
+                <testcase name="clickNextButtonTest" time="66.312" classname="com.ch.tbc.tests.VehicleSelectorMYMTest" />
+                <testcase name="disableNextButtonTest" time="28.557" classname="com.ch.tbc.tests.VehicleSelectorMYMTest" />
+                <testcase name="verifyDealsBreadCrumbTest" time="32.907" classname="com.ch.tbc.tests.VehicleSelectorMYMTest" />
+      
+</testsuite>

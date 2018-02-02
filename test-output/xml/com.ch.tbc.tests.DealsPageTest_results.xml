@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TBC Suite"
+           tests="16"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="748.320">
+  <properties />
+  
+  
+            <testcase name="autoScrollsHeroImageTest" time="40.770" classname="com.ch.tbc.tests.DealsPageTest" />
+                <testcase name="clickDealsInFooterTest" time="36.552" classname="com.ch.tbc.tests.DealsPageTest" />
+                <testcase name="veryCategoriesDealsAndClickTest" time="63.994" classname="com.ch.tbc.tests.DealsPageTest" />
+                <testcase name="isCarouselDotTest" time="36.623" classname="com.ch.tbc.tests.DealsPageTest" />
+                <testcase name="isSpeicalFinancingTest" time="60.531" classname="com.ch.tbc.tests.DealsPageTest" />
+                <testcase name="isStickyHeaderTest" time="38.341" classname="com.ch.tbc.tests.DealsPageTest" />
+                <testcase name="clickAnyDealsTest" time="62.935" classname="com.ch.tbc.tests.DealsPageTest" />
+                <testcase name="mouserHoverTermsandCond" time="42.692" classname="com.ch.tbc.tests.DealsPageTest" />
+                <testcase name="verifyDealsBreadCrumbTest" time="36.595" classname="com.ch.tbc.tests.DealsPageTest" />
+                <testcase name="isNationalDealsTest" time="54.226" classname="com.ch.tbc.tests.DealsPageTest" />
+                <testcase name="clickDealsInHeaderTest" time="37.056" classname="com.ch.tbc.tests.DealsPageTest" />
+                <testcase name="clickLowestTireLearnMoreTest" time="36.967" classname="com.ch.tbc.tests.DealsPageTest" />
+                <testcase name="clicktHeroImageCarouselTest" time="54.821" classname="com.ch.tbc.tests.DealsPageTest" />
+                <testcase name="isLowestTirePriceTest" time="50.229" classname="com.ch.tbc.tests.DealsPageTest" />
+                <testcase name="verifyHeroImageAndClickTest" time="50.503" classname="com.ch.tbc.tests.DealsPageTest" />
+                <testcase name="isAllTabDefaultTest" time="45.485" classname="com.ch.tbc.tests.DealsPageTest" />
+      
+</testsuite>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TBC Suite"
+           tests="6"
+           failures="0"
+           errors="0"
+           skipped="1"
+           time="167.474">
+  <properties />
+  
+            <testcase name="reportgenerator" time="0.0" classname="com.ch.tbc.tests.RecommendationsPageTest">
+          <skipped />
+    </testcase>
+  
+            <testcase name="verifyProductratingTest" time="35.513" classname="com.ch.tbc.tests.RecommendationsPageTest" />
+                <testcase name="verifyProductNameTest" time="35.369" classname="com.ch.tbc.tests.RecommendationsPageTest" />
+                <testcase name="verifyDisplayOf3RecommendationTest" time="30.308" classname="com.ch.tbc.tests.RecommendationsPageTest" />
+                <testcase name="verifyProductImageTest" time="30.473" classname="com.ch.tbc.tests.RecommendationsPageTest" />
+                <testcase name="verifyRecommendStaticTextTest" time="35.811" classname="com.ch.tbc.tests.RecommendationsPageTest" />
+      
+</testsuite>

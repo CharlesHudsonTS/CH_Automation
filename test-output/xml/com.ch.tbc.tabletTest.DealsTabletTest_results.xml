@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TBC Suite"
+           tests="13"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="804.396">
+  <properties />
+  
+  
+            <testcase name="clickServiceTest" time="55.044" classname="com.ch.tbc.tabletTest.DealsTabletTest" />
+                <testcase name="isCategoriesDealsTest" time="67.599" classname="com.ch.tbc.tabletTest.DealsTabletTest" />
+                <testcase name="clickLowestTireLearnMoreTest" time="79.503" classname="com.ch.tbc.tabletTest.DealsTabletTest" />
+                <testcase name="isSpeicalFinancingTest" time="56.374" classname="com.ch.tbc.tabletTest.DealsTabletTest" />
+                <testcase name="clickAnyDealsTest" time="77.869" classname="com.ch.tbc.tabletTest.DealsTabletTest" />
+                <testcase name="clickDealsInHeaderTest" time="59.064" classname="com.ch.tbc.tabletTest.DealsTabletTest" />
+                <testcase name="clickTiresTest" time="56.197" classname="com.ch.tbc.tabletTest.DealsTabletTest" />
+                <testcase name="verifyHeroImageTest" time="52.782" classname="com.ch.tbc.tabletTest.DealsTabletTest" />
+                <testcase name="isNationalDealsTest" time="60.313" classname="com.ch.tbc.tabletTest.DealsTabletTest" />
+                <testcase name="isSpecialCreditCardImage" time="33.759" classname="com.ch.tbc.tabletTest.DealsTabletTest" />
+                <testcase name="isCarouselDotTest" time="77.126" classname="com.ch.tbc.tabletTest.DealsTabletTest" />
+                <testcase name="isAllTabDefaultTest" time="71.598" classname="com.ch.tbc.tabletTest.DealsTabletTest" />
+                <testcase name="isLowestTirePriceTest" time="57.168" classname="com.ch.tbc.tabletTest.DealsTabletTest" />
+      
+</testsuite>

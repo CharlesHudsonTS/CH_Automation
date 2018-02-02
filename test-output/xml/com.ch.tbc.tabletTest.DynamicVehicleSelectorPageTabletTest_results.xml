@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TBC Suite"
+           tests="15"
+           failures="0"
+           errors="0"
+           skipped="15"
+           time="0.000">
+  <properties />
+  
+            <testcase name="testQuitDriver" time="0.0" classname="com.ch.tbc.tabletTest.DynamicVehicleSelectorPageTabletTest">
+          <skipped />
+    </testcase>
+            <testcase name="testQuitDriver" time="0.0" classname="com.ch.tbc.tabletTest.DynamicVehicleSelectorPageTabletTest">
+          <skipped />
+    </testcase>
+            <testcase name="tyreURL" time="0.0" classname="com.ch.tbc.tabletTest.DynamicVehicleSelectorPageTabletTest">
+          <skipped />
+    </testcase>
+            <testcase name="testQuitDriver" time="0.0" classname="com.ch.tbc.tabletTest.DynamicVehicleSelectorPageTabletTest">
+          <skipped />
+    </testcase>
+            <testcase name="testQuitDriver" time="0.0" classname="com.ch.tbc.tabletTest.DynamicVehicleSelectorPageTabletTest">
+          <skipped />
+    </testcase>
+            <testcase name="tyreURL" time="0.0" classname="com.ch.tbc.tabletTest.DynamicVehicleSelectorPageTabletTest">
+          <skipped />
+    </testcase>
+            <testcase name="tyreURL" time="0.0" classname="com.ch.tbc.tabletTest.DynamicVehicleSelectorPageTabletTest">
+          <skipped />
+    </testcase>
+            <testcase name="testQuitDriver" time="0.0" classname="com.ch.tbc.tabletTest.DynamicVehicleSelectorPageTabletTest">
+          <skipped />
+    </testcase>
+            <testcase name="tyreURL" time="0.0" classname="com.ch.tbc.tabletTest.DynamicVehicleSelectorPageTabletTest">
+          <skipped />
+    </testcase>
+            <testcase name="tyreURL" time="0.0" classname="com.ch.tbc.tabletTest.DynamicVehicleSelectorPageTabletTest">
+          <skipped />
+    </testcase>
+            <testcase name="displayDynamicUpdateVehicleStaticTextTest" time="0.0" classname="com.ch.tbc.tabletTest.DynamicVehicleSelectorPageTabletTest">
+          <skipped />
+    </testcase>
+            <testcase name="verifyProgressBarTest" time="0.0" classname="com.ch.tbc.tabletTest.DynamicVehicleSelectorPageTabletTest">
+          <skipped />
+    </testcase>
+            <testcase name="verifyUpdatedVehicleTireSizeTest" time="0.0" classname="com.ch.tbc.tabletTest.DynamicVehicleSelectorPageTabletTest">
+          <skipped />
+    </testcase>
+            <testcase name="verifyUpdatedCoolantExchangeTest" time="0.0" classname="com.ch.tbc.tabletTest.DynamicVehicleSelectorPageTabletTest">
+          <skipped />
+    </testcase>
+            <testcase name="verifyUpdatedVehicleWheelAlignTest" time="0.0" classname="com.ch.tbc.tabletTest.DynamicVehicleSelectorPageTabletTest">
+          <skipped />
+    </testcase>
+  
+  
+</testsuite>

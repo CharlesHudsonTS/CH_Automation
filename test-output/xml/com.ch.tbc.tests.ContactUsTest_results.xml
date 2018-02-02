@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TBC Suite"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="83.881">
+  <properties />
+  
+  
+            <testcase name="clickContactUsLink" time="35.089" classname="com.ch.tbc.tests.ContactUsTest" />
+                <testcase name="isHomePageContactUsLinkTest" time="15.221" classname="com.ch.tbc.tests.ContactUsTest" />
+                <testcase name="clickFooterContactUsTest" time="33.571" classname="com.ch.tbc.tests.ContactUsTest" />
+      
+</testsuite>

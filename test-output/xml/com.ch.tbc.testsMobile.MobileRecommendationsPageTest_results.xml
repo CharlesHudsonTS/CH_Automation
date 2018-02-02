@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TBC Suite"
+           tests="15"
+           failures="0"
+           errors="0"
+           skipped="15"
+           time="0.000">
+  <properties />
+  
+            <testcase name="tyreURL" time="0.0" classname="com.ch.tbc.testsMobile.MobileRecommendationsPageTest">
+          <skipped />
+    </testcase>
+            <testcase name="testQuitDriver" time="0.0" classname="com.ch.tbc.testsMobile.MobileRecommendationsPageTest">
+          <skipped />
+    </testcase>
+            <testcase name="testQuitDriver" time="0.0" classname="com.ch.tbc.testsMobile.MobileRecommendationsPageTest">
+          <skipped />
+    </testcase>
+            <testcase name="tyreURL" time="0.0" classname="com.ch.tbc.testsMobile.MobileRecommendationsPageTest">
+          <skipped />
+    </testcase>
+            <testcase name="tyreURL" time="0.0" classname="com.ch.tbc.testsMobile.MobileRecommendationsPageTest">
+          <skipped />
+    </testcase>
+            <testcase name="testQuitDriver" time="0.0" classname="com.ch.tbc.testsMobile.MobileRecommendationsPageTest">
+          <skipped />
+    </testcase>
+            <testcase name="testQuitDriver" time="0.0" classname="com.ch.tbc.testsMobile.MobileRecommendationsPageTest">
+          <skipped />
+    </testcase>
+            <testcase name="tyreURL" time="0.0" classname="com.ch.tbc.testsMobile.MobileRecommendationsPageTest">
+          <skipped />
+    </testcase>
+            <testcase name="tyreURL" time="0.0" classname="com.ch.tbc.testsMobile.MobileRecommendationsPageTest">
+          <skipped />
+    </testcase>
+            <testcase name="testQuitDriver" time="0.0" classname="com.ch.tbc.testsMobile.MobileRecommendationsPageTest">
+          <skipped />
+    </testcase>
+            <testcase name="verifyProductNameTest" time="0.0" classname="com.ch.tbc.testsMobile.MobileRecommendationsPageTest">
+          <skipped />
+    </testcase>
+            <testcase name="verifyRecommendStaticTextTest" time="0.0" classname="com.ch.tbc.testsMobile.MobileRecommendationsPageTest">
+          <skipped />
+    </testcase>
+            <testcase name="verifyProductImageTest" time="0.0" classname="com.ch.tbc.testsMobile.MobileRecommendationsPageTest">
+          <skipped />
+    </testcase>
+            <testcase name="verifyDisplayOf3RecommendationTest" time="0.0" classname="com.ch.tbc.testsMobile.MobileRecommendationsPageTest">
+          <skipped />
+    </testcase>
+            <testcase name="verifyProductratingTest" time="0.0" classname="com.ch.tbc.testsMobile.MobileRecommendationsPageTest">
+          <skipped />
+    </testcase>
+  
+  
+</testsuite>

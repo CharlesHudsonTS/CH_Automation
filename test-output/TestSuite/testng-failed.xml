@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="7" name="Failed suite [TestSuite]" parallel="methods">
+  <listeners>
+    <listener class-name="com.ch.tbc.utils.ParallelFactory"/>
+  </listeners>
+  <test name="TBC Suite(failed)" parallel="methods">
+    <classes>
+      <class name="com.ch.tbc.tests.AnonymousUserOrYourStorePageTest">
+        <methods>
+          <include name="verifyDefaultStoresTest"/>
+          <include name="verifyStoreSelectionTest"/>
+          <include name="verifyFindAStoreButtonTest"/>
+          <include name="verifyMoreStoreLinkTest"/>
+          <include name="verifySelectStoreLabelTest"/>
+          <include name="verifyStoreSearchBoxTest"/>
+          <include name="verifyStoreProgressBarTest"/>
+        </methods>
+      </class> <!-- com.ch.tbc.tests.AnonymousUserOrYourStorePageTest -->
+      <class name="com.ch.tbc.tabletTest.AnonymousUserOrYourStorePageTabletTest">
+        <methods>
+          <include name="verifyStoreSelectionTest"/>
+          <include name="tyreURL"/>
+          <include name="verifyDefaultStoresTest"/>
+          <include name="verifyStoreSearchBoxTest"/>
+          <include name="verifyStoreProgressBarTest"/>
+          <include name="verifyFindAStoreButtonTest"/>
+          <include name="time"/>
+          <include name="verifyMoreStoreLinkTest"/>
+          <include name="verifySelectStoreLabelTest"/>
+        </methods>
+      </class> <!-- com.ch.tbc.tabletTest.AnonymousUserOrYourStorePageTabletTest -->
+    </classes>
+  </test> <!-- TBC Suite(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

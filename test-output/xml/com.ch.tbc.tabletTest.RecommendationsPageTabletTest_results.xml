@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TBC Suite"
+           tests="7"
+           failures="1"
+           errors="0"
+           skipped="2"
+           time="54.903">
+  <properties />
+            <testcase name="tyreURL" time="0.000" classname="com.ch.tbc.tabletTest.RecommendationsPageTabletTest">
+                <failure type="org.openqa.selenium.TimeoutException"
+                  message="Timed out after 15 seconds waiting for visibility of element located by By.linkText: SET AS MY STORE
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 16:57:40&apos;
+System info: host: &apos;user-PC&apos;, ip: &apos;172.26.1.147&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_73&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=false, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e5ce8173-22f7-4d9a-9432-01310c05ae91"
+              >
+<![CDATA[org.openqa.selenium.TimeoutException: Timed out after 15 seconds waiting for visibility of element located by By.linkText: SET AS MY STORE
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 16:57:40'
+System info: host: 'user-PC', ip: '172.26.1.147', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=false, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e5ce8173-22f7-4d9a-9432-01310c05ae91
+  org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+  org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
+  com.ch.tbc.utils.SeleniumUtils.clickByLinkText(SeleniumUtils.java:228)
+  com.ch.tbc.tabletPages.TabletBrowseAndShopListingPage.clickSetAsMyStore(TabletBrowseAndShopListingPage.java:16)
+  com.ch.tbc.tabletTest.RecommendationsPageTabletTest.addStore(RecommendationsPageTabletTest.java:34)
+  com.ch.tbc.tabletTest.RecommendationsPageTabletTest.tyreURL(RecommendationsPageTabletTest.java:25)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+  org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+  org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:585)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+  org.testng.TestRunner.privateRun(TestRunner.java:774)
+  org.testng.TestRunner.run(TestRunner.java:624)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+  org.testng.SuiteRunner.run(SuiteRunner.java:261)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+  org.testng.TestNG.run(TestNG.java:1048)
+  org.testng.TestNG.privateMain(TestNG.java:1355)
+  org.testng.TestNG.main(TestNG.java:1324)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"link text","selector":"SET AS MY STORE"}
+Command duration or timeout: 426 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 16:57:40'
+System info: host: 'user-PC', ip: '172.26.1.147', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=false, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e5ce8173-22f7-4d9a-9432-01310c05ae91
+*** Element info: {Using=link text, value=SET AS MY STORE}
+  sun.reflect.GeneratedConstructorAccessor13.newInstance(Unknown Source)
+  sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+  java.lang.reflect.Constructor.newInstance(Unknown Source)
+  org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+  org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+  org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:428)
+  org.openqa.selenium.By$ByLinkText.findElement(By.java:246)
+  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+  org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:899)
+  org.openqa.selenium.support.ui.ExpectedConditions.access$0(ExpectedConditions.java:897)
+  org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+  org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:1)
+  org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)
+  com.ch.tbc.utils.SeleniumUtils.clickByLinkText(SeleniumUtils.java:228)
+  com.ch.tbc.tabletPages.TabletBrowseAndShopListingPage.clickSetAsMyStore(TabletBrowseAndShopListingPage.java:16)
+  com.ch.tbc.tabletTest.RecommendationsPageTabletTest.addStore(RecommendationsPageTabletTest.java:34)
+  com.ch.tbc.tabletTest.RecommendationsPageTabletTest.tyreURL(RecommendationsPageTabletTest.java:25)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+  org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+  org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:585)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+  org.testng.TestRunner.privateRun(TestRunner.java:774)
+  org.testng.TestRunner.run(TestRunner.java:624)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+  org.testng.SuiteRunner.run(SuiteRunner.java:261)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+  org.testng.TestNG.run(TestNG.java:1048)
+  org.testng.TestNG.privateMain(TestNG.java:1355)
+  org.testng.TestNG.main(TestNG.java:1324)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"link text","selector":"SET AS MY STORE"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 16:57:40'
+System info: host: 'user-PC', ip: '172.26.1.147', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_73'
+Driver info: driver.version: unknown
+  <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/user/AppData/Local/Temp/anonymous2533583490222312315webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+  <anonymous class>.FirefoxDriver.prototype.findElement(file:///C:/Users/user/AppData/Local/Temp/anonymous2533583490222312315webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10779)
+  <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/user/AppData/Local/Temp/anonymous2533583490222312315webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)
+  <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Users/user/AppData/Local/Temp/anonymous2533583490222312315webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12666)
+  <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Users/user/AppData/Local/Temp/anonymous2533583490222312315webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12608)
+]]>
+      </failure>
+
+          </testcase>
+  
+            <testcase name="testQuitDriver" time="0.0" classname="com.ch.tbc.tabletTest.RecommendationsPageTabletTest">
+          <skipped />
+    </testcase>
+            <testcase name="verifyRecommendStaticTextTest" time="0.0" classname="com.ch.tbc.tabletTest.RecommendationsPageTabletTest">
+          <skipped />
+    </testcase>
+  
+            <testcase name="verifyProductImageTest" time="13.655" classname="com.ch.tbc.tabletTest.RecommendationsPageTabletTest" />
+                <testcase name="verifyDisplayOf3RecommendationTest" time="13.717" classname="com.ch.tbc.tabletTest.RecommendationsPageTabletTest" />
+                <testcase name="verifyProductratingTest" time="13.858" classname="com.ch.tbc.tabletTest.RecommendationsPageTabletTest" />
+                <testcase name="verifyProductNameTest" time="13.673" classname="com.ch.tbc.tabletTest.RecommendationsPageTabletTest" />
+      
+</testsuite>

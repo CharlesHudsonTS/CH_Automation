@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="4" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="24033" started-at="2018-01-18T11:24:11Z" finished-at="2018-01-18T11:24:35Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="24033" started-at="2018-01-18T11:24:11Z" finished-at="2018-01-18T11:24:35Z">
+      <class name="com.ch.ta.desktopTests.CarbarTest">
+        <test-method status="PASS" signature="time()[pri:0, instance:com.ch.ta.desktopTests.CarbarTest@2ef5e5e3]" name="time" is-config="true" duration-ms="16" started-at="2018-01-18T16:54:11Z" finished-at="2018-01-18T16:54:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- time -->
+        <test-method status="PASS" signature="verifyWithSelectedVehicle()[pri:0, instance:com.ch.ta.desktopTests.CarbarTest@2ef5e5e3]" name="verifyWithSelectedVehicle" duration-ms="23200" started-at="2018-01-18T16:54:11Z" finished-at="2018-01-18T16:54:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWithSelectedVehicle -->
+        <test-method status="PASS" signature="testQuitDriver()[pri:0, instance:com.ch.ta.desktopTests.CarbarTest@2ef5e5e3]" name="testQuitDriver" is-config="true" duration-ms="0" started-at="2018-01-18T16:54:35Z" finished-at="2018-01-18T16:54:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testQuitDriver -->
+        <test-method status="PASS" signature="endtime()[pri:0, instance:com.ch.ta.desktopTests.CarbarTest@2ef5e5e3]" name="endtime" is-config="true" duration-ms="1" started-at="2018-01-18T16:54:35Z" finished-at="2018-01-18T16:54:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endtime -->
+        <test-method status="PASS" signature="reportgenerator(org.testng.ITestContext)[pri:0, instance:com.ch.ta.desktopTests.CarbarTest@2ef5e5e3]" name="reportgenerator" is-config="true" duration-ms="11459" started-at="2018-01-18T16:54:35Z" finished-at="2018-01-18T16:54:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@53d1b9b3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportgenerator -->
+      </class> <!-- com.ch.ta.desktopTests.CarbarTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

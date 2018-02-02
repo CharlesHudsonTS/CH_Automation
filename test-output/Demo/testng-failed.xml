@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Demo]" parallel="methods">
+  <test name="TBC Suite(failed)" parallel="methods">
+    <classes>
+      <class name="com.ch.ta.desktopTests.CreateAccTest">
+        <methods>
+          <include name="endtime"/>
+          <include name="time"/>
+          <include name="testQuitDriver"/>
+          <include name="reportgenerator"/>
+          <include name="invalidSignIn"/>
+        </methods>
+      </class> <!-- com.ch.ta.desktopTests.CreateAccTest -->
+    </classes>
+  </test> <!-- TBC Suite(failed) -->
+</suite> <!-- Failed suite [Demo] -->

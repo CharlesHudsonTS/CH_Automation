@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TBC Suite"
+           tests="8"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="442.297">
+  <properties />
+  
+  
+            <testcase name="vinErrorMsgTest" time="53.425" classname="com.ch.tbc.testsMobile.MobileVehicleSelectorVINTest" />
+                <testcase name="vinDisableAndEnableNextButtonTest" time="63.320" classname="com.ch.tbc.testsMobile.MobileVehicleSelectorVINTest" />
+                <testcase name="findMyVINImageTest" time="77.250" classname="com.ch.tbc.testsMobile.MobileVehicleSelectorVINTest" />
+                <testcase name="clickVINTest" time="73.064" classname="com.ch.tbc.testsMobile.MobileVehicleSelectorVINTest" />
+                <testcase name="clickVINNextButtonTest" time="53.188" classname="com.ch.tbc.testsMobile.MobileVehicleSelectorVINTest" />
+                <testcase name="enterVINCharNumTest" time="30.680" classname="com.ch.tbc.testsMobile.MobileVehicleSelectorVINTest" />
+                <testcase name="vinCancelButtonTest" time="61.906" classname="com.ch.tbc.testsMobile.MobileVehicleSelectorVINTest" />
+                <testcase name="isVINPlaceHolderTest" time="29.464" classname="com.ch.tbc.testsMobile.MobileVehicleSelectorVINTest" />
+      
+</testsuite>

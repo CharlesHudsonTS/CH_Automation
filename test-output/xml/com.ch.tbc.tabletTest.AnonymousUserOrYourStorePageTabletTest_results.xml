@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TBC Suite"
+           tests="12"
+           failures="0"
+           errors="0"
+           skipped="12"
+           time="0.000">
+  <properties />
+  
+            <testcase name="tyreURL" time="0.0" classname="com.ch.tbc.tabletTest.AnonymousUserOrYourStorePageTabletTest">
+          <skipped />
+    </testcase>
+            <testcase name="testQuitDriver" time="0.0" classname="com.ch.tbc.tabletTest.AnonymousUserOrYourStorePageTabletTest">
+          <skipped />
+    </testcase>
+            <testcase name="tyreURL" time="0.0" classname="com.ch.tbc.tabletTest.AnonymousUserOrYourStorePageTabletTest">
+          <skipped />
+    </testcase>
+            <testcase name="testQuitDriver" time="0.0" classname="com.ch.tbc.tabletTest.AnonymousUserOrYourStorePageTabletTest">
+          <skipped />
+    </testcase>
+            <testcase name="tyreURL" time="0.0" classname="com.ch.tbc.tabletTest.AnonymousUserOrYourStorePageTabletTest">
+          <skipped />
+    </testcase>
+            <testcase name="testQuitDriver" time="0.0" classname="com.ch.tbc.tabletTest.AnonymousUserOrYourStorePageTabletTest">
+          <skipped />
+    </testcase>
+            <testcase name="tyreURL" time="0.0" classname="com.ch.tbc.tabletTest.AnonymousUserOrYourStorePageTabletTest">
+          <skipped />
+    </testcase>
+            <testcase name="testQuitDriver" time="0.0" classname="com.ch.tbc.tabletTest.AnonymousUserOrYourStorePageTabletTest">
+          <skipped />
+    </testcase>
+            <testcase name="verifyDefaultStoresTest" time="0.0" classname="com.ch.tbc.tabletTest.AnonymousUserOrYourStorePageTabletTest">
+          <skipped />
+    </testcase>
+            <testcase name="verifyFindAStoreButtonTest" time="0.0" classname="com.ch.tbc.tabletTest.AnonymousUserOrYourStorePageTabletTest">
+          <skipped />
+    </testcase>
+            <testcase name="verifyStoreSearchBoxTest" time="0.0" classname="com.ch.tbc.tabletTest.AnonymousUserOrYourStorePageTabletTest">
+          <skipped />
+    </testcase>
+            <testcase name="verifyStoreSelectionTest" time="0.0" classname="com.ch.tbc.tabletTest.AnonymousUserOrYourStorePageTabletTest">
+          <skipped />
+    </testcase>
+  
+  
+</testsuite>

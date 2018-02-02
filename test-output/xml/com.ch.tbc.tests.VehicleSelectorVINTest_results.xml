@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TBC Suite"
+           tests="12"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="626.474">
+  <properties />
+  
+  
+            <testcase name="clickVINTest" time="32.105" classname="com.ch.tbc.tests.VehicleSelectorVINTest" />
+                <testcase name="isVINFieldLableAndIsRedTest" time="48.259" classname="com.ch.tbc.tests.VehicleSelectorVINTest" />
+                <testcase name="vinDisableNextButtonTest" time="33.083" classname="com.ch.tbc.tests.VehicleSelectorVINTest" />
+                <testcase name="vinCancelButtonTest" time="54.547" classname="com.ch.tbc.tests.VehicleSelectorVINTest" />
+                <testcase name="verifyVINPlaceHolderTest" time="50.611" classname="com.ch.tbc.tests.VehicleSelectorVINTest" />
+                <testcase name="verifySaveVehicleByVINTest" time="126.589" classname="com.ch.tbc.tests.VehicleSelectorVINTest" />
+                <testcase name="clickVINNextButtonTest" time="47.337" classname="com.ch.tbc.tests.VehicleSelectorVINTest" />
+                <testcase name="vinAtleastOneCharTest" time="37.497" classname="com.ch.tbc.tests.VehicleSelectorVINTest" />
+                <testcase name="vinErrorMsgTest" time="46.422" classname="com.ch.tbc.tests.VehicleSelectorVINTest" />
+                <testcase name="verifyOptionalVehicleSelectorTest" time="68.510" classname="com.ch.tbc.tests.VehicleSelectorVINTest" />
+                <testcase name="findMyVINImageTest" time="39.328" classname="com.ch.tbc.tests.VehicleSelectorVINTest" />
+                <testcase name="enterVINCharNumAndMaxCharTest" time="42.186" classname="com.ch.tbc.tests.VehicleSelectorVINTest" />
+      
+</testsuite>

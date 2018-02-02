@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TBC Suite"
+           tests="15"
+           failures="0"
+           errors="0"
+           skipped="15"
+           time="0.000">
+  <properties />
+  
+            <testcase name="testQuitDriver" time="0.0" classname="com.ch.tbc.tests.AnonymousUserOrYourStorePageTest">
+          <skipped />
+    </testcase>
+            <testcase name="testQuitDriver" time="0.0" classname="com.ch.tbc.tests.AnonymousUserOrYourStorePageTest">
+          <skipped />
+    </testcase>
+            <testcase name="testQuitDriver" time="0.0" classname="com.ch.tbc.tests.AnonymousUserOrYourStorePageTest">
+          <skipped />
+    </testcase>
+            <testcase name="tyreURL" time="0.0" classname="com.ch.tbc.tests.AnonymousUserOrYourStorePageTest">
+          <skipped />
+    </testcase>
+            <testcase name="testQuitDriver" time="0.0" classname="com.ch.tbc.tests.AnonymousUserOrYourStorePageTest">
+          <skipped />
+    </testcase>
+            <testcase name="tyreURL" time="0.0" classname="com.ch.tbc.tests.AnonymousUserOrYourStorePageTest">
+          <skipped />
+    </testcase>
+            <testcase name="tyreURL" time="0.0" classname="com.ch.tbc.tests.AnonymousUserOrYourStorePageTest">
+          <skipped />
+    </testcase>
+            <testcase name="tyreURL" time="0.0" classname="com.ch.tbc.tests.AnonymousUserOrYourStorePageTest">
+          <skipped />
+    </testcase>
+            <testcase name="tyreURL" time="0.0" classname="com.ch.tbc.tests.AnonymousUserOrYourStorePageTest">
+          <skipped />
+    </testcase>
+            <testcase name="testQuitDriver" time="0.0" classname="com.ch.tbc.tests.AnonymousUserOrYourStorePageTest">
+          <skipped />
+    </testcase>
+            <testcase name="verifyStoreSearchBoxTest" time="0.0" classname="com.ch.tbc.tests.AnonymousUserOrYourStorePageTest">
+          <skipped />
+    </testcase>
+            <testcase name="verifyStoreSelectionTest" time="0.0" classname="com.ch.tbc.tests.AnonymousUserOrYourStorePageTest">
+          <skipped />
+    </testcase>
+            <testcase name="verifyFindAStoreButtonTest" time="0.0" classname="com.ch.tbc.tests.AnonymousUserOrYourStorePageTest">
+          <skipped />
+    </testcase>
+            <testcase name="verifyMoreStoreLinkTest" time="0.0" classname="com.ch.tbc.tests.AnonymousUserOrYourStorePageTest">
+          <skipped />
+    </testcase>
+            <testcase name="verifyDefaultStoresTest" time="0.0" classname="com.ch.tbc.tests.AnonymousUserOrYourStorePageTest">
+          <skipped />
+    </testcase>
+  
+  
+</testsuite>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TBC Suite"
+           tests="21"
+           failures="0"
+           errors="0"
+           skipped="21"
+           time="0.000">
+  <properties />
+  
+            <testcase name="tyreURL" time="0.0" classname="com.ch.tbc.testsMobile.MobileBrowseAndShopListingPageTest">
+          <skipped />
+    </testcase>
+            <testcase name="tyreURL" time="0.0" classname="com.ch.tbc.testsMobile.MobileBrowseAndShopListingPageTest">
+          <skipped />
+    </testcase>
+            <testcase name="testQuitDriver" time="0.0" classname="com.ch.tbc.testsMobile.MobileBrowseAndShopListingPageTest">
+          <skipped />
+    </testcase>
+            <testcase name="tyreURL" time="0.0" classname="com.ch.tbc.testsMobile.MobileBrowseAndShopListingPageTest">
+          <skipped />
+    </testcase>
+            <testcase name="tyreURL" time="0.0" classname="com.ch.tbc.testsMobile.MobileBrowseAndShopListingPageTest">
+          <skipped />
+    </testcase>
+            <testcase name="tyreURL" time="0.0" classname="com.ch.tbc.testsMobile.MobileBrowseAndShopListingPageTest">
+          <skipped />
+    </testcase>
+            <testcase name="testQuitDriver" time="0.0" classname="com.ch.tbc.testsMobile.MobileBrowseAndShopListingPageTest">
+          <skipped />
+    </testcase>
+            <testcase name="testQuitDriver" time="0.0" classname="com.ch.tbc.testsMobile.MobileBrowseAndShopListingPageTest">
+          <skipped />
+    </testcase>
+            <testcase name="testQuitDriver" time="0.0" classname="com.ch.tbc.testsMobile.MobileBrowseAndShopListingPageTest">
+          <skipped />
+    </testcase>
+            <testcase name="testQuitDriver" time="0.0" classname="com.ch.tbc.testsMobile.MobileBrowseAndShopListingPageTest">
+          <skipped />
+    </testcase>
+            <testcase name="testQuitDriver" time="0.0" classname="com.ch.tbc.testsMobile.MobileBrowseAndShopListingPageTest">
+          <skipped />
+    </testcase>
+            <testcase name="tyreURL" time="0.0" classname="com.ch.tbc.testsMobile.MobileBrowseAndShopListingPageTest">
+          <skipped />
+    </testcase>
+            <testcase name="tyreURL" time="0.0" classname="com.ch.tbc.testsMobile.MobileBrowseAndShopListingPageTest">
+          <skipped />
+    </testcase>
+            <testcase name="testQuitDriver" time="0.0" classname="com.ch.tbc.testsMobile.MobileBrowseAndShopListingPageTest">
+          <skipped />
+    </testcase>
+            <testcase name="verifyOilServiceslistingPageTest" time="0.0" classname="com.ch.tbc.testsMobile.MobileBrowseAndShopListingPageTest">
+          <skipped />
+    </testcase>
+            <testcase name="verifynicknamelinkPageTest" time="0.0" classname="com.ch.tbc.testsMobile.MobileBrowseAndShopListingPageTest">
+          <skipped />
+    </testcase>
+            <testcase name="verifyGuestUserTirelistingPageTest" time="0.0" classname="com.ch.tbc.testsMobile.MobileBrowseAndShopListingPageTest">
+          <skipped />
+    </testcase>
+            <testcase name="verifyWheelAlignmentlistingPageTest" time="0.0" classname="com.ch.tbc.testsMobile.MobileBrowseAndShopListingPageTest">
+          <skipped />
+    </testcase>
+            <testcase name="verifyBatterylistingPageTest" time="0.0" classname="com.ch.tbc.testsMobile.MobileBrowseAndShopListingPageTest">
+          <skipped />
+    </testcase>
+            <testcase name="verifyTirelistingPageTest" time="0.0" classname="com.ch.tbc.testsMobile.MobileBrowseAndShopListingPageTest">
+          <skipped />
+    </testcase>
+            <testcase name="verifyWpierBladelistingPageTest" time="0.0" classname="com.ch.tbc.testsMobile.MobileBrowseAndShopListingPageTest">
+          <skipped />
+    </testcase>
+  
+  
+</testsuite>

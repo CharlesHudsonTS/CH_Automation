@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TBC Suite"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="348.362">
+  <properties />
+  
+  
+            <testcase name="isTermsandConditionTest" time="65.245" classname="com.ch.tbc.testsMobile.MobileDealsDetailsTest" />
+                <testcase name="isDealsDetailsEligibleTiresButtonTest" time="83.526" classname="com.ch.tbc.testsMobile.MobileDealsDetailsTest" />
+                <testcase name="isDealsDetailsAndTest" time="80.556" classname="com.ch.tbc.testsMobile.MobileDealsDetailsTest" />
+                <testcase name="isSocialMediaTest" time="119.035" classname="com.ch.tbc.testsMobile.MobileDealsDetailsTest" />
+      
+</testsuite>

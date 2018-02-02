@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TBC Suite"
+           tests="28"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="1602.166">
+  <properties />
+  
+  
+            <testcase name="clickEmailWarrantyTest" time="46.176" classname="com.ch.tbc.testsMobile.ContactUsMobileTest" />
+                <testcase name="clickFooterContactUsTest" time="34.231" classname="com.ch.tbc.testsMobile.ContactUsMobileTest" />
+                <testcase name="verifyEmailWarrantyTest" time="67.220" classname="com.ch.tbc.testsMobile.ContactUsMobileTest" />
+                <testcase name="verifySpeicalOrderTireTest" time="40.308" classname="com.ch.tbc.testsMobile.ContactUsMobileTest" />
+                <testcase name="clickReviewandPayTest" time="66.593" classname="com.ch.tbc.testsMobile.ContactUsMobileTest" />
+                <testcase name="verifyEmailWholesaleTeamTest" time="61.394" classname="com.ch.tbc.testsMobile.ContactUsMobileTest" />
+                <testcase name="verifyTalkToUsTest" time="57.794" classname="com.ch.tbc.testsMobile.ContactUsMobileTest" />
+                <testcase name="verifyVistInternationalTest" time="56.114" classname="com.ch.tbc.testsMobile.ContactUsMobileTest" />
+                <testcase name="verifyContactUsLabelTest" time="49.007" classname="com.ch.tbc.testsMobile.ContactUsMobileTest" />
+                <testcase name="verifyEmailBusinessDevelopmentTest" time="61.879" classname="com.ch.tbc.testsMobile.ContactUsMobileTest" />
+                <testcase name="verifyEmailTechSupportTest" time="42.349" classname="com.ch.tbc.testsMobile.ContactUsMobileTest" />
+                <testcase name="clickEmailCustomerSupportTest" time="64.532" classname="com.ch.tbc.testsMobile.ContactUsMobileTest" />
+                <testcase name="verifyWebShoppingTest" time="66.104" classname="com.ch.tbc.testsMobile.ContactUsMobileTest" />
+                <testcase name="verifyWarrantyQuestionTest" time="40.204" classname="com.ch.tbc.testsMobile.ContactUsMobileTest" />
+                <testcase name="clickEmailWholesaleTeamTest" time="35.579" classname="com.ch.tbc.testsMobile.ContactUsMobileTest" />
+                <testcase name="verifyWholesaleAccountInfoTest" time="123.172" classname="com.ch.tbc.testsMobile.ContactUsMobileTest" />
+                <testcase name="verifyTechWebIssueTest" time="56.719" classname="com.ch.tbc.testsMobile.ContactUsMobileTest" />
+                <testcase name="clickEmailBusinessDevelopmentTest" time="62.157" classname="com.ch.tbc.testsMobile.ContactUsMobileTest" />
+                <testcase name="verifyEmailCustomerSupportTest" time="71.943" classname="com.ch.tbc.testsMobile.ContactUsMobileTest" />
+                <testcase name="clickEmailOurTeamTest" time="54.111" classname="com.ch.tbc.testsMobile.ContactUsMobileTest" />
+                <testcase name="clickContactUsTest" time="52.631" classname="com.ch.tbc.testsMobile.ContactUsMobileTest" />
+                <testcase name="verifyFleetAndNationalAccountsTest" time="64.317" classname="com.ch.tbc.testsMobile.ContactUsMobileTest" />
+                <testcase name="clickEmailTechSupportTest" time="67.931" classname="com.ch.tbc.testsMobile.ContactUsMobileTest" />
+                <testcase name="verifyStoreCreditInquirieTest" time="57.776" classname="com.ch.tbc.testsMobile.ContactUsMobileTest" />
+                <testcase name="verifyInternationalTest" time="42.006" classname="com.ch.tbc.testsMobile.ContactUsMobileTest" />
+                <testcase name="verifyReviewandPayTest" time="40.488" classname="com.ch.tbc.testsMobile.ContactUsMobileTest" />
+                <testcase name="verifyEmailOurTeamTest" time="43.109" classname="com.ch.tbc.testsMobile.ContactUsMobileTest" />
+                <testcase name="clickVistInternationalTest" time="76.322" classname="com.ch.tbc.testsMobile.ContactUsMobileTest" />
+      
+</testsuite>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TBC Suite"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="102.051">
+  <properties />
+  
+  
+            <testcase name="verifyINVaildMYMSectionTest" time="102.051" classname="com.ch.tbc.testsMobile.MobileVehicleSelectorMYMTest" />
+      
+</testsuite>

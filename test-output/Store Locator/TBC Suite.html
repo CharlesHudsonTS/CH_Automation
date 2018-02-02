@@ -1,0 +1,194 @@
+<html>
+<head>
+<title>TestNG:  TBC Suite</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>TBC Suite</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>23/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Feb 23 11:15:32 IST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>1001 seconds (1001565 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.ch.tbc.tabletTest.StorePageTabletTest.clearTextintoAddressVerifyWatermarkTest()'><b>clearTextintoAddressVerifyWatermarkTest</b><br>Test class: com.ch.tbc.tabletTest.StorePageTabletTest</td>
+<td></td>
+<td>81</td>
+<td>com.ch.tbc.tabletTest.StorePageTabletTest@100fc185</td></tr>
+<tr>
+<td title='com.ch.tbc.tabletTest.StorePageTabletTest.clickBookAppointment()'><b>clickBookAppointment</b><br>Test class: com.ch.tbc.tabletTest.StorePageTabletTest</td>
+<td></td>
+<td>49</td>
+<td>com.ch.tbc.tabletTest.StorePageTabletTest@100fc185</td></tr>
+<tr>
+<td title='com.ch.tbc.tabletTest.StorePageTabletTest.clickDeals()'><b>clickDeals</b><br>Test class: com.ch.tbc.tabletTest.StorePageTabletTest</td>
+<td></td>
+<td>77</td>
+<td>com.ch.tbc.tabletTest.StorePageTabletTest@100fc185</td></tr>
+<tr>
+<td title='com.ch.tbc.tabletTest.StorePageTabletTest.clickShopTires()'><b>clickShopTires</b><br>Test class: com.ch.tbc.tabletTest.StorePageTabletTest</td>
+<td></td>
+<td>61</td>
+<td>com.ch.tbc.tabletTest.StorePageTabletTest@100fc185</td></tr>
+<tr>
+<td title='com.ch.tbc.tabletTest.StorePageTabletTest.clickStoreStreetLinkTest()'><b>clickStoreStreetLinkTest</b><br>Test class: com.ch.tbc.tabletTest.StorePageTabletTest</td>
+<td></td>
+<td>94</td>
+<td>com.ch.tbc.tabletTest.StorePageTabletTest@100fc185</td></tr>
+<tr>
+<td title='com.ch.tbc.tabletTest.StorePageTabletTest.clickViewStorePage()'><b>clickViewStorePage</b><br>Test class: com.ch.tbc.tabletTest.StorePageTabletTest</td>
+<td></td>
+<td>86</td>
+<td>com.ch.tbc.tabletTest.StorePageTabletTest@100fc185</td></tr>
+<tr>
+<td title='com.ch.tbc.tabletTest.StorePageTabletTest.fromTextBoxGeolocationIcon()'><b>fromTextBoxGeolocationIcon</b><br>Test class: com.ch.tbc.tabletTest.StorePageTabletTest</td>
+<td></td>
+<td>78</td>
+<td>com.ch.tbc.tabletTest.StorePageTabletTest@100fc185</td></tr>
+<tr>
+<td title='com.ch.tbc.tabletTest.StorePageTabletTest.fromTextBoxPlaceHolderAppearance()'><b>fromTextBoxPlaceHolderAppearance</b><br>Test class: com.ch.tbc.tabletTest.StorePageTabletTest</td>
+<td></td>
+<td>95</td>
+<td>com.ch.tbc.tabletTest.StorePageTabletTest@100fc185</td></tr>
+<tr>
+<td title='com.ch.tbc.tabletTest.StorePageTabletTest.fromTextBoxPlaceHolderDisappearance()'><b>fromTextBoxPlaceHolderDisappearance</b><br>Test class: com.ch.tbc.tabletTest.StorePageTabletTest</td>
+<td></td>
+<td>243</td>
+<td>com.ch.tbc.tabletTest.StorePageTabletTest@100fc185</td></tr>
+<tr>
+<td title='com.ch.tbc.tabletTest.StorePageTabletTest.getAddressToFieldTest()'><b>getAddressToFieldTest</b><br>Test class: com.ch.tbc.tabletTest.StorePageTabletTest</td>
+<td></td>
+<td>215</td>
+<td>com.ch.tbc.tabletTest.StorePageTabletTest@100fc185</td></tr>
+<tr>
+<td title='com.ch.tbc.tabletTest.StorePageTabletTest.getDirectioncloseLinkTest()'><b>getDirectioncloseLinkTest</b><br>Test class: com.ch.tbc.tabletTest.StorePageTabletTest</td>
+<td></td>
+<td>64</td>
+<td>com.ch.tbc.tabletTest.StorePageTabletTest@100fc185</td></tr>
+<tr>
+<td title='com.ch.tbc.tabletTest.StorePageTabletTest.getDirectionsLink()'><b>getDirectionsLink</b><br>Test class: com.ch.tbc.tabletTest.StorePageTabletTest</td>
+<td></td>
+<td>92</td>
+<td>com.ch.tbc.tabletTest.StorePageTabletTest@100fc185</td></tr>
+<tr>
+<td title='com.ch.tbc.tabletTest.StorePageTabletTest.isAmenities()'><b>isAmenities</b><br>Test class: com.ch.tbc.tabletTest.StorePageTabletTest</td>
+<td></td>
+<td>61</td>
+<td>com.ch.tbc.tabletTest.StorePageTabletTest@100fc185</td></tr>
+<tr>
+<td title='com.ch.tbc.tabletTest.StorePageTabletTest.isCloseLink()'><b>isCloseLink</b><br>Test class: com.ch.tbc.tabletTest.StorePageTabletTest</td>
+<td></td>
+<td>30</td>
+<td>com.ch.tbc.tabletTest.StorePageTabletTest@100fc185</td></tr>
+<tr>
+<td title='com.ch.tbc.tabletTest.StorePageTabletTest.isHours()'><b>isHours</b><br>Test class: com.ch.tbc.tabletTest.StorePageTabletTest</td>
+<td></td>
+<td>70</td>
+<td>com.ch.tbc.tabletTest.StorePageTabletTest@100fc185</td></tr>
+<tr>
+<td title='com.ch.tbc.tabletTest.StorePageTabletTest.isMyStoreLink()'><b>isMyStoreLink</b><br>Test class: com.ch.tbc.tabletTest.StorePageTabletTest</td>
+<td></td>
+<td>71</td>
+<td>com.ch.tbc.tabletTest.StorePageTabletTest@100fc185</td></tr>
+<tr>
+<td title='com.ch.tbc.tabletTest.StorePageTabletTest.isServices()'><b>isServices</b><br>Test class: com.ch.tbc.tabletTest.StorePageTabletTest</td>
+<td></td>
+<td>23</td>
+<td>com.ch.tbc.tabletTest.StorePageTabletTest@100fc185</td></tr>
+<tr>
+<td title='com.ch.tbc.tabletTest.StorePageTabletTest.isStoreListingInfoTest()'><b>isStoreListingInfoTest</b><br>Test class: com.ch.tbc.tabletTest.StorePageTabletTest</td>
+<td></td>
+<td>28</td>
+<td>com.ch.tbc.tabletTest.StorePageTabletTest@100fc185</td></tr>
+<tr>
+<td title='com.ch.tbc.tabletTest.StorePageTabletTest.storeLinks()'><b>storeLinks</b><br>Test class: com.ch.tbc.tabletTest.StorePageTabletTest</td>
+<td></td>
+<td>60</td>
+<td>com.ch.tbc.tabletTest.StorePageTabletTest@100fc185</td></tr>
+<tr>
+<td title='com.ch.tbc.tabletTest.StorePageTabletTest.storePhoneNumber()'><b>storePhoneNumber</b><br>Test class: com.ch.tbc.tabletTest.StorePageTabletTest</td>
+<td></td>
+<td>50</td>
+<td>com.ch.tbc.tabletTest.StorePageTabletTest@100fc185</td></tr>
+<tr>
+<td title='com.ch.tbc.tabletTest.StorePageTabletTest.storeStreetAddressLink()'><b>storeStreetAddressLink</b><br>Test class: com.ch.tbc.tabletTest.StorePageTabletTest</td>
+<td></td>
+<td>56</td>
+<td>com.ch.tbc.tabletTest.StorePageTabletTest@100fc185</td></tr>
+<tr>
+<td title='com.ch.tbc.tabletTest.StorePageTabletTest.verifyStoreGetDirectionSaticTextTest()'><b>verifyStoreGetDirectionSaticTextTest</b><br>Test class: com.ch.tbc.tabletTest.StorePageTabletTest</td>
+<td></td>
+<td>58</td>
+<td>com.ch.tbc.tabletTest.StorePageTabletTest@100fc185</td></tr>
+<tr>
+<td title='com.ch.tbc.tabletTest.StorePageTabletTest.verifyStoreGetDirectionTest()'><b>verifyStoreGetDirectionTest</b><br>Test class: com.ch.tbc.tabletTest.StorePageTabletTest</td>
+<td></td>
+<td>43</td>
+<td>com.ch.tbc.tabletTest.StorePageTabletTest@100fc185</td></tr>
+</table><p>
+</body>
+</html>
