@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite thread-count="3" parallel="methods" name="Trailer Line Listing">
+<!-- <listeners> -->
+<!-- <listener class-name="com.ch.utils.ParallelFactory"/> -->
+<!-- </listeners> -->
+	<test name="TBC Suite">
+	<classes>
+      <class name="com.ch.tbc.tests.TrailerTireLinesListingTest"/>
+    
+      <class name="com.ch.tbc.testsMobile.MobileTrailerTireLinesListingTest"/>
+    
+      <class name="com.ch.tbc.tabletTest.TabletTrailerLinesListingTest"/>
+    
+      
+      </classes>
+	</test>
+</suite>

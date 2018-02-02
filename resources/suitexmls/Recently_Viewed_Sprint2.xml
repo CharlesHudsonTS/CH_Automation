@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ 
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="7" parallel="methods" name="Recently view">
+<!-- <listeners> -->
+<!-- <listener class-name="com.ch.utils.ParallelFactory"/> -->
+<!-- </listeners> -->
+	<test name="Test">
+	<parameter name="remoteurl" value="">
+	</parameter>
+		<classes>
+			<class name="com.ch.tbc.tests.RecentlyViewedTest">
+				<methods>
+					<exclude name="beforeRecentlyViewedMethod" />
+					<exclude name="isDisplayedRecenntlyViewed" />
+					<exclude name="isDisplayedRecenntlyViewedBelowReccommandaction" />
+					<exclude name="isDisplayedRecenntlyViewedAsLabel" />
+					<include name="ValidationOfChangeInRecenntlyViewed" />
+					<include name="verifyMostRecentlyViewedAsFirst" />
+					<include name="clickOnProductImageInRecentlyViewed" />
+					<include name="isDisplayOfServicesAndProducts" />
+					<include name="isDisplayOfProducts" />
+					<include name="isDisplayOfProductStarRatings" />
+					<include name="clickOnReviewLinks" />
+					<include name="isDisplayOfPriceOfFirstProduct" />
+					<include name="IsDisplayOfRecentlyViewedAfterClearingBrowserCache" />
+					<include name="isDisplayOfRecentlyViewedAfterClearingCache" />
+					<include name="isDisplayOfRecentlyViewedForBothUsers" />
+					
+				</methods>
+			</class>
+			
+			<class name="com.ch.tbc.tabletTest.RecentlyViewedTabletTest">
+				<methods>
+					<exclude name="beforeRecentlyViewedMethod" />
+					<exclude name="isDisplayedRecenntlyViewed" />
+					<exclude name="isDisplayedRecenntlyViewedBelowReccommandaction" />
+					<exclude name="isDisplayedRecenntlyViewedAsLabel" />
+					<include name="ValidationOfChangeInRecenntlyViewed" />
+					<include name="verifyMostRecentlyViewedAsFirst" />
+					<include name="clickOnProductImageInRecentlyViewed" />
+					<include name="isDisplayOfServicesAndProducts" />
+					<include name="isDisplayOfProducts" />
+					<include name="isDisplayOfProductStarRatings" />
+					<include name="clickOnReviewLinks" />
+					<include name="isDisplayOfPriceOfFirstProduct" />
+					<include name="IsDisplayOfRecentlyViewedAfterClearingBrowserCache" />
+					<include name="isDisplayOfRecentlyViewedAfterClearingCache" />
+					<include name="isDisplayOfRecentlyViewedForBothUsers" />
+					
+				</methods>
+			</class>
+			
+			<class name="com.ch.tbc.testsMobile.RecentlyViewedMobileTest">
+				<methods>
+					<exclude name="beforeRecentlyViewedMethod" />
+					<exclude name="isDisplayedRecenntlyViewed" />
+					<exclude name="isDisplayedRecenntlyViewedBelowReccommandaction" />
+					<exclude name="isDisplayedRecenntlyViewedAsLabel" />
+					<include name="ValidationOfChangeInRecenntlyViewed" />
+					<include name="verifyMostRecentlyViewedAsFirst" />
+					<include name="clickOnProductImageInRecentlyViewed" />
+					<include name="isDisplayOfServicesAndProducts" />
+					<include name="isDisplayOfProducts" />
+					<include name="isDisplayOfProductStarRatings" />
+					<include name="clickOnReviewLinks" />
+					<include name="isDisplayOfPriceOfFirstProduct" />
+					<include name="IsDisplayOfRecentlyViewedAfterClearingBrowserCache" />
+					<include name="isDisplayOfRecentlyViewedAfterClearingCache" />
+					<include name="isDisplayOfRecentlyViewedForBothUsers" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

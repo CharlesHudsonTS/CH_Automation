@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite thread-count="5" parallel="methods" name="SKU Details">
+<!-- <listeners> -->
+<!-- <listener class-name="com.ch.utils.ParallelFactory"/> -->
+<!-- </listeners> -->
+
+	<test name="TBC Suite">
+		<classes>
+			<class name="com.ch.tbc.tests.SKUDetailTest" />
+			<class name="com.ch.tbc.tabletTest.TabletSKUDetailsTest" />
+			<class name="com.ch.tbc.testsMobile.MobileSKUDetailsTest" />
+		</classes>
+	</test>
+</suite>

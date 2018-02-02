@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ 
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="7" parallel="methods" name="TIre Finder">
+<!-- <listeners> -->
+<!-- <listener class-name="com.ch.utils.ParallelFactory"/> -->
+<!-- </listeners> -->
+	<test name="Test">
+		<parameter name="remoteurl" value="">
+		</parameter>
+		<classes>
+			<class name="com.ch.tbc.tests.TiresAndWheelsTest">
+				<methods>
+					<include name="heroImageTireLanding" />
+					<include
+						name="clickOnLearnMoreHeroBannerAndHeroBannerOFLowestTirePricePage" />
+					<include name="clickOnShopByVehicle" />
+					<include name="isDisplayOfStepsIconStaticTextImportantDetails" />
+					<include name="clickOnFindStore" />
+					<include name="verifyShopCompareTiresAndOptions" />
+					<include name="shopBySizeNavigationAndStaticTextTest" />
+					<include name="enterWidthAndDropdownInTiresBySize" />
+					<include name="dropDownRatio" />
+					<include name="invalidWidthRatioDiameterSize" />
+					<include name="isSearchButton" />
+					<include name="widthAndSearch" />
+					<include name="verifyWheelAlinmentcompatabiltyWarrinings" />
+					<include name="searchWithValidDetails" />
+					<include name="rearTiresLink" />
+					<include name="enterRearWidthRatio" />
+					<include name="enterRearInvalidWidthRatioDiameter" />
+					<include name="searchButtonFunctionRear" />
+					<include name="searchButtonWithWidth" />
+					<include name="searchButtonWithRatio" />
+					<include name="searchWithValidInputs" />
+					<include name="clickingOfHideRearTireSize" />
+					<include name="checkTireImgAndTextBelowAndShopByVehicalButton" />
+					<include name="clickTiresAndWheelsTiresByBrandIconAndBrandTag" />
+					<include name="viewListOfAllBrandsAndNavBrandLandingPage" />
+					<include name="brandDescriptioninBrandLandingPage" />
+					<include name="validationOfShopeTiresByVehicalButton" />
+					<include name="functionOfShopeTiresByVehicalButton" />
+					<include name="displayOfDeals" />
+					<include name="displayOfFeaturedTiresAndMaxTires" />
+					<include name="displayOfFeaturedTiresIndividual" />
+					<include name="validateOfVideoNameAndViews" />
+					<include name="functionalityOfShopTiresBySizeBrands" />
+					<include name="clickOnShop" />
+					<include name="wheelsvisualiserTagTextValidation" />
+					<include name="clickForWheelVisualizer" />
+					<include name="displayOfTireAndWheelServices" />
+					<include name="breadcrumbNavigationToHome" />
+					<include name="iSDisplayedOfBreadcrumb" />
+					<include name="clickOnBreadCrumTiresAndWheels" />
+					<include name="isDisplayedBredcrumbTiresAndWheels" />
+					<include name="isDisplayedBreadcrumbInTireLandingPage" />
+					<include name="clickOnBreadcrumbInTireLandingPage" />
+					<include name="isDisplayedBreadcrumbBrandLandingpage" />
+					<include name="clickOnBreadcrumbBrandLandingpage" />
+					<include name="isDisplayedBreadcrumbBrandLandingpage" />
+					<include name="isDisplayedBreadcrumbBrandLandingpage" />
+				</methods>
+			</class>
+
+
+
+			<class name="com.ch.tbc.tabletTest.TireFinderTablet">
+				<methods>
+					<include name="heroImageTireLanding" />
+					<include
+						name="clickOnLearnMoreHeroBannerAndHeroBannerOFLowestTirePricePage" />
+					<include name="clickOnShopByVehicle" />
+					<include name="isDisplayOfStepsIconStaticTextImportantDetails" />
+					<include name="clickOnFindStore" />
+					<include name="verifyShopCompareTiresAndOptions" />
+					<include name="shopBySizeNavigationAndStaticTextTest" />
+					<include name="enterWidthAndDropdownInTiresBySize" />
+					<include name="dropDownRatio" />
+					<include name="invalidWidthRatioDiameterSize" />
+					<include name="isSearchButton" />
+					<include name="enteringWidthRatioSearch" />
+					<include name="searchWithValidDetails" />
+					<include name="rearTiresLink" />
+					<include name="enterRearWidthAndRatio" />
+					<include name="enterRearInvalidWidthRatiioDiameter" />
+					<include name="searchButtonFunctionRear" />
+					<include name="searchButtonWithWidth" />
+					<include name="searchButtonWithRatio" />
+					<include name="searchWithValidInputs" />
+					<include name="clickingOfHideRearTireSize" />
+					<include name="checkTireImgAndTextBelowAndShopByVehicalButton" />
+					<include name="clickTiresAndWheelsTiresByBrandIconAndBrandTag" />
+					<include name="viewListOfAllBrandsAndNavBrandLandingPage" />
+					<include name="brandDescriptioninBrandLandingPage" />
+					<include name="functionOfShopeTiresByVehicalButton" />
+					<include name="displayOfFeaturedTiresAndMaxTires" />
+					<include name="validateOfVideoAndNameAndViews" />
+					<include name="functionalityOfShopTiresBySize" />
+					<include name="clickingOfHideRearTireSize" />
+					<include name="clickOnShop" />
+					<include name="wheelsvisualiserTagTextValidation" />
+					<include name="clickForWheelVisualizer" />
+					<include name="DisplayOfAvaliableBrandsAndBrandsLogos" />
+
+				</methods>
+			</class>
+
+			<class name="com.ch.tbc.testsMobile.TireFinderMobileTest">
+				<methods>
+					<include name="heroImageTireLanding" />
+					<include
+						name="clickOnLearnMoreHeroBannerAndHeroBannerOFLowestTirePricePage" />
+					<include name="clickOnShopByVehicle" />
+					<include name="isDisplayOfStepsIconStaticTextImportantDetails" />
+					<include name="clickOnFindStore" />
+					<include name="verifyShopCompareTiresAndOptions" />
+					<include name="shopBySizeNavigationAndStaticTextTest" />
+					<include name="enterWidthAndDropdownInTiresBySize" />
+					<include name="dropDownRatio" />
+					<include name="invalidWidthRatioDiameterSize" />
+					<include name="isSearchButton" />
+					<include name="enteringWidthRatioSearch" />
+					<include name="searchWithValidDetails" />
+					<include name="rearTiresLink" />
+					<include name="enterRearWidthAndRatio" />
+					<include name="enterRearInvalidWidthRatiioDiameter" />
+					<include name="searchButtonFunctionRear" />
+					<include name="searchButtonWithWidth" />
+					<include name="searchButtonWithRatio" />
+					<include name="searchWithValidInputsRear" />
+					<include name="clickingOfHideRearTireSize" />
+					<include name="checkTireImgAndTextBelowAndShopByVehicalButton" />
+					<include name="clickTiresAndWheelsTiresByBrandIconAndBrandTag" />
+					<include name="viewListOfAllBrandsAndNavBrandLandingPage" />
+					<include name="brandDescriptioninBrandLandingPage" />
+					<include name="functionOfShopeTiresByVehicalButton" />
+					<include name="displayOfFeaturedTiresAndMaxTires" />
+					<include name="validateOfVideoAndNameAndViews" />
+					<include name="functionalityOfShopTiresBySize" />
+					<include name="clickOnShop" />
+					<include name="wheelsvisualiserTagTextValidation" />
+					<include name="clickForWheelVisualizer" />
+					<include name="DisplayOfAvaliableBrandsAndBrandsLogos" />
+					<include name="clickForWheelVisualizer" />
+
+				</methods>
+			</class>
+			
+		</classes>
+	</test>
+</suite>

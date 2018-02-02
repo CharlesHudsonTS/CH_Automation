@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Store Locator" verbose="1" parallel= "methods" thread-count="5">
+<!-- 	<listeners> -->
+<!-- 		<listener class-name="com.ch.utils.ParallelFactory" /> -->
+<!-- 	</listeners> -->
+
+	<test name="TBC Suite">
+		<classes>
+			<class name="com.ch.tbc.tests.StoreDetailPageTest" />
+			<class name="com.ch.tbc.tests.StoreLabelsAndListingInfoTest" />
+			<class name="com.ch.tbc.tests.StorePageTest" />
+			<class name="com.ch.tbc.testsMobile.MobileStoreDetailPageTest" />
+			<class name="com.ch.tbc.testsMobile.MobileStoreLabelsAndListingTest" />
+			<class name="com.ch.tbc.testsMobile.MobileStorePageTest" />
+			<class name="com.ch.tbc.tabletTest.StoreLabelsAndListingTabletTest" />
+			<class name="com.ch.tbc.tabletTest.StorePageTabletTest" />
+			<class name="com.ch.tbc.tabletTest.StoreDetailPageTabletTest" />			
+		</classes>
+	</test>
+</suite>

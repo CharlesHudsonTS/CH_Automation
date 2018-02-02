@@ -1,0 +1,5 @@
+email,confEmail,password,ConfPassword,zipcode,errormessage
+testgmail.com,testgmail.com,test123,test123,98101,
+test@gmail.com,testing@gmail.com,test123,test123,98101,
+testing@gmail.com,testing@gmail.com,test123,test456,98101,
+testing@gmail.com,testing@gmail.com,test123,test123,abcde,Please enter a valid ZIP code.

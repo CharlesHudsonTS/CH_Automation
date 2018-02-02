@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite thread-count="20" parallel="methods" name="TestSuite">
+<!--    <listeners> -->
+<!--       <listener class-name="com.ch.utils.ParallelFactory" /> -->
+<!--    </listeners> -->
+   <test name="TBC Suite">
+      <classes>
+         <class name="com.ch.tbc.testsMobile.SkuListingMobileTest">
+            <methods>
+               <include name="verifyBlueTextOfActiveVehicle" />
+               <include name="clickOnBlueTextOfActiveVehicle" />
+               <include name="isDisplayedResults" />
+               <include name="verificationOfResultsBySize" />
+               <include name="ClickonFirstAddandBookAppointment" />
+               <include name="isDisplayedResultsWithoutVehicle" />
+               <include name="verifyAllProductsBySize" />
+               <include name="clickOnAddAndBookAppointmentWithOutVehicle" />
+               <include name="verificationOfResultsBySizeWithoutVehicle" />
+               <include name="verificationOfResultsBySpecifiedSize" />
+               <include name="verifyTheStaticText" />
+               <include name="isDisplayedOfAddAndBookAppointment" />
+               <include name="isDisplayedSearchedResults" />
+               <include name="isDisplayedByGoodBetterBestSection" />
+               <include name="isDisplayedByGoodBetterBestAsOneSection" />
+               <include name="clickonMdotGoodYearTab" />
+               <include name="isDisplayAndFunctionalityofBestGreatTabs" />
+               <include name="clickonTringleTire" />
+               <include name="findTheLowestTirePrice" />
+               <include name="TriangleProduct1Details" />
+               <include name="isDisplayedByGoodBetterBestAsRibbon" />
+               <include name="isDisplayedOfBestVlinkLearnmore" />
+               <include name="verifyTheProductdetails" />
+               <include name="compareCheckbox" />
+               <include name="verifyMilesForSumitoTiresAndPricePerTire" />
+               <include name="isDisplayPricePerTire" />
+               <include name="isDisplayedSizePriceQuantity" />
+               <include name="triangleQtyDropDown" />
+               <include name="priceForFourTires" />
+               <include name="displayOfTaxesAndFee" />
+               <include name="navigationTestFromSkuListingToDetailPage" />
+               <include name="clickOnCheckNearByStoreTriangle" />
+               <include name="verifySpeedRatingErrorMsg" />
+               <include name="clickOnSpeedRating" />
+               <include name="clickOnproductTriangleStarRatingAndReviewsDetails" />
+               <include name="verifyPromotionslink" />
+               <include name="isDisplayOfStockStatus" />
+               <include name="staggeredfitmentskulisting" />
+            </methods>
+         </class>
+         <class name="com.ch.tbc.tests.SkuLIstingTest">
+            <methods>
+               <include name="skubreadcrumtest" />
+               <include name="verifyBlueTextOfActiveVehicle" />
+               <include name="clickOnBlueTextOfActiveVehicle" />
+               <include name="isDisplayedResults" />
+               <include name="verificationOfResultsBySize" />
+               <include name="ClickonFirstAddandBookAppointment" />
+               <include name="isDisplayedResultsWithoutVehicle" />
+               <include name="verifyAllProductsBySize" />
+               <include name="clickOnAddAndBookAppointmentWithOutVehicle" />
+               <include name="verificationOfResultsBySizeWithoutVehicle" />
+               <include name="verificationOfResultsBySpecifiedSize" />
+               <include name="verifyTheStaticText" />
+               <include name="isDisplayedOfAddAndBookAppointment" />
+               <include name="isDisplayedSearchedResults" />
+               <include name="isDisplayedByGoodBetterBestSection" />
+               <include name="isDisplayedByGoodBetterBestAsOneSection" />
+               <include name="clickonMdotGoodYearTab" />
+               <include name="isDisplayAndFunctionalityofBestGreatTabs" />
+               <include name="clickonTringleTire" />
+               <include name="findTheLowestTirePrice" />
+               <include name="TriangleProduct1Details" />
+               <include name="isDisplayedByGoodBetterBestAsRibbon" />
+               <include name="isDisplayedOfBestVlinkLearnmore" />
+               <include name="verifyTheProductdetails" />
+               <include name="compareCheckbox" />
+               <include name="verifyMilesForSumitoTiresAndPricePerTire" />
+               <include name="isDisplayPricePerTire" />
+               <include name="isDisplayedSizePriceQuantity" />
+               <include name="triangleQtyDropDown" />
+               <include name="priceForFourTires" />
+               <include name="displayOfTaxesAndFee" />
+               <include name="navigationTestFromSkuListingToDetailPage" />
+               <include name="clickOnCheckNearByStoreTriangle" />
+               <include name="verifySpeedRatingErrorMsg" />
+               <include name="clickOnSpeedRating" />
+               <include name="clickOnproductTriangleStarRatingAndReviewsDetails" />
+               <include name="verifyPromotionslink" />
+               <include name="isDisplayOfStockStatus" />
+               <include name="staggeredfitmentskulisting" />
+            </methods>
+         </class>
+         <class name="com.ch.tbc.tabletTest.SkuListingTabletTest">
+            <methods>
+               <include name="skubreadcrumtest" />
+               <include name="verifyBlueTextOfActiveVehicle" />
+               <include name="clickOnBlueTextOfActiveVehicle" />
+               <include name="isDisplayedResults" />
+               <include name="verificationOfResultsBySize" />
+               <include name="ClickonFirstAddandBookAppointment" />
+               <include name="isDisplayedResultsWithoutVehicle" />
+               <include name="verifyAllProductsBySize" />
+               <include name="clickOnAddAndBookAppointmentWithOutVehicle" />
+               <include name="verificationOfResultsBySizeWithoutVehicle" />
+               <include name="verificationOfResultsBySpecifiedSize" />
+               <include name="verifyTheStaticText" />
+               <include name="isDisplayedOfAddAndBookAppointment" />
+               <include name="isDisplayedSearchedResults" />
+               <include name="isDisplayedByGoodBetterBestSection" />
+               <include name="isDisplayedByGoodBetterBestAsOneSection" />
+               <include name="clickonMdotGoodYearTab" />
+               <include name="isDisplayAndFunctionalityofBestGreatTabs" />
+               <include name="clickonTringleTire" />
+               <include name="findTheLowestTirePrice" />
+               <include name="TriangleProduct1Details" />
+               <include name="isDisplayedByGoodBetterBestAsRibbon" />
+               <include name="isDisplayedOfBestVlinkLearnmore" />
+               <include name="verifyTheProductdetails" />
+               <include name="compareCheckbox" />
+               <include name="verifyMilesForSumitoTiresAndPricePerTire" />
+               <include name="isDisplayPricePerTire" />
+               <include name="isDisplayedSizePriceQuantity" />
+               <include name="triangleQtyDropDown" />
+               <include name="priceForFourTires" />
+               <include name="displayOfTaxesAndFee" />
+               <include name="navigationTestFromSkuListingToDetailPage" />
+               <include name="clickOnCheckNearByStoreTriangle" />
+               <include name="verifySpeedRatingErrorMsg" />
+               <include name="clickOnSpeedRating" />
+               <include name="clickOnproductTriangleStarRatingAndReviewsDetails" />
+               <include name="verifyPromotionslink" />
+               <include name="isDisplayOfStockStatus" />
+               <include name="staggeredfitmentskulisting" />
+            </methods>
+         </class>
+         <class name="com.ch.tbc.tests.SKUServicesTest">
+            <methods>
+               <include name="WiperBladesTest" />
+               <!-- <include name="clickOnReviewsAsGuestUser" /> -->
+               <include name="verifyStaticTexts" />
+               <include name="wheelAlignmentTest" />
+               <!-- <include name="clickOnReviewsAsGuestUserWheelAlignment" /> -->
+               <include name="verifyStaticTextsWheelAlignment" />
+               <include name="oilServiceListingTest" />
+               <include name="isEnableOfBookAppntment" />
+               <include name="breakServicesTest" />
+               <!-- <include name="clickOnReviewsAsGuestUserbreaks" /> -->
+               <include name="verifyStaticTextsBrakes" />
+               <include name="batteriesTest" />
+               <include name="idisplayOfAppointmentAvailableTodayLabelWhenNoserviceAvailable" />
+               <!-- <include name="idisplayAndFunctionalityOfStarRating" /> -->
+               <!-- <include name="validationByClickingOnStarReview" /> -->
+               <!-- <include name="validateDisplayOfNumberOfReviewsAndAvgShadedStarRating"  /> -->
+               <!-- <include name="functionalityOfReviewStarForGuestUser" /> -->
+               <include name="isDisplayOfProductlogoNameServiceRebatesCopounsDateAndMonthIfServiceAvailable" />
+               <include name="isDisplayOfBatteryDetailColdCrankingAmpsWarrantyReplacmentsInformation" />
+               <include name="verifyInventory" />
+               <include name="isDisplayOfCustomerSupportNumber" />
+               <include name="isEnabledAddBookAppointment" />
+               <include name="isDisplayOf4Images" />
+               <include name="isDisplayOfStaticTexts" />
+            </methods>
+         </class>
+         <class name="com.ch.tbc.tabletTest.SKUServicesTabletTest">
+            <methods>
+               <include name="WiperBladesTest" />
+               <!-- <include name="clickOnReviewsAsGuestUser" /> -->
+               <include name="verifyStaticTexts" />
+               <include name="wheelAlignmentTest" />
+               <!-- <include name="clickOnReviewsAsGuestUserWheelAlignment" /> -->
+               <include name="verifyStaticTextsWheelAlignment" />
+               <include name="oilServiceListingTest" />
+               <include name="isEnableOfBookAppntment" />
+               <include name="breakServicesTest" />
+               <!-- <include name="clickOnReviewsAsGuestUserbreaks" /> -->
+               <include name="verifyStaticTextsBrakes" />
+               <include name="batteriesTest" />
+               <include name="idisplayOfAppointmentAvailableTodayLabelWhenNoserviceAvailable" />
+               <!-- <include name="idisplayAndFunctionalityOfStarRating" /> -->
+               <!-- <include name="validationByClickingOnStarReview" /> -->
+               <!-- <include name="validateDisplayOfNumberOfReviewsAndAvgShadedStarRating" /> -->
+               <!-- <include name="functionalityOfReviewStarForGuestUser" /> -->
+               <include name="isDisplayOfProductlogoNameServiceRebatesCopounsDateAndMonthIfServiceAvailable" />
+               <include name="isDisplayOfBatteryDetailColdCrankingAmpsWarrantyReplacmentsInformation" />
+               <include name="verifyInventory" />
+               <include name="isDisplayOfCustomerSupportNumber" />
+               <include name="isEnabledAddBookAppointment" />
+               <include name="isDisplayOf4Images" />
+               <include name="isDisplayOfStaticTexts" />
+            </methods>
+         </class>
+         <class name="com.ch.tbc.testsMobile.SkuSerrvicesMobileTest">
+            <methods>
+               <include name="WiperBladesTest" />
+               <!-- <include name="clickOnReviewsAsGuestUser" /> -->
+               <include name="verifyStaticTexts" />
+               <include name="wheelAlignmentTest" />
+               <!-- <include name="clickOnReviewsAsGuestUserWheelAlignment" /> -->
+               <include name="verifyStaticTextsWheelAlignment" />
+               <include name="oilServiceListingTest" />
+               <include name="isEnableOfBookAppntment" />
+               <include name="breakServicesTest" />
+               <!-- <include name="clickOnReviewsAsGuestUserbreaks" /> -->
+               <include name="verifyStaticTextsBrakes" />
+               <include name="batteriesTest" />
+               <include name="idisplayOfAppointmentAvailableTodayLabelWhenNoserviceAvailable" />
+               <!-- <include name="idisplayAndFunctionalityOfStarRating" /> -->
+               <!-- <include name="validationByClickingOnStarReview" /> -->
+               <!-- <include name="validateDisplayOfNumberOfReviewsAndAvgShadedStarRating" /> -->
+               <!-- <include name="functionalityOfReviewStarForGuestUser" /> -->
+               <include name="isDisplayOfProductlogoNameServiceRebatesCopounsDateAndMonthIfServiceAvailable" />
+               <include name="isDisplayOfBatteryDetailColdCrankingAmpsWarrantyReplacmentsInformation" />
+               <include name="verifyInventory" />
+               <include name="isDisplayOfCustomerSupportNumber" />
+               <include name="isEnabledAddBookAppointment" />
+               <include name="isDisplayOf4Images" />
+               <include name="isDisplayOfStaticTexts" />
+            </methods>
+         </class>
+      </classes>
+   </test>
+</suite>

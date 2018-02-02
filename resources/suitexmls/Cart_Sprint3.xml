@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestSuite" parallel="methods" thread-count="5">
+
+<!-- 	<listeners> -->
+<!-- 		<listener class-name="com.ch.utils.ParallelFactory" /> -->
+<!-- 	</listeners> -->
+
+	<test name="TBC Suite">
+		<classes>
+			<class name="com.ch.tbc.tests.CartTest">
+				<methods>
+					<include name="isBreadcrumbTest" />
+					<include name="clickOnBreadcrumbTest" /> 
+					<include name="isdisplayOfShopingCartVehicleName" />
+					<include name="ClickonEmailButtonandDisplayOfEmailpopUp" />
+					<include name="enterMoreThanOneEmail" />
+					<include name="enableAndDisableSendButton" /> 
+					<include name="errorMesgeWhenInvalidEmail" />
+					<include name="verifyXmark" />
+					<include name="isDisplayOfShopingCartSentwithXmark" />
+					<include name="FunctionalityOfPrintBtn" />
+					<include name="funtionalityOfClearCart" />
+					<include name="funtionalityOfCancelClearCartBtn" />
+					<include name="isDisplayedHeaderForEachItem" />
+					<include name="isDisplayOfTyrenameAndFunctionalityOfLink" />
+					<include name="verifyCompatabiltyAndWarrentyDisplay" />
+					<include name="inventoryCheckRefresh" />
+					<include name="functionalityOfRemoveItemLink" />
+					<include name="QtyMinMaxCheck" />
+					<include name="isDisplayedRevisedPrice" /> 
+					<include name="isdisplayedOfStrikedPrice" />
+					<include name="priceChangewithQtyChange" />
+					<include name="isDisplayedOfproductImage" />
+					<include name="isDisplayOffreeAndAdditionalServices" />
+					<include name="isDisplayOfRequired" />
+					<include name="VerifyGrayedOutfeilds" />
+<!-- 					<include name="addTireWithOutVehicleInguarage" /> -->
+<!-- 					<include name="verifyAircraftIcon" /> -->
+					<include name="isdisplayedOfPricesofMandatoryServices" />
+					<include name="isdisplayedOfPricesofOptionalServices" />
+					<include name="verifyPriceWithServicesUpdate" />
+					<include name="verifyIicon" />
+					<include name="verifyAddonInformationPopup" /> 
+					<include name="isPlaceHolder" />
+					<include name="verifythfunctionalityOfPromoLink" />
+					<include name="verifyHidePromo" />
+					<include name="verifyAddBtnInPromoCode" />
+					<include name="verifyErrorMsgWithWrongpromo" />
+					<include name="verifyAllPromosApplied" />
+					<include name="verifyStaticTexts" />
+					<include name="verifyAppointmentDateInCart" />
+					<include name="verifyServiceIncompatable" />
+					<include name="verifyIndividualPrice" />
+					<include name="isdisplayedSeriveImg" />
+					<include name="serviceStrikedPrice" />
+					<include name="verifyCompatabilityMsg" />
+					<include name="verifyUnCompatabilityMsg" />
+					<include name="verifyCompatabilityMsgFluidExchange" />
+					<include name="clickOnDropDown" /> 
+					<include name="isDisplayedStaticTextFeeAndAdditionalServices" />
+					<include name="isDisplayedRequired" />
+					<include name="isDisplayedOfFuidDisposalFeePrice" />
+					<include name="isDisplayedOfWheelAlignmentName" />
+					<include name="isDisplayedOfWheelAlgmtPrice" />
+					<include name="isDisplayedOfWheelAlgmtAdditinalSevicesSection" />
+					<include name="isDisplayedInvidualPriceWiperBlade" />
+					<include name="verifyWiperBladeCompatability" /> 
+					<include name="verifyBreakCompatabilityMsg" />
+					<include name="TotalPriceForCart" />
+					<include name="verifyAppointmentDateInCart1" />
+					<include name="verifyQtyChange" />
+					<include name="itemAddedAlertMsg" />
+					<include name="QtyCheckWithUpdateOfSameItem" />
+					<include name="IsDisplayedOfNoItemsInCart" />
+					<include name="ClickOnShopTires" />
+					<include name="ClickOnShopServices" />
+				
+				</methods>
+			</class>
+			
+<!-- 			<class name="com.ch.tbc.tabletTest.TabletCartTest"> -->
+<!-- 				<methods> -->
+<!-- 					<include name="emailButtonInMoreOptions" /> -->
+<!-- 					<include name="isdisplayOfShopingCartVehicleName" /> -->
+<!-- 					<include name="ClickonEmailButtonandDisplayOfEmailpopUp" /> -->
+<!-- 					<include name="enterMoreThanOneEmail" /> -->
+<!-- 					<include name="enableAndDisableSendButton" /> -->
+<!-- 					<include name="errorMesgeWhenInvalidEmail" />  -->
+<!-- 					<include name="verifyXmark" /> -->
+<!-- 					<include name="isDisplayOfShopingCartSentwithXmark" /> -->
+<!-- 					<include name="funtionalityOfClearCart" /> -->
+<!-- 					<include name="funtionalityOfCancelClearCartBtn" /> -->
+<!-- 					<include name="isDisplayedHeaderForEachItem" /> -->
+<!-- 					<include name="isDisplayOfTyrenameAndFunctionalityOfLink" /> -->
+<!-- 					<include name="verifyCompatabiltyAndWarrentyDisplay" /> -->
+<!-- 					<include name="inventoryCheckRefresh" /> -->
+<!-- 					<include name="functionalityOfRemoveItemLink" /> -->
+<!-- 					<include name="QtyMinMaxCheck" /> -->
+<!-- 					<include name="isDisplayedRevisedPrice" /> -->
+<!-- 					<include name="priceChangewithQtyChange" /> -->
+
+<!-- 					<include name="isDisplayOffreeAndAdditionalServices" /> -->
+<!-- 					<include name="isDisplayOfRequired" /> -->
+<!-- 					<include name="VerifyGrayedOutfeilds" /> -->
+<!-- 					<include name="addTireWithOutVehicleInguarage" /> --> 
+
+<!-- 					<include name="isdisplayedOfPricesofMandatoryServices" /> -->
+<!-- 					<include name="isdisplayedOfPricesofOptionalServices" /> -->
+<!-- 					<include name="verifyPriceWithServicesUpdate" /> -->
+<!-- 					<include name="verifyIicon" /> -->
+<!-- 					<include name="verifyAddonInformationPopup" /> -->
+<!-- 					<include name="isPlaceHolder" /> -->
+<!-- 					<include name="verifythfunctionalityOfPromoLink" /> -->
+<!-- 					<include name="verifyHidePromo" />  -->
+<!-- 					<include name="verifyAddBtnInPromoCode" /> -->
+<!-- 					<include name="verifyErrorMsgWithWrongpromo" /> -->
+<!-- 					<include name="verifyAllPromosApplied" /> -->
+<!-- 					<include name="verifyStaticTexts" /> -->
+<!-- 					<include name="verifyAppointmentDateInCart" /> -->
+<!-- 					<include name="verifyServiceIncompatable" /> -->
+<!-- 					<include name="verifyIndividualPrice" /> -->
+
+<!-- 					<include name="serviceStrikedPrice" /> -->
+<!-- 					<include name="verifyCompatabilityMsg" /> -->
+<!-- 					<include name="verifyUnCompatabilityMsg" /> -->
+<!-- 					<include name="verifyCompatabilityMsgFluidExchange" /> -->
+<!-- 					<include name="isDisplayedOfWheelAlignmentName" />  -->
+<!-- 					<include name="isDisplayedOfWheelAlgmtPrice" /> -->
+<!-- 					<include name="isDisplayedOfWheelAlgmtAdditinalSevicesSection" /> -->
+<!-- 					<include name="isDisplayedInvidualPriceWiperBlade" /> -->
+<!-- 					<include name="verifyWiperBladeCompatability" /> -->
+<!-- 					<include name="verifyBreakCompatabilityMsg" /> -->
+<!-- 					<include name="TotalPriceForCart" /> -->
+<!-- 					<include name="verifyAppointmentDateInCart1" /> -->
+<!-- 					<include name="verifyQtyChange" /> -->
+<!-- 					<include name="itemAddedAlertMsg" /> -->
+<!-- 					<include name="itemAddedAlertMsgAnimation" /> -->
+<!-- 					<include name="itemAddedAlreadyMsg" /> -->
+<!-- 					<include name="QtyCheckWithUpdateOfSameItem" /> -->
+<!-- 					<include name="IsDisplayedOfNoItemsInCart" />  -->
+<!-- 					<include name="ClickOnShopTires" /> -->
+<!-- 					<include name="ClickOnShopServices" /> -->
+				
+<!-- 				</methods> -->
+<!-- 			</class> -->
+			
+<!-- 			<class name="com.ch.tbc.testsMobile.MobileCartTest"> -->
+<!-- 				<methods> -->
+<!-- 					<include name="emailButtonInMoreOptions" /> -->
+<!-- 					<include name="isdisplayOfShopingCartVehicleName" /> -->
+<!-- 					<include name="ClickonEmailButtonandDisplayOfEmailpopUp" /> -->
+<!-- 					<include name="enterMoreThanOneEmail" /> -->
+<!-- 					<include name="enableAndDisableSendButton" /> -->
+<!-- 					<include name="errorMesgeWhenInvalidEmail" />  -->
+<!-- 					<include name="verifyXmark" /> -->
+<!-- 					<include name="isDisplayOfShopingCartSentwithXmark" /> -->
+<!-- 					<include name="funtionalityOfClearCart" /> -->
+<!-- 					<include name="funtionalityOfCancelClearCartBtn" /> -->
+<!-- 					<include name="isDisplayedHeaderForEachItem" /> -->
+<!-- 					<include name="isDisplayOfTyrenameAndFunctionalityOfLink" /> -->
+<!-- 					<include name="verifyCompatabiltyAndWarrentyDisplay" /> -->
+<!-- 					<include name="inventoryCheckRefresh" /> -->
+<!-- 					<include name="functionalityOfRemoveItemLink" /> -->
+<!-- 					<include name="QtyMinMaxCheck" /> -->
+<!-- 					<include name="isDisplayedRevisedPrice" /> -->
+<!-- 					<include name="priceChangewithQtyChange" /> -->
+
+<!-- 					<include name="isDisplayOffreeAndAdditionalServices" /> -->
+<!-- 					<include name="isDisplayOfRequired" /> -->
+<!-- 					<include name="VerifyGrayedOutfeilds" /> -->
+<!-- 				<include name="addTireWithOutVehicleInguarage" /> --> 
+
+<!-- 					<include name="isdisplayedOfPricesofMandatoryServices" /> -->
+<!-- 					<include name="isdisplayedOfPricesofOptionalServices" /> -->
+<!-- 					<include name="verifyPriceWithServicesUpdate" /> -->
+<!-- 					<include name="verifyIicon" /> -->
+<!-- 					<include name="verifyAddonInformationPopup" /> -->
+<!-- 					<include name="isPlaceHolder" /> -->
+<!-- 					<include name="verifythfunctionalityOfPromoLink" /> -->
+<!-- 					<include name="verifyHidePromo" />  -->
+<!-- 					<include name="verifyAddBtnInPromoCode" /> -->
+<!-- 					<include name="verifyErrorMsgWithWrongpromo" /> -->
+<!-- 					<include name="verifyAllPromosApplied" /> -->
+<!-- 					<include name="verifyStaticTexts" /> -->
+<!-- 					<include name="verifyAppointmentDateInCart" /> -->
+<!-- 					<include name="verifyServiceIncompatable" /> -->
+<!-- 					<include name="verifyIndividualPrice" /> -->
+<!-- 					<include name="isdisplayedSeriveImg" /> --> 
+<!-- 					<include name="serviceStrikedPrice" /> -->
+<!-- 					<include name="verifyCompatabilityMsg" /> -->
+<!-- 					<include name="verifyUnCompatabilityMsg" /> -->
+<!-- 					<include name="verifyCompatabilityMsgFluidExchange" /> -->
+<!-- 					<include name="isDisplayedOfWheelAlignmentName" />  -->
+<!-- 					<include name="isDisplayedOfWheelAlgmtPrice" /> -->
+<!-- 					<include name="isDisplayedOfWheelAlgmtAdditinalSevicesSection" /> -->
+<!-- 					<include name="isDisplayedInvidualPriceWiperBlade" /> -->
+<!-- 					<include name="verifyWiperBladeCompatability" /> -->
+<!-- 					<include name="verifyBreakCompatabilityMsg" /> -->
+<!-- 					<include name="TotalPriceForCart" /> -->
+<!-- 					<include name="verifyAppointmentDateInCart1" /> -->
+<!-- 					<include name="verifyQtyChange" /> -->
+<!-- 					<include name="itemAddedAlertMsg" /> -->
+<!-- 					<include name="itemAddedAlertMsgAnimation" /> -->
+<!-- 					<include name="itemAddedAlreadyMsg" /> -->
+<!-- 					<include name="QtyCheckWithUpdateOfSameItem" /> -->
+<!-- 					<include name="IsDisplayedOfNoItemsInCart" />  -->
+<!-- 					<include name="ClickOnShopTires" /> -->
+<!-- 					<include name="ClickOnShopServices" /> -->
+				
+<!-- 				</methods> -->
+<!-- 			</class> -->
+									  
+		</classes>
+	</test>
+</suite>

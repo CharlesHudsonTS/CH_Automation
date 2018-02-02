@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="TestSuite" parallel="methods" thread-count="3">
+<!-- 	<listeners> -->
+<!-- 		<listener class-name="com.ch.utils.ParallelFactory" /> -->
+<!-- 	</listeners> -->
+
+	<test name="TBC Suite">
+		<classes>
+			
+			<class name="com.ch.tbc.tabletTest.KnowledgeCentrePageTabletTest"/>
+			<class name="com.ch.tbc.testsMobile.MobileKnowledgeCentrePageTest"/>
+		<class name="com.ch.tbc.tests.KnowledgeCentrePageTest" /></classes>
+	</test>
+</suite>

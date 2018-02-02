@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite thread-count="7" parallel="methods" name="Services Finder">
+<!-- <listeners> -->
+<!-- <listener class-name="com.ch.utils.ParallelFactory"/> -->
+<!-- </listeners> -->
+
+	<test name="TBC Suite">
+		<classes>
+			<class name="com.ch.tbc.tests.ServicesTest">
+				<methods>
+					<include name="servicesBreadcrumb" />
+					<include name="heroImageServices" />
+					<include name="fluidServices" />
+					<include name="batteryServices" />
+					<include name="wiperBlades" />
+					<include name="brakeServices" />
+					<include name="steeringSuspensionServices" />
+					<include name="transmissionFluidExchangeIcon" />
+					<include name="vehicleInspection" />
+					<include name="asLowasServicesPage" />
+				</methods>
+			</class>
+			<class name="com.ch.tbc.tests.AnnualVehicleInspectionTest">
+				<methods>
+					<include name="annualVehicleInspectionBreadcrumb" />
+					<include name="heroImage" />
+					<include name="isStaticTextAVI" />
+					<include name="clickLocalStoreLink" />
+					<include name="findAStoreButton" />
+					<include name="relatedServicesLabel" />
+					<include name="maintenanceRepairServices" />
+				
+				</methods>
+			</class>
+			<class name="com.ch.tbc.testsMobile.MobileServicesTest">
+				<methods>
+					<include name="isHeroImageServices" />
+					<include name="fluidServices" />
+					<include name="batteryServices" />
+					<include name="wiperBlades" />
+					<include name="brakeServices" />
+					<include name="verifySteeringSuspensionServices" />
+					<include name="transmissionFluidExchangeIcon" />
+					<include name="vehicleInspection" />
+					<include name="asLowasServicesPage" />
+				</methods>
+			</class>
+			<class name="com.ch.tbc.testsMobile.MobileAnnualVehicleInspectionTest">
+				<methods>
+					<include name="heroImage" />
+					<include name="isStaticTextAVI" />
+					<include name="clickLocalStoreLink" />
+					<include name="findAStoreButton" />
+					<include name="maintenanceRepairServices" />
+				</methods>
+			</class>
+			<class name="com.ch.tbc.tabletTest.TabletServicesTest">
+				<methods>
+					<include name="isHeroImageServices" />
+					<include name="fluidServices" />
+					<include name="batteryServices" />
+					<include name="wiperBlades" />
+					<include name="brakeServices" />
+					<include name="verifySteeringSuspensionServices" />
+					<include name="transmissionFluidExchangeIcon" />
+					<include name="vehicleInspection" />
+						<include name="asLowasServicesPage" />
+				</methods>
+			</class>
+			<class name="com.ch.tbc.tabletTest.TabletAnnualVehicleInspectionTest">
+				<methods>
+					<include name="heroImage" />
+					<include name="isStaticTextAVI" />
+					<include name="clickLocalStoreLink" />
+					<include name="findAStoreButton" />
+					<include name="maintenanceRepairServices" />
+				</methods>
+			</class>
+
+		</classes>
+	</test>
+</suite>

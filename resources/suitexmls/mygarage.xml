@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite thread-count="4" parallel="methods" name="My Garage">
+<!-- <listeners> -->
+<!-- <listener class-name="com.ch.utils.ParallelFactory"/> -->
+<!-- </listeners> -->
+	<test name="TBC Suite">
+		<classes>
+			<class name="com.ch.tbc.tests.MyGarageVehicleListingTest"/>
+			<class name="com.ch.tbc.tests.MyGarageVehicleDetailsTest"/>
+			<class name="com.ch.tbc.testsMobile.MobileMyGarageVehicleLisingTest"/>
+				
+			<class name="com.ch.tbc.testsMobile.MobileMyGarageVehicleDetailsTest"/>
+				
+			<class name="com.ch.tbc.tabletTest.TabletMyGarageVehicleListingTest"/>
+			
+			<class name="com.ch.tbc.tabletTest.TabletMyGarageVehiclDetailsTest"/>
+				
+		</classes>
+	</test>
+</suite>

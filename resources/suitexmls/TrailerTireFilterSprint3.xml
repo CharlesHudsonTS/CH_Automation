@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite thread-count="3" parallel="methods" name="Trailer Filters">
+<!-- <listeners> -->
+<!-- <listener class-name="com.ch.utils.ParallelFactory"/> -->
+<!-- </listeners> -->
+
+	<test name="TBC Suite">
+		<classes>
+			<class name="com.ch.tbc.tests.TrailerTireFilterTest"/>
+			
+			<class name="com.ch.tbc.testsMobile.MobileTrailerTireFilterTest"/>
+			
+			<class name="com.ch.tbc.tabletTest.TabletTrailerTireFilterTest"/>
+			</classes>
+	</test>
+</suite>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite thread-count="5" parallel="methods" name="Vehicle Selector">
+<!-- <listeners> -->
+<!-- <listener class-name="com.ch.utils.ParallelFactory"/> -->
+<!-- </listeners> -->
+
+	<test name="TBC Suite">
+		<classes>
+<class name="com.ch.tbc.tests.VehicleSelectorMYMTest">
+				<methods>
+					<include name="clickAddVehicleTest" />
+					<include name="clickBreadCrumbTest" />
+					<include name="clickMYMSectionTest" />
+					<include name="clickNextButtonTest" />
+					<include name="disableNextButtonTest" />
+					<include name="disableYearDropDownTest" />
+					<include name="isYearAndModelDisableMYM" />
+					<include name="typeMYMValuesTest" />
+					<include name="verifyCancelButtonTest" />
+					<include name="verifyDealsBreadCrumbTest" />
+					<include name="verifyDOYouKnowLabelMYMSectionTest" />
+					<include name="verifyINVaildMYMSectionTest" />
+					<include name="verifyMyGarageLabelAndPlaceHolderTest" />
+					<include name="verifyMYMSectionTest" />
+					<include name="verifyThreeValuesMYMTest" />
+					<include name="verifyValidMYMSectionTest" />
+					<include name="verifyEditVehicle"></include>
+					<include name="verifyEditVehicleEditTest"></include>
+					<include name="verifyAddVehicleBySizeTest"></include>
+					<include name="verifyEditVehicleRemoveVehicleTest" />
+					<include name="verifyTollMessageMYMTest"/>
+					
+				</methods>
+			</class>
+
+			<class name="com.ch.tbc.tests.VehicleSelectorOptionalPageTest">
+				<methods>
+					<include name="clickCancelCancelButtonlabelTest" />
+					<include name="editNickNameTest" />
+					<include name="getCarModelNickNameTest" />
+					<include name="isCancelButtonlabelTest" />
+					<include name="isColorChangeTest" />
+					<include name="isMyGarageLabelAndPlaceHolderTest" />
+					<include name="selectValuesFromDropDownTest" />
+					<include name="typeDataInEditBoxTest" />
+					<include name="validMileageTest" />
+					<include name="verifyAddCustomizeSizeTest" />
+					<include name="verifyEditModelTest" />
+					<include name="verifySaveVehicleButtonTest" />
+					<include name="verifyWhereMyTireSizeTest" />
+					<include name="verifySaveVehicleFromFileTest"/>
+					<include name="verifyWhereMyTireSizeTest"/>
+				</methods>
+			</class>
+
+			<class name="com.ch.tbc.tests.VehicleSelectorVINTest">
+				<methods>
+					<include name="clickVINNextButtonTest" />
+					<include name="clickVINTest" />
+					<include name="enterVINCharNumAndMaxCharTest" />
+					<include name="findMyVINImageTest" />
+					<include name="isVINFieldLableAndIsRedTest" />
+					<include name="verifyVINPlaceHolderTest" />
+					<include name="vinAtleastOneCharTest" />
+					<include name="vinCancelButtonTest" />
+					<include name="vinDisableNextButtonTest" />
+					<include name="vinErrorMsgTest" />
+					<include name="verifyOptionalVehicleSelectorTest" />
+                     <include name="verifySaveVehicleByVINTest" />
+				</methods>
+			</class>
+
+			<class name="com.ch.tbc.tabletTest.VehicleSelectorMYMTabletTest">
+				<methods>
+					<include name="clickAddVehicleTest" />
+					<include name="clickMYMSectionTest" />
+					<include name="clickNextButtonTest" />
+					<include name="disableNextButtonTest" />
+					<include name="disableYearDropDownTest" />
+					<include name="isYearAndModelDisableMYM" />
+					<include name="typeMYMValuesTest" />
+					<include name="verifyCancelButtonTest" />
+					<include name="verifyDOYouKnowLabelMYMSectionTest" />
+					<include name="verifyINVaildMYMSectionTest" />
+					<include name="verifyMyGarageLabelAndPlaceHolderTest" />
+					<include name="verifyMYMSectionTest" />
+					<include name="verifyThreeValuesMYMTest" />
+					<include name="verifyValidMYMSectionTest" />
+					<include name="verifyEditVehicle"></include>
+					<include name="verifyEditVehicleEditTest"></include>
+					<include name="verifyAddVehicleBySizeTest"></include>
+					<include name="verifyTollMessageMYMTest"/>
+					
+				</methods>
+			</class>
+
+			<class name="com.ch.tbc.tabletTest.VehicleSelectorOptionalPageTabletTest">
+				<methods>
+					<include name="clickCancelCancelButtonlabelTest" />
+					<include name="editNickNameTest" />
+					<include name="getCarModelNickNameTest" />
+					<include name="isCancelButtonlabelTest" />
+					<include name="isColorChangeTest" />
+					<include name="isMyGarageLabelAndPlaceHolderTest" />
+					<include name="selectValuesFromDropDownTest" />
+					<include name="typeDataInEditBoxTest" />
+					<include name="validMileageTest" />
+					<include name="verifyAddCustomizeSizeTest" />
+					<include name="verifyEditModelTest" />
+					<include name="verifySaveVehicleButtonTest" />
+					<include name="verifyWhereMyTireSizeTest" />
+					<include name="verifySaveVehicleFromFileTest"/>
+					<include name="verifyWhereMyTireSizeTest"/>
+				</methods>
+			</class>
+
+			<class name="com.ch.tbc.tabletTest.VehicleSelectorVINTabletTest">
+				<methods>
+					<include name="clickVINNextButtonTest" />
+					<include name="clickVINTest" />
+					<include name="enterVINCharNumTest" />
+					<include name="findMyVINImageTest" />
+					<include name="isVINPlaceHolderTest" />
+					<include name="vinCancelButtonTest" />
+					<include name="vinDisableAndEnableNextButtonTest" />
+					<include name="vinErrorMsgTest" />
+					<include name="verifyOptionalVehicleSelectorTest" />
+                     <include name="verifySaveVehicleByVINTest" />
+				</methods>
+
+			</class>
+
+
+			<class name="com.ch.tbc.testsMobile.MobileVehicleSelectorMYMTest">
+				<methods>
+					<include name="clickCancelButtonTest" />
+					<include name="clickonAddVehicle" />
+					<include name="isPlaceHolderMYM" />
+					<include name="isYearAndModelDisableMYMTest" />
+					<include name="typeMYMValuesTest" />
+					<include name="verifyDOYouKnowLabelMYMSectionTest" />
+					<include name="verifyINVaildMYMSectionTest" />
+					<include name="verifyMyGarageLabelAndMYMSectionTest" />
+					<include name="verifyNextButtonTest" />
+					<include name="verifyThreeValuesMYMTest" />
+					<include name="verifyValidMYMSectionTest" />
+					<include name="verifyEditVehicle"></include>
+					<include name="verifyTollMessageMYM" />
+					
+				</methods>
+			</class>
+
+			<class name="com.ch.tbc.testsMobile.MobileVehicleSelectorOptionalPageTest">
+				<methods>
+					<include name="clickCancelCancelButtonlabelTest" />
+					<include name="editNickNameTest" />
+					<include name="getCarModelNickNameTest" />
+					<include name="isCancelButtonlabelTest" />
+					<include name="isColorChangeTest" />
+					<include name="isMyGarageLabelAndPlaceHolderTest" />
+					<include name="selectValuesFromDropDownTest" />
+					<include name="typeDataInEditBoxTest" />
+					<include name="validMileageTest" />
+					<include name="verifyAddCustomizeSizeTest" />
+					<include name="verifyEditModelTest" />
+					<include name="verifySaveVehicleButtonTest" />
+					<include name="verifyWhereMyTireSizeTest" />
+				</methods>
+			</class>
+
+			<class name="com.ch.tbc.testsMobile.MobileVehicleSelectorVINTest">
+				<methods>
+					<include name="clickVINNextButtonTest" />
+					<include name="clickVINTest" />
+					<include name="enterVINCharNumTest" />
+					<include name="findMyVINImageTest" />
+					<include name="isVINPlaceHolderTest" />
+					<include name="vinCancelButtonTest" />
+					<include name="vinDisableAndEnableNextButtonTest" />
+					<include name="vinErrorMsgTest" />
+					<include name="verifyOptionalVehicleSelectorTest" />
+                     <include name="verifySaveVehicleByVINTest" />
+				</methods>
+
+			</class>
+		</classes>
+	</test>
+</suite>

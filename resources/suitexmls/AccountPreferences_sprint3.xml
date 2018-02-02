@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite thread-count="5" parallel="methods" name="Account Preference">
+<!-- <listeners> -->
+<!-- 	<listener class-name="com.ch.utils.ParallelFactory" /> -->
+<!-- </listeners> -->
+	<test name="Test">
+		<classes>
+			<class name="com.ch.tbc.tests.AccountPreferencesTest" />
+			<class name="com.ch.tbc.testsMobile.MobileAccountPreferenceTest"/>
+			<class name="com.ch.tbc.tabletTest.TabletAccountPreferences"/>
+		</classes>
+	</test>
+</suite> 

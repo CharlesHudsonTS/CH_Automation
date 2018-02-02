@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite thread-count="1" parallel="methods" name="Book Appointment">
+<!-- 	<listeners> -->
+<!-- 		<listener class-name="com.ch.utils.ParallelFactory" /> -->
+<!-- 	</listeners> -->
+
+	<test name="TBC Suite">
+		<classes>
+
+			<class name="com.ch.tbc.tests.BookAppointmentPageTest" />
+			<class name="com.ch.tbc.tabletTest.BookAppointmentPageTabletTest" />
+			<class name="com.ch.tbc.testsMobile.MobileBookAppointmentPageTest" />
+
+
+		</classes>
+	</test>
+</suite>

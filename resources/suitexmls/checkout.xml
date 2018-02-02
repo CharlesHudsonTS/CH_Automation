@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite thread-count="7" parallel="methods" name="Checkout">
+<!-- <listeners> -->
+<!-- <listener class-name="com.ch.utils.ParallelFactory"/> -->
+<!-- </listeners> -->
+
+	<test name="TBC Suite">
+		<classes>
+<!-- 			<class name="com.ch.tbc.tests.GuestCheckoutAndContactInfoTest"> -->
+<!-- 				<methods> -->
+<!-- 					<include name="checkOutBreadCrumb" /> -->
+<!-- 					<include name="checkoutStaticTextAndOrderSummary" /> -->
+<!-- 					<include name="emailAddressTextBox" /> -->
+<!-- 					<include name="passwordTextBox" /> -->
+<!-- 					<include name="emailAddressPlaceholder" /> -->
+<!-- 					<include name="passwordPlaceholder" /> -->
+<!-- 					<include name="isSignInButtonEnabled" /> -->
+<!-- 					<include name="clickSignIn" /> -->
+<!-- 					<include name="rememberMe" /> -->
+<!-- 					<include name="forgotPasswordLink" /> -->
+<!-- 					<include name="facebookSignIn" /> -->
+<!-- 					<include name="googleSignIn" /> -->
+<!-- 					<include name="yahooSignIn" /> -->
+<!-- 					<include name="twitterSignIn" /> -->
+<!-- 					<include name="aolSignIn" /> -->
+<!-- 					<include name="linkedInSignIn" /> -->
+<!-- 					<include name="continueAsGuest" /> -->
+<!-- 					<include name="statusSteps" /> -->
+<!-- 					<include name="headerBookAppointment" /> -->
+<!-- 					<include name="orderSummary" /> -->
+<!-- 					<include name="continueButton" /> -->
+<!-- 				</methods> -->
+<!-- 			</class> -->
+<!-- 			<class name="com.ch.tbc.tests.GuestReviewNScheduleTest"> -->
+<!-- 				<methods> -->
+<!-- 					<include name="statusSteps" /> -->
+<!-- 					<include name="headerBookAppointment" /> -->
+<!-- 					<include name="specialFinancing" /> -->
+<!-- 					<include name="personalInformation" /> -->
+<!-- 					<include name="appointmentInformation" /> -->
+<!-- 					<include name="yourOrder" /> -->
+<!-- 					<include name="confirmButton" /> -->
+<!-- 				</methods> -->
+<!-- 			</class> -->
+			<class name="com.ch.tbc.tests.GuestCheckoutConfirmationTest">
+				<methods>
+					<include name="checkoutBreadcrumb" />
+					<include name="statusSteps" />
+					<include name="confirmationLinks" />
+					<include name="personalInformation" />
+					<include name="appointmentInformation" />
+					<include name="yourOrder" />
+					<include name="specialFinancing" />
+					<include name="passwordTextBox" />
+					<include name="confirmPasswordTextBox" />
+					<include name="emailAlertCheckBox" />
+					<include name="createAccountButton" />
+				</methods>
+			</class>
+
+<!-- 			<class name="com.ch.tbc.tests.GuestUserBookApptTest"> -->
+<!-- 				<methods> -->
+<!-- 					<include name="statusSteps" /> -->
+<!-- 					<include name="clickFirstAvailableDate" /> -->
+<!-- 					<include name="clickChevrons" /> -->
+<!-- 					<include name="daydatelabels" /> -->
+<!-- 					<include name="orderSummary" /> -->
+<!-- 					<include name="continueButton" /> -->
+<!-- 					<include name="viewShoppingCartLink" /> -->
+<!-- 					<include name="headerBookAppointment" /> -->
+<!-- 				</methods> -->
+<!-- 			</class> -->
+
+
+			<!-- <class name="com.ch.tbc.testsMobile.MobileGuestCheckoutTest"> -->
+			<!-- <methods> -->
+			<!-- <include name="checkoutStaticText" /> -->
+			<!-- <include name="emailAddressTextBox" /> -->
+			<!-- <include name="passwordTextBox" /> -->
+			<!-- <include name="emailAddressPlaceholder" /> -->
+			<!-- <include name="passwordPlaceholder" /> -->
+			<!-- <include name="isSignInButtonEnabled" /> -->
+			<!-- <include name="clickSignIn" /> -->
+			<!-- <include name="rememberMe" /> -->
+			<!-- <include name="forgotPasswordLink" /> -->
+			<!-- <include name="facebookSignIn" /> -->
+			<!-- <include name="googleSignIn" /> -->
+			<!-- <include name="yahooSignIn" /> -->
+			<!-- <include name="twitterSignIn" /> -->
+			<!-- <include name="aolSignIn" /> -->
+			<!-- <include name="linkedInSignIn" /> -->
+			<!-- <include name="continueAsGuest" /> -->
+			<!-- <include name="orderSummary" /> -->
+			<!-- </methods> -->
+			<!-- </class> -->
+			<!-- <class name="com.ch.tbc.tabletTest.TabletGuestCheckoutTest"> -->
+			<!-- <methods> -->
+			<!-- <include name="checkoutStaticText" /> -->
+			<!-- <include name="emailAddressTextBox" /> -->
+			<!-- <include name="passwordTextBox" /> -->
+			<!-- <include name="emailAddressPlaceholder" /> -->
+			<!-- <include name="passwordPlaceholder" /> -->
+			<!-- <include name="isSignInButtonEnabled" /> -->
+			<!-- <include name="clickSignIn" /> -->
+			<!-- <include name="rememberMe" /> -->
+			<!-- <include name="forgotPasswordLink" /> -->
+			<!-- <include name="facebookSignIn" /> -->
+			<!-- <include name="googleSignIn" /> -->
+			<!-- <include name="yahooSignIn" /> -->
+			<!-- <include name="twitterSignIn" /> -->
+			<!-- <include name="aolSignIn" /> -->
+			<!-- <include name="linkedInSignIn" /> -->
+			<!-- <include name="continueAsGuest" /> -->
+			<!-- <include name="orderSummary" /> -->
+			<!-- </methods> -->
+			<!-- </class> -->
+			<!-- <class name="com.ch.tbc.testsMobile.MobileGuestUserBookApptTest"> -->
+			<!-- <methods> -->
+			<!-- <include name="statusSteps" /> -->
+			<!-- <include name="clickFirstAvailableDate" /> -->
+			<!-- <include name="clickChevrons" /> -->
+			<!-- <include name="daydatelabels" /> -->
+			<!-- <include name="orderSummary" /> -->
+			<!-- <include name="continueButton" /> -->
+			<!-- <include name="viewShoppingCartLink" /> -->
+			<!-- <include name="headerBookAppointment" /> -->
+			<!-- </methods> -->
+			<!-- </class> -->
+			<!-- <class name="com.ch.tbc.tabletTest.TabletGuestUserBookApptTest"> -->
+			<!-- <methods> -->
+			<!-- <include name="statusSteps" /> -->
+			<!-- <include name="clickFirstAvailableDate" /> -->
+			<!-- <include name="clickChevrons" /> -->
+			<!-- <include name="daydatelabels" /> -->
+			<!-- <include name="orderSummary" /> -->
+			<!-- <include name="continueButton" /> -->
+			<!-- <include name="viewShoppingCartLink" /> -->
+			<!-- <include name="headerBookAppointment" /> -->
+			<!-- </methods> -->
+			<!-- </class> -->
+
+			<!-- <class name="com.ch.tbc.testsMobile.MobileGuestContactInfoTest"> -->
+			<!-- <methods> -->
+			<!-- <include name="statusSteps" /> -->
+			<!-- <include name="headerBookAppointment" /> -->
+			<!-- <include name="orderSummary" /> -->
+			<!-- <include name="emailTextBox" /> -->
+			<!-- <include name="validateEmail" /> -->
+			<!-- <include name="invalidEmail" /> -->
+			<!-- <include name="duplicateEmail" /> -->
+			<!-- <include name="confirmEmailTextBox" /> -->
+			<!-- <include name="validateConfirmEmail" /> -->
+			<!-- <include name="invalidConfirmEmail" /> -->
+			<!-- <include name="firstNameTextBox" /> -->
+			<!-- <include name="validateFirstName" /> -->
+			<!-- <include name="invalidFirstName" /> -->
+			<!-- <include name="lastNameTextBox" /> -->
+			<!-- <include name="validateLastName" /> -->
+			<!-- <include name="invalidLastName" /> -->
+			<!-- <include name="businessNameTextBox" /> -->
+			<!-- <include name="primaryPhoneTextBox" /> -->
+			<!-- <include name="alternatePhoneTextBox" /> -->
+			<!-- <include name="addressTextBox" /> -->
+			<!-- <include name="validateAddress" /> -->
+			<!-- <include name="addressOptionalTextBox" /> -->
+			<!-- <include name="validateAddressOptional" /> -->
+			<!-- <include name="cityTextBox" /> -->
+			<!-- <include name="stateTextBox" /> -->
+			<!-- <include name="zipCodeTextBox" /> -->
+			<!-- <include name="continueButton" /> -->
+			<!-- </methods> -->
+			<!-- </class> -->
+			<!-- <class name="com.ch.tbc.tabletTest.TabletGuestContactInfoTest"> -->
+			<!-- <methods> -->
+			<!-- <include name="statusSteps" /> -->
+			<!-- <include name="headerBookAppointment" /> -->
+			<!-- <include name="orderSummary" /> -->
+			<!-- <include name="emailTextBox" /> -->
+			<!-- <include name="validateEmail" /> -->
+			<!-- <include name="invalidEmail" /> -->
+			<!-- <include name="duplicateEmail" /> -->
+			<!-- <include name="confirmEmailTextBox" /> -->
+			<!-- <include name="validateConfirmEmail" /> -->
+			<!-- <include name="invalidConfirmEmail" /> -->
+			<!-- <include name="firstNameTextBox" /> -->
+			<!-- <include name="validateFirstName" /> -->
+			<!-- <include name="invalidFirstName" /> -->
+			<!-- <include name="lastNameTextBox" /> -->
+			<!-- <include name="validateLastName" /> -->
+			<!-- <include name="invalidLastName" /> -->
+			<!-- <include name="businessNameTextBox" /> -->
+			<!-- <include name="primaryPhoneTextBox" /> -->
+			<!-- <include name="alternatePhoneTextBox" /> -->
+			<!-- <include name="addressTextBox" /> -->
+			<!-- <include name="validateAddress" /> -->
+			<!-- <include name="addressOptionalTextBox" /> -->
+			<!-- <include name="validateAddressOptional" /> -->
+			<!-- <include name="cityTextBox" /> -->
+			<!-- <include name="stateTextBox" /> -->
+			<!-- <include name="zipCodeTextBox" /> -->
+			<!-- <include name="continueButton" /> -->
+			<!-- </methods> -->
+			<!-- </class> -->
+			<!-- <class name="com.ch.tbc.testsMobile.MobileGuestReviewNScheduleTest"> -->
+			<!-- <methods> -->
+			<!-- <include name="statusSteps" /> -->
+			<!-- <include name="headerBookAppointment" /> -->
+			<!-- <include name="specialFinancing" /> -->
+			<!-- <include name="personalInformation" /> -->
+			<!-- <include name="appointmentInformation" /> -->
+			<!-- <include name="yourOrder" /> -->
+			<!-- <include name="confirmButton" /> -->
+			<!-- </methods> -->
+			<!-- </class> -->
+			<!-- <class name="com.ch.tbc.tabletTest.TabletGuestReviewNScheduleTest"> -->
+			<!-- <methods> -->
+			<!-- <include name="statusSteps" /> -->
+			<!-- <include name="headerBookAppointment" /> -->
+			<!-- <include name="specialFinancing" /> -->
+			<!-- <include name="personalInformation" /> -->
+			<!-- <include name="appointmentInformation" /> -->
+			<!-- <include name="yourOrder" /> -->
+			<!-- <include name="confirmButton" /> -->
+			<!-- </methods> -->
+			<!-- </class> -->
+
+			<!-- <class name="com.ch.tbc.testsMobile.MobileGuestCheckoutConfirmationTest"> -->
+			<!-- <methods> -->
+			<!-- <include name="statusSteps" /> -->
+			<!-- <include name="confirmationLinks" /> -->
+			<!-- <include name="personalInformation" /> -->
+			<!-- <include name="appointmentInformation" /> -->
+			<!-- <include name="yourOrder" /> -->
+			<!-- <include name="specialFinancing" /> -->
+			<!-- <include name="passwordTextBox" /> -->
+			<!-- <include name="confirmPasswordTextBox" /> -->
+			<!-- <include name="emailAlertCheckBox" /> -->
+			<!-- <include name="createAccountButton" /> -->
+			<!-- </methods> -->
+			<!-- </class> -->
+			<!-- <class name="com.ch.tbc.tabletTest.TabletGuestCheckoutConfirmationTest"> -->
+			<!-- <methods> -->
+			<!-- <include name="statusSteps" /> -->
+			<!-- <include name="confirmationLinks" /> -->
+			<!-- <include name="personalInformation" /> -->
+			<!-- <include name="appointmentInformation" /> -->
+			<!-- <include name="yourOrder" /> -->
+			<!-- <include name="specialFinancing" /> -->
+			<!-- <include name="passwordTextBox" /> -->
+			<!-- <include name="confirmPasswordTextBox" /> -->
+			<!-- <include name="emailAlertCheckBox" /> -->
+			<!-- <include name="createAccountButton" /> -->
+			<!-- </methods> -->
+			<!-- </class> -->
+			<!-- <class name="com.ch.tbc.tests.SignedInUserBookApptTest"> -->
+			<!-- <methods> -->
+			<!-- <include name="statusSteps" /> -->
+			<!-- <include name="clickFirstAvailableDate" /> -->
+			<!-- <include name="clickChevrons" /> -->
+			<!-- <include name="daydatelabels" /> -->
+			<!-- <include name="orderSummary" /> -->
+			<!-- <include name="continueButton" /> -->
+			<!-- <include name="viewShoppingCartLink" /> -->
+			<!-- <include name="headerBookAppointment" /> -->
+
+			<!-- </methods> -->
+			<!-- </class> -->
+			<!-- <class name="com.ch.tbc.testsMobile.MobileSignedInUserBookApptTest"> -->
+			<!-- <methods> -->
+			<!-- <include name="statusSteps" /> -->
+			<!-- <include name="clickFirstAvailableDate" /> -->
+			<!-- <include name="clickChevrons" /> -->
+			<!-- <include name="daydatelabels" /> -->
+			<!-- <include name="orderSummary" /> -->
+			<!-- <include name="continueButton" /> -->
+			<!-- <include name="viewShoppingCartLink" /> -->
+			<!-- <include name="headerBookAppointment" /> -->
+			<!-- </methods> -->
+			<!-- </class> -->
+			<!-- <class name="com.ch.tbc.tabletTest.TabletSignedInUserBookApptTest"> -->
+			<!-- <methods> -->
+			<!-- <include name="statusSteps" /> -->
+			<!-- <include name="clickFirstAvailableDate" /> -->
+			<!-- <include name="clickChevrons" /> -->
+			<!-- <include name="daydatelabels" /> -->
+			<!-- <include name="orderSummary" /> -->
+			<!-- <include name="continueButton" /> -->
+			<!-- <include name="viewShoppingCartLink" /> -->
+			<!-- <include name="headerBookAppointment" /> -->
+			<!-- </methods> -->
+			<!-- </class> -->
+			<!-- <class name="com.ch.tbc.tests.SignedInUserReviewScheduleTest"> -->
+			<!-- <methods> -->
+			<!-- <include name="statusSteps" /> -->
+			<!-- <include name="personalInformation" /> -->
+			<!-- <include name="appointmentInformation" /> -->
+			<!-- <include name="yourOrder" /> -->
+			<!-- <include name="specialFinancing" /> -->
+			<!-- <include name="headerReviewSchedule" /> -->
+			<!-- <include name="confirmButtonReviewSchedule" /> -->
+			<!-- </methods> -->
+			<!-- </class> -->
+			<!-- <class name="com.ch.tbc.testsMobile.MobileSignedInUserReviewScheduleTest"> -->
+			<!-- <methods> -->
+			<!-- <include name="statusSteps" /> -->
+			<!-- <include name="personalInformation" /> -->
+			<!-- <include name="appointmentInformation" /> -->
+			<!-- <include name="yourOrder" /> -->
+			<!-- <include name="specialFinancing" /> -->
+			<!-- <include name="headerReviewSchedule" /> -->
+			<!-- <include name="confirmButtonReviewSchedule" /> -->
+			<!-- </methods> -->
+			<!-- </class> -->
+			<!-- <class name="com.ch.tbc.tabletTest.TabletSignedInUserReviewScheduleTest"> -->
+			<!-- <methods> -->
+			<!-- <include name="statusSteps" /> -->
+			<!-- <include name="personalInformation" /> -->
+			<!-- <include name="appointmentInformation" /> -->
+			<!-- <include name="yourOrder" /> -->
+			<!-- <include name="specialFinancing" /> -->
+			<!-- <include name="headerReviewSchedule" /> -->
+			<!-- <include name="confirmButtonReviewSchedule" /> -->
+			<!-- </methods> -->
+			<!-- </class> -->
+			<!-- <class name="com.ch.tbc.tests.SignedInUserCheckoutConfirmationTest"> -->
+			<!-- <methods> -->
+			<!-- <include name="checkoutBreadcrumb" /> -->
+			<!-- <include name="statusSteps" /> -->
+			<!-- <include name="confirmationLinks" /> -->
+			<!-- <include name="personalInformation" /> -->
+			<!-- <include name="appointmentInformation" /> -->
+			<!-- <include name="yourOrder" /> -->
+			<!-- <include name="specialFinancing" /> -->
+			<!-- </methods> -->
+			<!-- </class> -->
+			<!-- <class -->
+			<!-- name="com.ch.tbc.testsMobile.MobileSignedInUserCheckoutConfirmationTest"> -->
+			<!-- <methods> -->
+			<!-- <include name="statusSteps" /> -->
+			<!-- <include name="confirmationLinks" /> -->
+			<!-- <include name="personalInformation" /> -->
+			<!-- <include name="appointmentInformation" /> -->
+			<!-- <include name="yourOrder" /> -->
+			<!-- <include name="specialFinancing" /> -->
+			<!-- </methods> -->
+			<!-- </class> -->
+			<!-- <class -->
+			<!-- name="com.ch.tbc.tabletTest.TabletSignedInUserCheckoutConfirmationTest"> -->
+			<!-- <methods> -->
+			<!-- <include name="statusSteps" /> -->
+			<!-- <include name="confirmationLinks" /> -->
+			<!-- <include name="personalInformation" /> -->
+			<!-- <include name="appointmentInformation" /> -->
+			<!-- <include name="yourOrder" /> -->
+			<!-- <include name="specialFinancing" /> -->
+			<!-- </methods> -->
+			<!-- </class> -->
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite thread-count="5" parallel="methods" name="Browse and Shop listing">
+<!-- <listeners> -->
+<!-- <listener class-name="com.ch.utils.ParallelFactory"/> -->
+<!-- </listeners> -->
+
+	<test name="TBC Suite">
+		<classes>	
+	<class name="com.ch.tbc.tests.BrowseAndShopListingPageTest">
+				<methods>
+					<include name="verifyBatterylistingPageTest" />
+					<include name="verifyGuestUserTirelistingPageTest" />
+					<include name="verifynicknamelinkPageTest" />
+					<include name="verifyOilServiceslistingPageTest" />
+					<include name="verifyTirelistingPageTest" />
+					<include name="verifyWheelAlignmentlistingPageTest" />
+					<include name="verifyWpierBladelistingPageTest" />
+					<include name="verifySignedInWpierBladelistingPageTest" />
+					<include name="verifyRecreationalTralierTiresTest" />
+					<include name="verifyImageAndProductNameTest" />
+					<include name="verifyViewMoreTest" />
+					
+				</methods>
+			</class>
+			
+			<class name="com.ch.tbc.tabletTest.BrowseAndShopListingPageTabletTest">
+				<methods>
+					<include name="verifyBatterylistingPageTest" />
+					<include name="verifyGuestUserTirelistingPageTest" />
+					<include name="verifynicknamelinkPageTest" />
+					<include name="verifyOilServiceslistingPageTest" />
+					<include name="verifyTirelistingPageTest" />
+					<include name="verifyWheelAlignmentlistingPageTest" />
+					<include name="verifyWpierBladelistingPageTest" />
+					<include name="verifyRecreationalTralierTiresTest" />
+					<include name="verifyViewMoreTest" />
+					<include name="verifySignedInWpierBladelistingPageTest" />
+				</methods>
+			</class>
+			
+				<class name="com.ch.tbc.testsMobile.MobileBrowseAndShopListingPageTest">
+				<methods>
+					<include name="verifyBatterylistingPageTest" />
+					<include name="verifyGuestUserTirelistingPageTest" />
+					<include name="verifynicknamelinkPageTest" />
+					<include name="verifyOilServiceslistingPageTest" />
+					<include name="verifyTirelistingPageTest" />
+					<include name="verifyWheelAlignmentlistingPageTest" />
+					<include name="verifyWpierBladelistingPageTest" />
+					<include name="verifySignedInWpierBladelistingPageTest" />
+					<include name="verifyRecreationalTralierTiresTest" />
+					<include name="verifyImageAndProductNameTest" />
+					<include name="verifyViewMoreTest" />
+				</methods>
+			</class>
+			
+								</classes>
+	</test>
+</suite>

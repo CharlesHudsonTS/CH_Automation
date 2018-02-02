@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite thread-count="7" parallel="methods" name="Registration">
+<!-- <listeners> -->
+<!-- <listener class-name="com.ch.utils.ParallelFactory"/> -->
+<!-- </listeners> -->
+	<test name="TBC Suite">
+		<classes>
+			<class name="com.ch.tbc.tests.YourVehicleTest">
+				<methods>
+					<include name="createAccountBreadcrumb" />
+					<include name="statusSteps" />
+					<include name="yourVehicleStaticText" />
+					<include name="skipThisStepLink" />
+					<include name="verifyMyGarageLabelAndPlaceHolderTest" />
+					<include name="clickMYMSectionTest" />
+					<include name="verifyMYMSectionTest" />
+					<include name="verifyValidMYMSectionTest" />
+					<include name="verifyINVaildMYMSectionTest" />
+					<include name="verifyDOYouKnowLabelMYMSectionTest" />
+					<include name="verifyThreeValuesMYMTest" />
+					<include name="typeMYMValuesTest" />
+					<include name="clickNextButtonTest" />
+					<include name="verifyCancelButtonTest" />
+				</methods>
+			</class>
+			<class name="com.ch.tbc.testsMobile.MobileYourVehicleTest">
+				<methods>
+					<include name="statusSteps" />
+					<include name="yourVehicleStaticText" />
+					<include name="skipThisStepLink" />
+					<include name="verifyValidMYMSectionTest" />
+					<include name="verifyINVaildMYMSectionTest" />
+					<include name="verifyDOYouKnowLabelMYMSectionTest" />
+					<include name="verifyThreeValuesMYMTest" />
+					<include name="typeMYMValuesTest" />
+					<include name="clickCancelButtonTest" />
+					<include name="isPlaceHolderMYM" />
+					<include name="isYearAndModelDisableMYMTest" />
+					<include name="verifyNextButtonTest" />
+				</methods>
+			</class>
+			<class name="com.ch.tbc.tabletTest.TabletYourVehicleTest">
+				<methods>
+					<include name="statusSteps" />
+					<include name="yourVehicleStaticText" />
+					<include name="skipThisStepLink" />
+					<include name="verifyValidMYMSectionTest" />
+					<include name="verifyINVaildMYMSectionTest" />
+					<include name="verifyDOYouKnowLabelMYMSectionTest" />
+					<include name="verifyThreeValuesMYMTest" />
+					<include name="typeMYMValuesTest" />
+					<include name="clickCancelButtonTest" />
+					<include name="isPlaceHolderMYM" />
+					<include name="isYearAndModelDisableMYMTest" />
+					<include name="verifyNextButtonTest" />
+
+				</methods>
+			</class>
+			<class name="com.ch.tbc.tests.YourVehicleOptionalTest">
+				<methods>
+					<include name="createAccountBreadcrumb" />
+					<include name="statusSteps" />
+					<include name="yourVehicleStaticText" />
+					<include name="skipThisStepLink" />
+					<include name="verifyEditModelTest" />
+					<include name="selectValuesFromDropDownTest" />
+					<include name="typeDataInEditBoxTest" />
+					<include name="validMileageTest" />
+					<include name="isColorChangeTest" />
+					<include name="editNickNameTest" />
+					<include name="isCancelButtonlabelTest" />
+					<include name="clickCancelCancelButtonlabelTest" />
+					<include name="verifyAddCustomizeSizeTest" />
+					<include name="verifySaveVehicleButtonTest" />
+				</methods>
+			</class>
+			<class name="com.ch.tbc.testsMobile.MobileYourVehicleOptionalTest">
+				<methods>
+					<include name="statusSteps" />
+					<include name="yourVehicleStaticText" />
+					<include name="skipThisStepLink" />
+					<include name="verifyEditModelTest" />
+					<include name="selectValuesFromDropDownTest" />
+					<include name="typeDataInEditBoxTest" />
+					<include name="validMileageTest" />
+					<include name="isColorChangeTest" />
+					<include name="editNickNameTest" />
+					<include name="isCancelButtonlabelTest" />
+					<include name="clickCancelCancelButtonlabelTest" />
+					<include name="verifyAddCustomizeSizeTest" />
+					<include name="verifySaveVehicleButtonTest" />
+				</methods>
+			</class>
+			<class name="com.ch.tbc.tabletTest.TabletYourVehicleOptionalTest">
+				<methods>
+					<include name="statusSteps" />
+					<include name="yourVehicleStaticText" />
+					<include name="skipThisStepLink" />
+					<include name="verifyEditModelTest" />
+					<include name="selectValuesFromDropDownTest" />
+					<include name="typeDataInEditBoxTest" />
+					<include name="validMileageTest" />
+					<include name="isColorChangeTest" />
+					<include name="editNickNameTest" />
+					<include name="isCancelButtonlabelTest" />
+					<include name="clickCancelCancelButtonlabelTest" />
+					<include name="verifyAddCustomizeSizeTest" />
+					<include name="verifySaveVehicleButtonTest" />
+				</methods>
+			</class>
+			<class name="com.ch.tbc.tests.VehicleConfirmationTest">
+				<methods>
+					<include name="createAccountBreadcrumb" />
+					<include name="statusSteps" />
+					<include name="yourVehicleStaticText" />
+					<include name="skipThisStepLink" />
+					<include name="carName" />
+					<include name="carImage" />
+					<include name="editVehicle" />
+					<include name="addAnotherVehicle" />
+					<include name="nextButton" />
+				</methods>
+			</class>
+			<class name="com.ch.tbc.testsMobile.MobileVehicleConfirmationTest">
+				<methods>
+					<include name="statusSteps" />
+					<include name="yourVehicleStaticText" />
+					<include name="skipThisStepLink" />
+					<include name="carName" />
+					<include name="carImage" />
+					<include name="editVehicle" />
+					<include name="addAnotherVehicle" />
+					<include name="nextButton" />
+				</methods>
+			</class>
+			<class name="com.ch.tbc.tabletTest.TabletVehicleConfirmationTest">
+				<methods>
+					<include name="statusSteps" />
+					<include name="yourVehicleStaticText" />
+					<include name="skipThisStepLink" />
+					<include name="carName" />
+					<include name="carImage" />
+					<include name="editVehicle" />
+					<include name="addAnotherVehicle" />
+					<include name="nextButton" />
+				</methods>
+			</class>
+			<class name="com.ch.tbc.tests.YourStoreTest">
+				<methods>
+					<include name="storeLocatorBreadcrumb" />
+					<include name="statusSteps" />
+					<include name="yourVehicleStaticText" />
+					<include name="skipThisStepLink" />
+					<include name="isStoreSearchBoxTest" />
+					<include name="isDisplayedFindAStoreButtonTest" />
+					<include name="isDisabledFindAStoreButtonTest" />
+					<include name="clickFindAStoreButtonTest" />
+					<include name="sisterStoreLogoTest" />
+					<include name="isGoogleMapTest" />
+					<include name="isGoogleMapZoominandZoomOutTest" />
+					<include name="googleMapclickZoominandZoomOutTest" />
+					<include name="enterStoreSearchBoxTest" />
+					<include name="zipCodeKeyBoardEnterTest" />
+					<include name="isStoreGeoLoactionTest" />
+					<include name="storeUseMylocationTest" />
+					<include name="clickStoreGeoLoactionTest" />
+					<include name="isStoreListingTest" />
+					<include name="isSetAsMyStoreTest" />
+					<include name="isStoreAddressTest" />
+					<include name="isPhoneNoTest" />
+					<include name="islistBookAppointmentTest" />
+					<include name="clickBookAppointmentTest" />
+					<include name="isStoreSisterLogoTest" />
+					<include name="clickStoreSisterLogoTest" />
+					<include name="isNoWebOrderTest" />
+					<include name="noStoreFoundTest" />
+					<include name="clickStoreListingTest" />
+					<include name="clickSetAsMyStoreTest" />
+				</methods>
+			</class>
+			<class name="com.ch.tbc.testsMobile.MobileYourStoreTest">
+				<methods>
+					<include name="statusSteps" />
+					<include name="yourVehicleStaticText" />
+					<include name="skipThisStepLink" />
+					<include name="isStoreSearchBoxTest" />
+					<include name="isDisplayedFindAStoreButtonTest" />
+					<include name="isDisabledFindAStoreButtonTest" />
+					<include name="clickFindAStoreButtonTest" />
+					<include name="sisterStoreLogoTest" />
+					<include name="isGoogleMapTest" />
+					<include name="isGoogleMapZoominandZoomOutTest" />
+					<include name="googleMapclickZoominandZoomOutTest" />
+					<include name="enterStoreSearchBoxTest" />
+					<include name="zipCodeKeyBoardEnterTest" />
+					<include name="isStoreGeoLoactionTest" />
+					<include name="storeUseMylocationTest" />
+					<include name="clickStoreGeoLoactionTest" />
+					<include name="isStoreListingTest" />
+					<include name="isSetAsMyStoreTest" />
+					<include name="isStoreAddressTest" />
+					<include name="isPhoneNoTest" />
+					<include name="islistBookAppointmentTest" />
+					<include name="clickBookAppointmentTest" />
+					<include name="isStoreSisterLogoTest" />
+					<include name="clickStoreSisterLogoTest" />
+					<include name="isNoWebOrderTest" />
+					<include name="noStoreFoundTest" />
+					<include name="clickStoreListingTest" />
+					<include name="clickSetAsMyStoreTest" />
+				</methods>
+			</class>
+			<class name="com.ch.tbc.tabletTest.TabletYourStoreTest">
+				<methods>
+					<include name="statusSteps" />
+					<include name="yourVehicleStaticText" />
+					<include name="skipThisStepLink" />
+					<include name="isStoreSearchBoxTest" />
+					<include name="isDisplayedFindAStoreButtonTest" />
+					<include name="isDisabledFindAStoreButtonTest" />
+					<include name="clickFindAStoreButtonTest" />
+					<include name="sisterStoreLogoTest" />
+					<include name="isGoogleMapTest" />
+					<include name="isGoogleMapZoominandZoomOutTest" />
+					<include name="googleMapclickZoominandZoomOutTest" />
+					<include name="enterStoreSearchBoxTest" />
+					<include name="zipCodeKeyBoardEnterTest" />
+					<include name="isStoreGeoLoactionTest" />
+					<include name="storeUseMylocationTest" />
+					<include name="clickStoreGeoLoactionTest" />
+					<include name="isStoreListingTest" />
+					<include name="isSetAsMyStoreTest" />
+					<include name="isStoreAddressTest" />
+					<include name="isPhoneNoTest" />
+					<include name="islistBookAppointmentTest" />
+					<include name="clickBookAppointmentTest" />
+					<include name="isStoreSisterLogoTest" />
+					<include name="clickStoreSisterLogoTest" />
+					<include name="isNoWebOrderTest" />
+					<include name="noStoreFoundTest" />
+					<include name="clickStoreListingTest" />
+					<include name="clickSetAsMyStoreTest" />
+				</methods>
+			</class>
+			<class name="com.ch.tbc.tests.YourStoreConfirmationTest">
+				<methods>
+					<include name="storeLocatorBreadcrumb" />
+					<include name="storeSelect" />
+					<include name="statusSteps" />
+					<include name="storeConfmStaticText" />
+					<include name="storeConfmImage" />
+					<include name="storeConfmStoreLabel" />
+					<include name="findAnotherStoreStoreConf" />
+					<include name="doneStoreStoreConf" />
+				</methods>
+			</class>
+			<class name="com.ch.tbc.testsMobile.MobileYourStoreConfirmationTest">
+				<methods>
+					<include name="storeSelect" />
+					<include name="statusSteps" />
+					<include name="storeConfmStaticText" />
+					<include name="storeConfmImage" />
+					<include name="storeConfmStoreLabel" />
+					<include name="findAnotherStoreStoreConf" />
+					<include name="doneStoreStoreConf" />
+				</methods>
+			</class>
+			<class name="com.ch.tbc.tabletTest.TabletYourStoreConfirmationTest">
+				<methods>
+					<include name="storeSelect" />
+					<include name="statusSteps" />
+					<include name="storeConfmStaticText" />
+					<include name="storeConfmImage" />
+					<include name="storeConfmStoreLabel" />
+					<include name="findAnotherStoreStoreConf" />
+					<include name="doneStoreStoreConf" />
+				</methods>
+			</class>
+			<class name="com.ch.tbc.tests.RegistrationSuccessTest">
+				<methods>
+					<include name="storeLocatorBreadcrumb" />
+					<include name="storeSelect" />
+					<include name="statusSteps" />
+					<include name="storeConfmStaticText" />
+					<include name="storeConfmShopButtons" />
+					<include name="storeConfmTakeMeToMyAccount" />
+					<include name="storeConfmTakeMeToMyGarage" />
+				</methods>
+			</class>
+			<class name="com.ch.tbc.testsMobile.MobileRegistrationSuccessTest">
+				<methods>
+					<include name="storeSelect" />
+					<include name="statusSteps" />
+					<include name="storeConfmStaticText" />
+					<include name="storeConfmShopButtons" />
+					<include name="storeConfmTakeMeToMyAccount" />
+					<include name="storeConfmTakeMeToMyGarage" />
+				</methods>
+			</class>
+			<class name="com.ch.tbc.tabletTest.TabletRegistrationSuccessTest">
+				<methods>
+					<include name="storeSelect" />
+					<include name="statusSteps" />
+					<include name="storeConfmStaticText" />
+					<include name="storeConfmShopButtons" />
+					<include name="storeConfmTakeMeToMyAccount" />
+					<include name="storeConfmTakeMeToMyGarage" />
+				</methods>
+			</class>
+			<class name="com.ch.tbc.tests.CreateAccountTest">
+				<methods>
+					<include name="createAccountBreadcrumb" />
+					<include name="createAccountStaticText" />
+					<include name="createAccountRegisterButton" />
+					<include name="facebookIcon" />
+					<include name="googlePlusIcon" />
+					<include name="yahooIcon" />
+					<include name="twitterIcon" />
+					<include name="aOLIcon" />
+					<include name="linkedInIcon" />
+					<include name="staticTextSignIn" />
+				</methods>
+			</class>
+			<class name="com.ch.tbc.testsMobile.MobileCreateAccountTest">
+				<methods>
+					<include name="createAccountStaticText" />
+					<include name="createAccountRegisterButton" />
+					<include name="facebookIcon" />
+					<include name="googlePlusIcon" />
+					<include name="yahooIcon" />
+					<include name="twitterIcon" />
+					<include name="aOLIcon" />
+					<include name="linkedInIcon" />
+					<include name="staticTextSignIn" />
+				</methods>
+			</class>
+			<class name="com.ch.tbc.tabletTest.TabletCreateAccountTest">
+				<methods>
+					<include name="createAccountStaticText" />
+					<include name="createAccountRegisterButton" />
+					<include name="facebookIcon" />
+					<include name="googlePlusIcon" />
+					<include name="yahooIcon" />
+					<include name="twitterIcon" />
+					<include name="aOLIcon" />
+					<include name="linkedInIcon" />
+					<include name="staticTextSignIn" />
+				</methods>
+			</class>
+			<class name="com.ch.tbc.tests.AboutYouTest">
+				<methods>
+					<include name="createAccountBreadcrumb" />
+					<include name="statusSteps" />
+					<include name="aboutYouStaticText" />
+					<include name="textBoxLabels" />
+					<include name="passwordStrength" />
+					<include name="passwordTip" />
+					<include name="invalidAboutYou" />
+					<include name="nextButton" />
+					<include name="cancelButton" />
+					<include name="cancelPopUp" />
+					<include name="continuePopUp" />
+				</methods>
+			</class>
+			<class name="com.ch.tbc.testsMobile.MobileAboutYouTest">
+				<methods>
+					<include name="statusSteps" />
+					<include name="aboutYouStaticText" />
+					<include name="textBoxLabels" />
+					<include name="passwordStrength" />
+					<include name="passwordTip" />
+					<include name="invalidAboutYou" />
+					<include name="nextButton" />
+					<include name="cancelButton" />
+					<include name="cancelPopUp" />
+					<include name="continuePopUp" />
+				</methods>
+			</class>
+			<class name="com.ch.tbc.tabletTest.TabletAboutYouTest">
+				<methods>
+					<include name="statusSteps" />
+					<include name="aboutYouStaticText" />
+					<include name="textBoxLabels" />
+					<include name="passwordStrength" />
+					<include name="passwordTip" />
+					<include name="invalidAboutYou" />
+					<include name="nextButton" />
+					<include name="cancelButton" />
+					<include name="cancelPopUp" />
+					<include name="continuePopUp" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

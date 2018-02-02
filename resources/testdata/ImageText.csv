@@ -1,0 +1,8 @@
+suite name,test case name,key,findelement,height,width,top,left,right,marginright,marginleft,margintop,marginbottom,bottom,fontSize,color
+Home_Page_Images,Header Logo,HEADER_LOGO,xpath,58px,140.833px,-,-,-,0px,0px,0px,0px,-,45px,-
+Home_Page_Images,Oil Change Icon,OIL_ICON,xpath,151px,151px,-,-,-,0px,0px,0px,0px,-,14px,-
+Home_Page_Images,Shop tires Icon,SHOP_ICON,xpath,151px,151px,-,-,-,0px,0px,0px,0px,-,14px,-
+Home_Page_Images,Book Appointment Icon,BOOK_ICON,xpath,151px,151px,-,-,-,0px,0px,0px,0px,-,14px,-
+Home_Page_Images,Hero Image,HOME_HERO,xpath,340.083px,995px,-,-,-,0px,0px,0px,0px,-,14px,-
+Home_Page_Images,Cart Image,HOM_CART,xpath,32px,28px,-,-,-,0px,0px,0px,0px,-,14px,-
+Home_Page_Images,Vechicle Image,HOME_VECHI,xpath,36px,112px,-,-,-,0px,0px,0px,0px,-,14px,-

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite thread-count="1" parallel="methods" name="Demo">
+	<!-- <listeners> -->
+	<!-- <listener class-name="com.ch.utils.ParallelFactory"/> -->
+	<!-- </listeners> -->
+
+	<test name="TBC Suite">
+		<classes>
+			<class name="com.ch.ta.desktopTests.CreateAccTest">
+				<methods>
+					<include name="createAccount" />
+					<include name="loginTest" />
+					<include name="inValidloginTest" />
+					<include name="forgotPwdWOemail" />
+					<include name="invalidSignIn" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestSuite" parallel="methods" thread-count="5">
+<!-- 	<listeners> -->
+<!-- 		<listener class-name="com.ch.utils.ParallelFactory" /> -->
+<!-- 	</listeners> -->
+
+	<test name="TBC Suite">
+		<classes>
+			<class name="com.ch.tbc.tests.CreditCardTest">
+				<methods>
+					<include name="isBreadCrumbTest" />
+					<include name="clickBreadCrumbTest" />
+					<include name="isHeroBannerImageTest" />
+					<include name="ctaApplyButton" />
+					<include name="isStaticText" />
+					<include name="isStaticTextIcon" />
+					<include name="isCreditStaticTextIcon" />
+					<include name="isCreditCardStaticTextIcon" />
+					<include name="isAlreadyCardStaticText" />
+					<include name="gotoAccountLink" />
+					<include name="isNeedHelpStaticText" />
+					<include name="isTermsAndCondition" />
+					<include name="clickContactUsButton" />
+					<include name="isBreadCrumbSpecialFinancing" />
+					<include name="clickBreadCrumbSpecialFinancing" />
+					<include name="isSatiticDeals" />
+					<include name="specialFinancingApplyTodayCTAButton" />
+<!-- 					<include name="isSocialMediaIcons" /> -->
+					<include name="clickOnPrintOffer" />
+					<include name="isTermsAndConditionDeals" />
+					<include name="clickViewAllLink" />
+				</methods>
+			</class>
+			<class name="com.ch.tbc.testsMobile.MobileCreditCardTest">
+				<methods>
+					<include name="isHeroBannerImageTest" />
+					<include name="ctaApplyButton" />
+					<include name="isStaticText" />
+					<include name="isStaticTextIcon" />
+					<include name="isCreditStaticTextIcon" />
+					<include name="isCreditCardStaticTextIcon" />
+					<include name="isAlreadyCardStaticText" />
+					<include name="gotoAccountLink" />
+					<include name="isNeedHelpStaticText" />
+					<include name="isTermsAndCondition" />
+					<include name="clickContactUsButton" />
+					<include name="isSatiticDeals" />
+					<include name="specialFinancingApplyTodayCTAButton" />
+<!-- 					<include name="isSocialMediaIcons" /> -->
+<!-- 					<include name="clickOnPrintOffer" /> -->
+					<include name="isTermsAndConditionDeals" />
+					<include name="clickViewAllLink" />
+				</methods>
+			</class>
+			<class name="com.ch.tbc.tabletTest.TabletCreditCardTest">
+				<methods>
+					<include name="isHeroBannerImageTest" />
+					<include name="ctaApplyButton" />
+					<include name="isStaticText" />
+					<include name="isStaticTextIcon" />
+					<include name="isCreditStaticTextIcon" />
+					<include name="isCreditCardStaticTextIcon" />
+					<include name="isAlreadyCardStaticText" />
+					<include name="gotoAccountLink" />
+					<include name="isNeedHelpStaticText" />
+					<include name="isTermsAndCondition" />
+					<include name="clickContactUsButton" />
+					<include name="isSatiticDeals" />
+					<include name="specialFinancingApplyTodayCTAButton" />
+<!-- 					<include name="isSocialMediaIcons" /> -->
+<!-- 					<include name="clickOnPrintOffer" /> -->
+					<include name="isTermsAndConditionDeals" />
+					<include name="clickViewAllLink" />
+				</methods>
+			</class>
+
+		</classes>
+	</test>
+</suite>

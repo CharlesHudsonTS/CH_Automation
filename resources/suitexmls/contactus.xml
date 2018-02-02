@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite thread-count="7" parallel="methods" name="ContactUS">
+<!-- <listeners> -->
+<!-- <listener class-name="com.ch.utils.ParallelFactory"/> -->
+<!-- </listeners> -->
+
+	<test name="TBC Suite">
+		<classes>
+			<class name="com.ch.tbc.tests.ContactUsTest">
+				<methods>
+					<include name="clickContactUsLink" />
+					<include name="clickEmailBusinessDevelopmentTest" />
+					<include name="clickEmailCustomerSupportTest" />
+					<include name="clickEmailOurTeamTest" />
+					<include name="clickEmailTechSupportTest" />
+					<include name="clickEmailWarrantyTest" />
+					<include name="clickEmailWholesaleTeamTest" />
+					<include name="clickFooterContactUsTest" />
+					<include name="clickReviewandPayTest" />
+					<include name="clickStickyBarTest" />
+					<include name="isHomePageContactUsLinkTest" />
+					<include name="clickVistInternationalTest" />
+				</methods>
+
+			</class>
+			<class name="com.ch.tbc.tabletTest.ContactUsTabletTest">
+				<methods>
+					<include name="clickContactUsLink" />
+					<include name="clickEmailBusinessDevelopmentTest" />
+					<include name="clickEmailCustomerSupportTest" />
+					<include name="clickEmailOurTeamTest" />
+					<include name="clickEmailTechSupportTest" />
+					<include name="clickEmailWarrantyTest" />
+					<include name="clickEmailWholesaleTeamTest" />
+					<include name="clickFooterContactUsTest" />
+					<include name="clickReviewandPayTest" />
+					<include name="clickStickyBarTest" />
+					<include name="isHomePageContactUsLinkTest" />
+					<include name="clickVistInternationalTest" />
+				</methods>
+			</class>
+
+			<class name="com.ch.tbc.testsMobile.ContactUsMobileTest">
+				<methods>
+					<include name="isHomePageContactUsLinkTest" />
+					<include name="clickFooterContactUsTest" />
+					<include name="clickContactUsTest" />
+					<include name="verifyWholesaleAccountInfoTest" />
+					<include name="verifyWebShoppingTest" />
+					<include name="verifyWarrantyQuestionTest" />
+					<include name="verifyVistInternationalTest" />
+					<include name="clickVistInternationalTest" />
+					<include name="verifyTechWebIssueTest" />
+					<include name="verifyTalkToUsTest" />
+					<include name="verifyStoreCreditInquirieTest" />
+					<include name="verifySpeicalOrderTireTest" />
+					<include name="verifyReviewandPayTest" />
+					<include name="clickReviewandPayTest" />
+					<include name="verifyInternationalTest" />
+					<include name="verifyFleetAndNationalAccountsTest" />
+					<include name="verifyEmailWholesaleTeamTest" />
+					<include name="clickEmailWholesaleTeamTest" />
+					<include name="verifyEmailWarrantyTest" />
+					<include name="clickEmailWarrantyTest" />
+					<include name="verifyEmailTechSupportTest" />
+					<include name="clickEmailTechSupportTest" />
+					<include name="verifyEmailOurTeamTest" />
+					<include name="clickEmailOurTeamTest" />
+					<include name="verifyEmailCustomerSupportTest" />
+					<include name="clickEmailCustomerSupportTest" />
+					<include name="verifyEmailBusinessDevelopmentTest" />
+					<include name="clickEmailBusinessDevelopmentTest" />
+					<include name="verifyContactUsLabelTest" />
+				</methods>
+			</class>
+</classes>
+	</test>
+</suite>			
+			

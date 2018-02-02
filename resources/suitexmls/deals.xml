@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite thread-count="7" parallel="methods" name="Deals">
+<!-- <listeners> -->
+<!-- <listener class-name="com.ch.utils.ParallelFactory"/> -->
+<!-- </listeners> -->
+
+	<test name="TBC Suite">
+		<classes>
+<class name="com.ch.tbc.tests.DealsPageTest">
+				<methods>
+					<include name="clickAnyDealsTest" />
+					<include name="clickDealsInFooterTest" />
+					<include name="clickDealsInHeaderTest" />
+					<include name="clickLowestTireLearnMoreTest" />
+					<include name="clicktHeroImageCarouselTest" />
+					<include name="isAllTabDefaultTest" />
+					<include name="isCarouselDotTest" />
+					<include name="isLowestTirePriceTest" />
+					<include name="isNationalDealsTest" />
+					<include name="isSpeicalFinancingTest" />
+					<include name="isStickyHeaderTest" />
+					<include name="mouserHoverTermsandCond" />
+					<include name="verifyDealsBreadCrumbTest" />
+					<include name="verifyHeroImageAndClickTest" />
+					<include name="veryCategoriesDealsAndClickTest" />
+
+				</methods>
+			</class>
+
+
+			<class name="com.ch.tbc.tabletTest.DealsTabletTest">
+				<methods>
+
+					<include name="clickAnyDealsTest" />
+					<include name="clickDealsInHeaderTest" />
+					<include name="clickLowestTireLearnMoreTest" />
+					<include name="clickServiceTest" />
+					<include name="clickTiresTest" />
+					<include name="isAllTabDefaultTest" />
+					<include name="isCarouselDotTest" />
+					<include name="isCategoriesDealsTest" />
+					<include name="isLowestTirePriceTest" />
+					<include name="isNationalDealsTest" />
+					<include name="isSpecialCreditCardImage" />
+					<include name="isSpeicalFinancingTest" />
+					<include name="mouserHoverTermsandCond" />
+					<include name="verifyHeroImageTest" />
+
+				</methods>
+			</class>
+			<class name="com.ch.tbc.testsMobile.DealsMobileTest">
+				<methods>
+
+					<include name="clickAnyDealsTest" />
+					<include name="clickDealsInHeaderTest" />
+					<include name="clickLowestTireLearnMoreTest" />
+					<include name="clickServiceTest" />
+					<include name="clickTiresTest" />
+					<include name="isAllTabDefaultTest" />
+					<include name="isCarouselDotTest" />
+					<include name="isCategoriesDealsTest" />
+					<include name="isLowestTirePriceTest" />
+					<include name="isNationalDealsTest" />
+					<include name="isSpecialCreditCardImage" />
+					<include name="isSpeicalFinancingTest" />
+					<include name="mouserHoverTermsandCond" />
+					<include name="verifyHeroImageTest" />
+
+				</methods>
+			</class>
+
+<!-- 			<class name="com.ch.tbc.tests.DealsDetailsTest"> -->
+<!-- 				<methods> -->
+<!-- 					<include name="clickDealsDetailsEligibleTiresButtonTest" /> -->
+<!-- 					<include name="clickDealsDetailsHeroImageTest" /> -->
+<!-- 					<include name="clickDealsDetailsMoreDealsImageTest" /> -->
+<!-- 					<include name="clickDealsDetailsViewAllTest" /> -->
+<!-- 					<include name="clickFacebookIconTest" /> -->
+<!-- 					<include name="clickGooglePlusIconTest" /> -->
+<!-- 					<include name="clickLinkedInIconTest" /> -->
+<!-- 					<include name="clickPrintOfferLinkTest" /> -->
+<!-- 					<include name="clickTwitterIconTest" /> -->
+<!-- 					<include name="isDealsDetailsAndStaticTestTest" /> -->
+<!-- 					<include name="isDealsDetailsEligibleTiresButtonTest" /> -->
+<!-- 					<include name="isDealsDetailsHeroImageTest" /> -->
+<!-- 					<include name="isDealsDetailsMoreDealsTest" /> -->
+<!-- 					<include name="isPrintIconTest" /> -->
+<!-- 					<include name="isPrintOfferLinkTest" /> -->
+<!-- 					<include name="isSocialMediaTest" /> -->
+<!-- 					<include name="isTermsandConditionTest" /> -->
+<!-- 				</methods> -->
+<!-- 			</class> -->
+
+<!-- 			<class name="com.ch.tbc.tabletTest.DealsDetailsTabletTest"> -->
+<!-- 				<methods> -->
+<!-- 					<include name="clickDealsDetailsEligibleTiresButtonTest" /> -->
+<!-- 					<include name="clickDealsDetailsHeroImageTest" /> -->
+<!-- 					<include name="clickDealsDetailsMoreDealsImageTest" /> -->
+<!-- 					<include name="clickDealsDetailsViewAllTest" /> -->
+<!-- 					<include name="clickFacebookIconTest" /> -->
+<!-- 					<include name="clickGooglePlusIconTest" /> -->
+<!-- 					<include name="clickLinkedInIconTest" /> -->
+<!-- 					<include name="clickTwitterIconTest" /> -->
+<!-- 					<include name="isDealsDetailsAndStaticTestTest" /> -->
+<!-- 					<include name="isDealsDetailsEligibleTiresButtonTest" /> -->
+<!-- 					<include name="isDealsDetailsHeroImageTest" /> -->
+<!-- 					<include name="isDealsDetailsMoreDealsTest" /> -->
+<!-- 					<include name="isSocialMediaTest" /> -->
+<!-- 					<include name="isTermsandConditionTest" /> -->
+<!-- 				</methods> -->
+<!-- 			</class> -->
+
+<!-- 			<class name="com.ch.tbc.testsMobile.MobileDealsDetailsTest"> -->
+<!-- 				<methods> -->
+<!-- 					<include name="clickDealsDetailsEligibleTiresButtonTest" /> -->
+<!-- 					<include name="clickDealsDetailsHeroImageTest" /> -->
+<!-- 					<include name="clickFacebookIconTest" /> -->
+<!-- 					<include name="clickGooglePlusIconTest" /> -->
+<!-- 					<include name="clickLinkedInIconTest" /> -->
+<!-- 					<include name="clickTwitterIconTest" /> -->
+<!-- 					<include name="isDealsDetailsAndTest" /> -->
+<!-- 					<include name="isDealsDetailsEligibleTiresButtonTest" /> -->
+<!-- 					<include name="isDealsDetailsHeroImageTest" /> -->
+<!-- 					<include name="isSocialMediaTest" /> -->
+<!-- 					<include name="isTermsandConditionTest" /> -->
+<!-- 				</methods> -->
+<!-- 			</class> -->
+			
+<!-- 			<class name="com.ch.tbc.tests.DealsOnlineSpeicalPageTest"> -->
+<!-- 				<methods> -->
+<!-- 					<include name="clickDealsOnlineSpecialMoreDealsImageTest" /> -->
+<!-- 					<include name="clickDealsOnlineSpecialMoreDealsViewTest" /> -->
+<!-- 					<include name="isDealsDetailsOnlineSpecialHeroImageTest" /> -->
+<!-- 					<include name="isDealsDetailsOnlineSpecialMoreDealsTest" /> -->
+<!-- 					<include name="isDealsDetailsOnlineSpecialStaticTextTest" /> -->
+<!-- 					<include name="isPrintOfferLinkTest" /> -->
+<!-- 					<include name="isSocialMediaTest" /> -->
+<!-- 					<include name="isTermsandConditionTest" /> -->
+<!-- 					<include name="onlineSpecialShopAndSchedTest" /> -->
+				
+<!-- 				</methods> -->
+<!-- 			</class> -->
+			
+<!-- 				<class name="com.ch.tbc.tabletTest.DealsOnlineSpeicalPageTabletTest"> -->
+<!-- 				<methods> -->
+<!-- 					<include name="clickDealsOnlineSpecialMoreDealsImageTest" /> -->
+<!-- 					<include name="clickDealsOnlineSpecialMoreDealsViewTest" /> -->
+<!-- 					<include name="isDealsDetailsOnlineSpecialHeroImageTest" /> -->
+<!-- 					<include name="isDealsDetailsOnlineSpecialMoreDealsTest" /> -->
+<!-- 					<include name="isDealsDetailsOnlineSpecialStaticTextTest" /> -->
+<!-- 					<include name="isPrintOfferLinkTest" /> -->
+<!-- 					<include name="isSocialMediaTest" /> -->
+<!-- 					<include name="isTermsandConditionTest" /> -->
+<!-- 					<include name="onlineSpecialShopAndSchedTest" /> -->
+				
+<!-- 				</methods> -->
+<!-- 			</class> -->
+			
+			
+<!-- 			<class name="com.ch.tbc.testsMobile.MobileDealsOnlineSpeicalPageTest"> -->
+<!-- 				<methods> -->
+<!-- 					<include name="isDealsDetailsOnlineSpecialHeroImageTest" /> -->
+<!-- 					<include name="isDealsDetailsOnlineSpecialStaticTextTest" /> -->
+<!-- 					<include name="isSocialMediaTest" /> -->
+<!-- 					<include name="isTermsandConditionTest" /> -->
+<!-- 					<include name="onlineSpecialShopAndSchedTest" /> -->
+<!-- 				</methods> -->
+<!-- 			</class> -->
+			
+<!-- 		<class name="com.ch.tbc.tests.DealsMailInRebatePageTest"> -->
+<!-- 				<methods>	 -->
+<!-- 			<include name="clickDealsmailInRebateMoreDealsImageTest" /> -->
+<!-- <include name="clickDealsmailInRebateMoreDealsViewTest" /> -->
+<!-- <include name="clickSocailMediaTest" /> -->
+<!-- <include name="isDealsMailInRebateSpecialHeroImageTest" /> -->
+<!-- <include name="isDealsMailInRebateSpecialMoreDealsTest" /> -->
+<!-- <include name="isDealsMailInRebateSpecialStaticTextTest" /> -->
+<!-- <include name="isPrintOfferLinkTest" /> -->
+<!-- <include name="isSocialMediaTest" /> -->
+<!-- <include name="isTermsandConditionTest" /> -->
+<!-- <include name="mailInRebateShopAndSchedTest" /> -->
+<!-- </methods> -->
+<!-- 			</class> -->
+			
+<!-- 			<class name="com.ch.tbc.tabletTest.DealsMailInRebatePageTabletTest"> -->
+<!-- 				<methods>	 -->
+<!-- 			<include name="clickDealsmailInRebateMoreDealsImageTest" /> -->
+<!-- <include name="clickDealsmailInRebateMoreDealsViewTest" /> -->
+<!-- <include name="clickSocailMediaTest" /> -->
+<!-- <include name="isDealsMailInRebateSpecialHeroImageTest" /> -->
+<!-- <include name="isDealsMailInRebateSpecialMoreDealsTest" /> -->
+<!-- <include name="isDealsMailInRebateSpecialStaticTextTest" /> -->
+<!-- <include name="isPrintOfferLinkTest" /> -->
+<!-- <include name="isSocialMediaTest" /> -->
+<!-- <include name="isTermsandConditionTest" /> -->
+<!-- <include name="mailInRebateShopAndSchedTest" /> -->
+<!-- </methods> -->
+<!-- 			</class> -->
+			
+			
+						
+<!-- 			<class name="com.ch.tbc.testsMobile.MobileDealsMailInRebatePageTest"> -->
+<!-- 				<methods>	 -->
+<!-- 			<include name="clickDealsmailInRebateMoreDealsImageTest" /> -->
+<!-- <include name="clickDealsmailInRebateMoreDealsViewTest" /> -->
+<!-- <include name="clickSocailMediaTest" /> -->
+<!-- <include name="isDealsMailInRebateSpecialHeroImageTest" /> -->
+<!-- <include name="isDealsMailInRebateSpecialMoreDealsTest" /> -->
+<!-- <include name="isDealsMailInRebateSpecialStaticTextTest" /> -->
+<!-- <include name="isPrintOfferLinkTest" /> -->
+<!-- <include name="isSocialMediaTest" /> -->
+<!-- <include name="isTermsandConditionTest" /> -->
+<!-- <include name="mailInRebateShopAndSchedTest" /> -->
+<!-- </methods> -->
+<!-- 			</class> -->
+			
+					
+		</classes>
+	</test>
+</suite>

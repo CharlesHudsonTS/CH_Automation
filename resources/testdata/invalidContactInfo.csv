@@ -1,0 +1,12 @@
+Enter Email,Confirm Email,First Name,Last Name,Address,Address(Optional),City,State,Zipcode,Business Name,Primary Phone,Alternate Phone,error message id,error message
+,12abcd@12abcd.com,roony,wane,1160 Smallwood Dr W,1160 Smallwood Dr W,waldorf,MD,20603,Zanity,8012312346,8012312346,div.valid_error > div,Email Id is Required
+abcd,12abcd@12abcd.com,roony,wane,1160 Smallwood Dr W,1160 Smallwood Dr W,waldorf,MD,20603,Zanity,8012312346,8012312346,//form[@id='yourInfoForm']/div/div/div/div/div[2],Please enter a valid Email Address!
+12abcd@12abcd.com,,roony,wane,1160 Smallwood Dr W,1160 Smallwood Dr W,waldorf,MD,20603,Zanity,8012312346,8012312346,//form[@id='yourInfoForm']/div/div/div[2]/div/div,Confirm Email Id is Required
+12abcd@12abcd.com,,roony,wane,1160 Smallwood Dr W,1160 Smallwood Dr W,waldorf,MD,20603,Zanity,8012312346,8012312346,//form[@id='yourInfoForm']/div/div/div[2]/div/div,Please enter a valid Email Address!
+12abcd@12abcd.com,12abcd@12abcd.com,,wane,1160 Smallwood Dr W,1160 Smallwood Dr W,waldorf,MD,20603,Zanity,8012312346,8012312346,//form[@id='yourInfoForm']/div/div/div/div[2]/div,First Name is Required
+12abcd@12abcd.com,12abcd@12abcd.com,roony,,1160 Smallwood Dr W,1160 Smallwood Dr W,waldorf,MD,20603,Zanity,8012312346,8012312346,//form[@id='yourInfoForm']/div/div/div[2]/div[2]/div,Last Name is Required
+12abcd@12abcd.com,12abcd@12abcd.com,roony,wane,1160 Smallwood Dr W,1160 Smallwood Dr W,waldorf,MD,20603,Zanity,,,//form[@id='yourInfoForm']/div/div[2]/div[2]/div/div,Primary Phone is Required
+12abcd@12abcd.com,12abcd@12abcd.com,roony,wane,,1160 Smallwood Dr W,waldorf,MD,20603,Zanity,8012312346,8012312346,div.col-lg-12 > div.valid_error > div,Address is Required
+12abcd@12abcd.com,12abcd@12abcd.com,roony,wane,1160 Smallwood Dr W,1160 Smallwood Dr W,,MD,20603,Zanity,8012312346,8012312346,//form[@id='yourInfoForm']/div/div[2]/div[2]/div[3]/div/div[2]/div,City is Required
+12abcd@12abcd.com,12abcd@12abcd.com,roony,wane,1160 Smallwood Dr W,1160 Smallwood Dr W,waldorf,,20603,Zanity,8012312346,8012312346,Checkout-ContactInfo-Stateerrormsg,State is Required
+12abcd@12abcd.com,12abcd@12abcd.com,roony,wane,1160 Smallwood Dr W,1160 Smallwood Dr W,waldorf,MD,,Zanity,8012312346,8012312346,//form[@id='yourInfoForm']/div/div[2]/div[3]/div[2]/div[2]/div/div,Zipcode is Required

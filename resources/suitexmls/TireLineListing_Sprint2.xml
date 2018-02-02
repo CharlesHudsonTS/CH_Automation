@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite thread-count="7" parallel="methods" name="Tire line Listing">
+<!-- <listeners> -->
+<!-- <listener class-name="com.ch.utils.ParallelFactory"/> -->
+<!-- </listeners> -->
+	<test name="TBC Suite">
+		<classes>
+			<class name="com.ch.tbc.tests.TireLinesListingTest">
+				<methods>
+					<exclude name="isbreadCrumbLabel" />
+					<exclude name="clickOnBreadCrumbLabel" />
+					<include name="tiresLinesListing" />
+					<include name="batteriesLinesListing" />
+					<include name="oilLinesListing" />
+					<include name="wheelAlignmentLinesListing" />
+					<include name="wiperBladesLinesListing" />
+					<include name="addTireSize" />
+					<exclude name="isNoTireSizeMatches" />
+					<exclude name="freezeFirstColumn" />
+					<exclude name="isHideEntireSection" />
+				</methods>
+			</class>
+
+			<class name="com.ch.tbc.testsMobile.MobileTireLinesListingTest">
+				<methods>
+					<include name="tiresLinesListing" />
+					<include name="batteriesLinesListing" />
+					<include name="oilLinesListing" />
+					<include name="wheelAlignmentLinesListing" />
+					<include name="wiperBladesLinesListing" />
+					<exclude name="addTireSize" />
+					<exclude name="isNoTireSizeMatches" />
+					<exclude name="freezeFirstColumn" />
+					<exclude name="isHideEntireSection" />
+				</methods>
+			</class>
+
+			<class name="com.ch.tbc.tabletTest.TabletTireLinesListingTest">
+				<methods>
+					<include name="tiresLinesListing" />
+					<include name="batteriesLinesListing" />
+					<include name="oilLinesListing" />
+					<include name="wheelAlignmentLinesListing" />
+					<include name="wiperBladesLinesListing" />
+					<exclude name="addTireSize" />
+					<exclude name="isNoTireSizeMatches" />
+					<exclude name="freezeFirstColumn" />
+					<exclude name="isHideEntireSection" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

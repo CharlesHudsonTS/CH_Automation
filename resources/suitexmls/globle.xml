@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite thread-count="10" parallel="methods" name="Globle">
+<!-- <listeners> -->
+<!-- <listener class-name="com.ch.utils.ParallelFactory"/> -->
+<!-- </listeners> -->
+
+	<test name="TBC Suite">
+		<classes>
+			<class name="com.ch.tbc.tests.SiteMapTest">
+				<methods>
+					<include name="siteMapBreadcrumb" />
+					<include name="siteMapLabel" />
+					<include name="tiresHeader" />
+					<include name="servicesHeader" />
+					<include name="wheelsHeader" />
+					<include name="labelsInSiteMap" />
+					<include name="knowledgeCenterHeader" />
+					<include name="aboutUsHeader" />
+				</methods>
+			</class>
+			<class name="com.ch.tbc.testsMobile.MobileSiteMapTest">
+				<methods>
+					<include name="siteMapLabel" />
+					<include name="tiresHeader" />
+					<include name="servicesHeader" />
+					<include name="wheelsHeader" />
+					<include name="labelsInSiteMap" />
+					<include name="knowledgeCenterHeader" />
+					<include name="aboutUsHeader" />
+				</methods>
+			</class>
+			<class name="com.ch.tbc.tabletTest.TabletSiteMapTest">
+				<methods>
+					<include name="siteMapLabel" />
+					<include name="tiresHeader" />
+					<include name="servicesHeader" />
+					<include name="wheelsHeader" />
+					<include name="labelsInSiteMap" />
+					<include name="knowledgeCenterHeader" />
+					<include name="aboutUsHeader" />
+				</methods>
+			</class>
+			<class name="com.ch.tbc.tests.CareersTest">
+				<methods>
+					<include name="careersBreadcrumb" />
+					<include name="careersBanner" />
+					<include name="managerTab" />
+					<include name="salesTab" />
+					<include name="technicianTab" />
+					<include name="onlineApplicationPolicies" />
+					<include name="languagesLink" />
+					<include name="checkBoxCareers" />
+					<include name="applyNowCareers" />
+				</methods>
+			</class>
+			<class name="com.ch.tbc.testsMobile.MobileCareersTest">
+				<methods>
+					<include name="careersBanner" />
+					<include name="managerTab" />
+					<include name="salesTab" />
+					<include name="technicianTab" />
+					<include name="onlineApplicationPolicies" />
+					<include name="languagesLink" />
+					<include name="checkBoxCareers" />
+					<include name="applyNowCareers" />
+				</methods>
+			</class>
+			<class name="com.ch.tbc.tabletTest.TabletCareersTest">
+				<methods>
+					<include name="careersBanner" />
+					<include name="managerTab" />
+					<include name="salesTab" />
+					<include name="technicianTab" />
+					<include name="onlineApplicationPolicies" />
+					<include name="languagesLink" />
+					<include name="checkBoxCareers" />
+					<include name="applyNowCareers" />
+				</methods>
+			</class>
+			<class name="com.ch.tbc.tests.AboutUsTest">
+				<methods>
+					<include name="aboutUsBreadcrumb" />
+					<include name="aboutUsHeaders" />
+					<include name="aboutUs" />
+					<include name="community" />
+					<include name="thinkGreen" />
+					<include name="findAStore" />
+				</methods>
+			</class>
+			<class name="com.ch.tbc.testsMobile.MobileAboutUsTest">
+				<methods>
+					<include name="aboutUsHeaders" />
+					<include name="aboutUs" />
+					<include name="community" />
+					<include name="thinkGreen" />
+					<include name="findAStore" />
+				</methods>
+			</class>
+			<class name="com.ch.tbc.tabletTest.TabletAboutUsTest">
+				<methods>
+					<include name="aboutUsHeaders" />
+					<include name="aboutUs" />
+					<include name="community" />
+					<include name="thinkGreen" />
+					<include name="findAStore" />
+				</methods>
+			</class>
+			<class name="com.ch.tbc.tests.FleetServicesTest">
+				<methods>
+					<include name="fleetServicesBreadcrumb" />
+					<include name="fleetServicesBanner" />
+					<include name="fleetServicesStaticText" />
+					<include name="fleetServicesLinks" />
+					<include name="fleetServicesIcons" />
+					<include name="fleetServicesTextBoxes" />
+				</methods>
+			</class>
+			<class name="com.ch.tbc.testsMobile.MobileFleetServicesTest">
+				<methods>
+					<include name="fleetServicesBanner" />
+					<include name="fleetServicesStaticText" />
+					<include name="fleetServicesLinks" />
+					<include name="fleetServicesIcons" />
+					<include name="fleetServicesTextBoxes" />
+				</methods>
+			</class>
+			<class name="com.ch.tbc.tabletTest.TabletFleetServicesTest">
+				<methods>
+					<include name="fleetServicesBanner" />
+					<include name="fleetServicesStaticText" />
+					<include name="fleetServicesLinks" />
+					<include name="fleetServicesIcons" />
+					<include name="fleetServicesTextBoxes" />
+				</methods>
+			</class>
+						<class name="com.ch.tbc.tests.DealsNDiscountTest">
+				<methods>
+					
+					<include name="cancelButton" />
+					<include name="confirmationCloseButton" />
+					<include name="dealsXButton" />
+					<include name="emailTextBoxes" />
+					<include name="mailingListStaticText" />
+					<include name="registerButton" />
+				</methods>
+			</class>
+			
+						</classes>
+	</test>
+</suite>
+
+
+
+

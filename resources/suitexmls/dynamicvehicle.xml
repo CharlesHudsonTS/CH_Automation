@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite thread-count="2" parallel="methods" name="Dynamic Vehicle">
+<!-- <listeners> -->
+<!-- <listener class-name="com.ch.utils.ParallelFactory"/> -->
+<!-- </listeners> -->
+
+	<test name="TBC Suite">
+		<classes>
+		<class name="com.ch.tbc.tests.DynamicVehicleSelectorPageTest">
+				<methods>
+<!-- 					<include name="clickMYMSectionTest" /> -->
+<!-- 					<include name="clickNextButtonTest" /> -->
+<!-- 					<include name="clickServiceBatteryInspectionTest" /> -->
+<!-- 					<include name="clickServiceBetteryTest" /> -->
+					<include name="clickServiceBreaksIconTest" />
+<!-- 					<include name="clickServiceByVehicleTest" /> -->
+<!-- 					<include name="clickServiceCoolantExchangeTest" /> -->
+<!-- 					<include name="clickServiceOilChangeIconTest" /> -->
+<!-- 					<include name="clickServiceTransmissionFluidTest" /> -->
+<!-- 					<include name="clickServiceWheelAlignmentTest" /> -->
+<!-- 					<include name="clickServiceWiperBladeTest" /> -->
+<!-- 					<include name="disableNextButtonTest" /> -->
+<!-- 					<include name="displayDynamicUpdateVehicleStaticTextTest" /> -->
+<!-- 					<include name="isYearAndModelDisableMYM" /> -->
+<!-- 					<include name="typeMYMValuesTest" /> -->
+<!-- 					<include name="verifyAddCustomizeSizeTest" /> -->
+<!-- 					<include name="verifyCloseButtonTest" /> -->
+<!-- 					<include name="verifyDOYouKnowLabelMYMSectionTest" /> -->
+<!-- 					<include name="verifyINVaildMYMSectionTest" /> -->
+<!-- 					<include name="verifyMyGarageLabelAndPlaceHolderTest" /> -->
+<!-- 					<include name="verifyMYMSectionTest" /> -->
+<!-- 					<include name="verifyProgressBarTest" /> -->
+<!-- 					<include name="verifyThreeValuesMYMTest" /> -->
+<!-- 					<include name="VerifyTireSizeTest" /> -->
+					<include name="verifyUpdatedCoolantExchangeTest" />
+<!-- 					<include name="verifyUpdatedVehicleByVehicle" /> -->
+<!-- 					<include name="verifyUpdatedVehicleTireSizeTest" /> -->
+<!-- 					<include name="verifyUpdatedVehicleWheelAlignTest" /> -->
+<!-- 					<include name="verifyValidMYMSectionTest" /> -->
+<!-- 					<include name="clickOnDynamicVINTest"></include> -->
+<!-- 					<include name="clickOnDynamicVINInValidTest"></include> -->
+<!-- 					<include name="verifyTireSizeByBrandTest"/> -->
+				</methods>
+			</class>
+			
+					<class name="com.ch.tbc.tabletTest.DynamicVehicleSelectorPageTabletTest">
+				<methods>
+<!-- 					<include name="clickMYMSectionTest" /> -->
+<!-- 					<include name="clickNextButtonTest" /> -->
+<!-- 					<include name="clickServiceBatteryInspectionTest" /> -->
+<!-- 					<include name="clickServiceBetteryTest" /> -->
+					<include name="clickServiceBreaksIconTest" />
+<!-- 					<include name="clickServiceByVehicleTest" /> -->
+<!-- 					<include name="clickServiceCoolantExchangeTest" /> -->
+					<include name="clickServiceOilChangeIconTest" />
+<!-- 					<include name="clickServiceTransmissionFluidTest" /> -->
+<!-- 					<include name="clickServiceWheelAlignmentTest" /> -->
+<!-- 					<include name="clickServiceWiperBladeTest" /> -->
+<!-- 					<include name="disableNextButtonTest" /> -->
+<!-- 					<include name="displayDynamicUpdateVehicleStaticTextTest" /> -->
+<!-- 					<include name="isYearAndModelDisableMYM" /> -->
+<!-- 					<include name="typeMYMValuesTest" /> -->
+<!-- 					<include name="verifyAddCustomizeSizeTest" /> -->
+<!-- 					<include name="verifyCloseButtonTest" /> -->
+<!-- 					<include name="verifyDOYouKnowLabelMYMSectionTest" /> -->
+<!-- 					<include name="verifyINVaildMYMSectionTest" /> -->
+<!-- 					<include name="verifyMyGarageLabelAndPlaceHolderTest" /> -->
+<!-- 					<include name="verifyMYMSectionTest" /> -->
+<!-- 					<include name="verifyProgressBarTest" /> -->
+<!-- 					<include name="verifyThreeValuesMYMTest" /> -->
+<!-- 					<include name="VerifyTireSizeTest" /> -->
+					<include name="verifyUpdatedCoolantExchangeTest" />
+<!-- 					<include name="verifyUpdatedVehicleByVehicle" /> -->
+<!-- 					<include name="verifyUpdatedVehicleTireSizeTest" /> -->
+<!-- 					<include name="verifyUpdatedVehicleWheelAlignTest" /> -->
+<!-- 					<include name="verifyValidMYMSectionTest" /> -->
+<!-- 					<include name="clickOnDynamicVINTest"></include> -->
+<!-- 					<include name="clickOnDynamicVINInValidTest"></include> -->
+				</methods>
+			</class>
+			
+			<class name="com.ch.tbc.testsMobile.MobileDynamicVehicleSelectorPageTest">
+				<methods>
+<!-- 					<include name="clickMYMSectionTest" /> -->
+<!-- 					<include name="clickNextButtonTest" /> -->
+<!-- 					<include name="clickServiceBatteryInspectionTest" /> -->
+<!-- 					<include name="clickServiceBetteryTest" /> -->
+<!-- 					<include name="clickServiceBreaksIconTest" /> -->
+					<include name="clickServiceByVehicleTest" />
+					<include name="clickServiceCoolantExchangeTest" />
+<!-- 					<include name="clickServiceOilChangeIconTest" /> -->
+<!-- 					<include name="clickServiceTransmissionFluidTest" /> -->
+<!-- 					<include name="clickServiceWheelAlignmentTest" /> -->
+<!-- 					<include name="clickServiceWiperBladeTest" /> -->
+<!-- 					<include name="disableNextButtonTest" /> -->
+<!-- 					<include name="displayDynamicUpdateVehicleStaticTextTest" /> -->
+<!-- 					<include name="isYearAndModelDisableMYM" /> -->
+<!-- 					<include name="typeMYMValuesTest" /> -->
+<!-- 					<include name="verifyAddCustomizeSizeTest" /> -->
+<!-- 					<include name="verifyCloseButtonTest" /> -->
+<!-- 					<include name="verifyDOYouKnowLabelMYMSectionTest" /> -->
+<!-- 					<include name="verifyINVaildMYMSectionTest" /> -->
+<!-- 					<include name="verifyMyGarageLabelAndPlaceHolderTest" /> -->
+<!-- 					<include name="verifyMYMSectionTest" /> -->
+<!-- 					<include name="verifyProgressBarTest" /> -->
+<!-- 					<include name="verifyThreeValuesMYMTest" /> -->
+<!-- 					<include name="VerifyTireSizeTest" /> -->
+					<include name="verifyUpdatedCoolantExchangeTest" />
+<!-- 					<include name="verifyUpdatedVehicleByVehicle" /> -->
+<!-- 					<include name="verifyUpdatedVehicleTireSizeTest" /> -->
+<!-- 					<include name="verifyUpdatedVehicleWheelAlignTest" /> -->
+<!-- 					<include name="verifyValidMYMSectionTest" /> -->
+					<include name="clickOnDynamicVINTest"></include>
+<!-- 					<include name="clickOnDynamicVINInValidTest"></include> -->
+				</methods>
+			</class>
+					</classes>
+	</test>
+</suite>

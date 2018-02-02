@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite thread-count="7" parallel="methods" name="Recommendation">
+<!-- <listeners> -->
+<!-- <listener class-name="com.ch.utils.ParallelFactory"/> -->
+<!-- </listeners> -->
+
+	<test name="TBC Suite">
+		<classes>
+			<class name="com.ch.tbc.tests.RecommendationsPageTest">
+				<methods>
+					<include name="verifyDisplayOf3RecommendationTest" />
+					<include name="verifyNoRecommendationTest" />
+					<include name="verifyProductImageTest" />
+					<include name="verifyProductNameTest" />
+					<include name="verifyProductratingTest" />
+					<include name="verifyRecommendStaticTextTest" />
+					<include name="verifyRecommendationProductDetailsTest" />
+					<include name="verifySignedInRecommendDetailsTest"/> 
+					<include name="verifySignedInRecommendProductNameTest"/> 
+				</methods>
+			</class>
+
+			<class name="com.ch.tbc.tabletTest.RecommendationsPageTabletTest">
+				<methods>
+					<include name="verifyDisplayOf3RecommendationTest" />
+					<include name="verifyNoRecommendationTest" />
+					<include name="verifyProductImageTest" />
+					<include name="verifyProductNameTest" />
+					<include name="verifyProductratingTest" />
+					<include name="verifyRecommendStaticTextTest" />
+					<include name="verifyRecommendationProductDetailsTest" />
+				</methods>
+			</class>
+
+			<class name="com.ch.tbc.testsMobile.MobileRecommendationsPageTest">
+				<methods>
+					<include name="verifyDisplayOf3RecommendationTest" />
+					<include name="verifyNoRecommendationTest" />
+					<include name="verifyProductImageTest" />
+					<include name="verifyProductNameTest" />
+					<include name="verifyProductratingTest" />
+					<include name="verifyRecommendStaticTextTest" />
+					<include name="verifyRecommendationProductDetailsTest" />
+				</methods>
+			</class>
+			
+				</classes>
+	</test>
+</suite>

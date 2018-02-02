@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite thread-count="1" parallel="methods" name="No Search Result">
+<!-- <listeners> -->
+<!-- <listener class-name="com.ch.utils.ParallelFactory"/> -->
+<!-- </listeners> -->
+
+	<test name="TBC Suite">
+		<classes>
+			<class name="com.ch.tbc.tests.NoSearchResultPageTest">
+				<methods>
+					<include name="verifyNoResultBreadCrumbTest" />
+					<include name="verifyNoResultChatNowLinkTest" />
+					<include name="verifyNoResultGlassImageTest" />
+					<include name="verifyNoSearchResultTest" />
+					<include name="verifySignedInNoSearchResultTest"/>
+				</methods>
+			</class>
+			
+			<class name="com.ch.tbc.tabletTest.NoSearchResultPageTabletTest">
+				<methods>
+					<include name="verifyNoResultChatNowLinkTest" />
+					<include name="verifyNoResultGlassImageTest" />
+					<include name="verifyNoSearchResultTest" />
+				</methods>
+			</class>
+			
+			<class name="com.ch.tbc.testsMobile.MobileNoSearchResultPageTest">
+				<methods>
+					<include name="verifyNoResultChatNowLinkTest" />
+					<include name="verifyNoResultGlassImageTest" />
+					<include name="verifyNoSearchResultTest" />
+				</methods>
+			</class>
+			
+						</classes>
+	</test>
+</suite>

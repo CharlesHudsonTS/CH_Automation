@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite thread-count="10" parallel="methods" name="Home Page">
+<!-- <listeners> -->
+<!-- <listener class-name="com.ch.utils.ParallelFactory"/> -->
+<!-- </listeners> -->
+
+	<test name="TBC Suite">
+		<classes>
+			<class name="com.ch.tbc.tests.MainNavTest" />
+			<class name="com.ch.tbc.tabletTest.TabletHomePageTest" />
+			<class name="com.ch.tbc.testsMobile.MobileMainNavTest" />
+			<class name="com.ch.tbc.tests.MainHomepageTest" />
+			<class name="com.ch.tbc.tabletTest.TabletMainHomePageTest" />
+			<class name="com.ch.tbc.testsMobile.MobileMainHomePageTest" />
+		</classes>
+	</test>
+</suite>

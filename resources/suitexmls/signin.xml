@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite thread-count="7" parallel="methods" name="SignIn">
+<!-- <listeners> -->
+<!-- <listener class-name="com.ch.utils.ParallelFactory"/> -->
+<!-- </listeners> -->
+
+	<test name="TBC Suite">
+		<classes>
+			<class name="com.ch.tbc.tests.SignInTest">
+			<methods>
+			<include name="signInBreadcrumb" />
+<!-- 			<include name="clickOnSignin" /> -->
+<!-- 			<include name="signInTitleTest" /> -->
+<!-- 			<include name="emailAddressTextBox" /> -->
+<!-- 			<include name="passwordTextBox" /> -->
+<!-- 			<include name="emailAddressPlaceholder" /> -->
+<!-- 			<include name="passwordPlaceholder" /> -->
+<!-- 			<include name="isSignInButtonEnabled" /> -->
+<!-- 			<include name="isSignInButtonDisabled" /> -->
+<!-- 			<include name="validDataSignIn" /> -->
+<!-- 			<include name="invalidDataSignIn" /> -->
+<!-- 			<include name="isRememberMeTest" /> -->
+<!-- 			<include name="selectRememberMeTest" /> -->
+<!-- 			<include name="unselectRememberMeTest" /> -->
+<!-- 			<include name="forgotPasswordLinkTest" /> -->
+<!-- 			<include name="isFacebookIconTest" /> -->
+<!-- 			<include name="clickFacebookIconTest" /> -->
+<!-- 			<include name="isTwitterIconTest" /> -->
+<!-- 			<include name="clickTwitterIconTest" /> -->
+<!-- 			<include name="isGooglePlusTest" /> -->
+<!-- 			<include name="clickGooglePlusIconTest" /> -->
+<!-- 			<include name="isYahooTest" /> -->
+<!-- 			<include name="clickYahooIconTest" /> -->
+<!-- 			<include name="isLinkedInTest" /> -->
+<!-- 			<include name="clickLinkedInIconTest" /> -->
+<!-- 			<include name="isAOLTest" /> -->
+<!-- 			<include name="clickAOLIconTest" /> -->
+<!-- 			<include name="createAnAccount" /> -->
+<!-- 			<include name="clickRegisterButton" /> -->
+<!-- 			</methods> -->
+<!-- 			</class> -->
+<!-- 			<class name="com.ch.tbc.tests.ForgotPasswordTest"> -->
+<!-- 			<methods> -->
+<!-- 			<include name="forgotPasswordBreadcrumb" /> -->
+<!-- 			<include name="forgotPasswordStaticText" /> -->
+<!-- 			<include name="emailTextBoxForgotPwd" /> -->
+<!-- 			<include name="invalidEmailForgotPwd" /> -->
+<!-- 			<include name="sendButton" /> -->
+<!-- 			</methods> -->
+<!-- 			</class> -->
+<!-- 		<class name="com.ch.tbc.testsMobile.MobileSignInTest"> -->
+<!-- 			<methods> -->
+<!-- 			<include name="inValidDetails" /> -->
+<!-- 			<include name="signInTitleTest" /> -->
+<!-- 			<include name="emailAddressTextBox" /> -->
+<!-- 			<include name="passwordTextBox" /> -->
+<!-- 			<include name="emailAddressPlaceholder" /> -->
+<!-- 			<include name="passwordPlaceholder" /> -->
+<!-- 			<include name="isSignInButtonEnabled" /> -->
+<!-- 			<include name="isSignInButtonDisabled" /> -->
+<!-- 			<include name="validDataSignIn" /> -->
+<!-- 			<include name="isRememberMeTest" /> -->
+<!-- 			<include name="selectRememberMeTest" /> -->
+<!-- 			<include name="unselectRememberMeTest" /> -->
+<!-- 			<include name="isForgotPasswordLinkTest" /> -->
+<!-- 			<include name="clickForgotPasswordLinkTest" /> -->
+<!-- 			<include name="isFacebookIconTest" /> -->
+<!-- 			<include name="clickFacebookIconTest" /> -->
+<!-- 			<include name="isTwitterIconTest" /> -->
+<!-- 			<include name="clickTwitterIconTest" /> -->
+<!-- 			<include name="isGooglePlusTest" /> -->
+<!-- 			<include name="clickGooglePlusIconTest" /> -->
+<!-- 			<include name="isYahooTest" /> -->
+<!-- 			<include name="clickYahooIconTest" /> -->
+<!-- 			<include name="isLinkedInTest" /> -->
+<!-- 			<include name="clickLinkedInIconTest" /> -->
+<!-- 			<include name="isAOLTest" /> -->
+<!-- 			<include name="clickAOLIconTest" /> -->
+<!-- 			<include name="isRegisterButton" /> -->
+<!-- 			<include name="clickRegisterButton" /> -->
+<!-- 			<include name="createAnAccount" /> -->
+<!-- 			</methods> -->
+<!-- 			</class> -->
+<!-- 			<class name="com.ch.tbc.testsMobile.MobileForgotPasswordTest"> -->
+<!-- 			<methods> -->
+<!-- 			<include name="forgotPasswordLabel" /> -->
+<!-- 			<include name="forgotPasswordStaticText" /> -->
+<!-- 			<include name="emailTextBoxForgotPwd" /> -->
+<!-- 			<include name="invalidEmailForgotPwd" /> -->
+<!-- 			<include name="sendButton" /> -->
+<!-- 			</methods> -->
+<!-- 			</class> -->
+<!-- 			<class name="com.ch.tbc.tabletTest.TabletSignInTest"> -->
+<!-- 			<methods> -->
+<!-- 			<include name="inValidDetails" /> -->
+<!-- 			<include name="signInTitleTest" /> -->
+<!-- 			<include name="emailAddressTextBox" /> -->
+<!-- 			<include name="passwordTextBox" /> -->
+<!-- 			<include name="emailAddressPlaceholder" /> -->
+<!-- 			<include name="passwordPlaceholder" /> -->
+<!-- 			<include name="isSignInButtonEnabled" /> -->
+<!-- 			<include name="isSignInButtonDisabled" /> -->
+<!-- 			<include name="validDataSignIn" /> -->
+<!-- 			<include name="isRememberMeTest" /> -->
+<!-- 			<include name="selectRememberMeTest" /> -->
+<!-- 			<include name="unselectRememberMeTest" /> -->
+<!-- 			<include name="isForgotPasswordLinkTest" /> -->
+<!-- 			<include name="clickForgotPasswordLinkTest" /> -->
+<!-- 			<include name="isFacebookIconTest" /> -->
+<!-- 			<include name="clickFacebookIconTest" /> -->
+<!-- 			<include name="isTwitterIconTest" /> -->
+<!-- 			<include name="clickTwitterIconTest" /> -->
+<!-- 			<include name="isGooglePlusTest" /> -->
+<!-- 			<include name="clickGooglePlusIconTest" /> -->
+<!-- 			<include name="isYahooTest" /> -->
+<!-- 			<include name="clickYahooIconTest" /> -->
+<!-- 			<include name="isLinkedInTest" /> -->
+<!-- 			<include name="clickLinkedInIconTest" /> -->
+<!-- 			<include name="isAOLTest" /> -->
+<!-- 			<include name="clickAOLIconTest" /> -->
+<!-- 			<include name="isRegisterButton" /> -->
+<!-- 			<include name="clickRegisterButton" /> -->
+<!-- 			<include name="createAnAccount" /> -->
+<!-- 			</methods> -->
+<!-- 			</class> -->
+<!-- 			<class name="com.ch.tbc.tabletTest.TabletForgotPasswordTest"> -->
+<!-- 			<methods> -->
+<!-- 			<include name="forgotPasswordLabel" /> -->
+<!-- 			<include name="forgotPasswordStaticText" /> -->
+<!-- 			<include name="emailTextBoxForgotPwd" /> -->
+<!-- 			<include name="invalidEmailForgotPwd" /> -->
+<!-- 			<include name="sendButton" /> -->
+			</methods>
+			</class>
+			
+			
+		</classes>
+	</test>
+</suite>

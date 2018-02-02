@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite thread-count="7" parallel="methods" name="Filters">
+<!-- <listeners> -->
+<!-- <listener class-name="com.ch.utils.ParallelFactory"/> -->
+<!-- </listeners> -->
+
+	<test name="TBC Suite">
+		<classes>
+			<class name="com.ch.tbc.tests.FilterTest"/>
+			<class name="com.ch.tbc.testsMobile.MobileFilterTest"/>
+			<class name="com.ch.tbc.tabletTest.TabletFilterTest"/>
+		</classes>
+	</test>
+</suite>

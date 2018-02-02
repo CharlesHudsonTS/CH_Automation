@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ 
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite thread-count="7" parallel="methods" name="Sort Pagination">
+<!-- <listeners> -->
+<!-- <listener class-name="com.ch.utils.ParallelFactory"/> -->
+<!-- </listeners> -->
+	<test name="Test">
+	<parameter name="remoteurl" value="">
+	</parameter>
+		<classes>
+			<class name="com.ch.tbc.tests.SortPaginationTest">
+				<methods>
+					<include name="isDisplayOfSort" />
+					<include name="functionalityOfSortInBreaks" />
+					<include name="functionalityOfSortWheelAlingment" />
+					<include name="functionalityOfSortWiperBlades" />
+					<include name="functionalityOfSortBatteries" />
+					<include name="functionalityOfSortOilListings" /> 
+					<include name="verifyGlobalSearchListingCount" />
+					<include name="verifyMaxCountSkuListing" />
+					<include name="verifyMaxCountGridView" />
+					<include name="functionalityOfviewMore" />
+					<include name="verifyTireCompatabiltyWarnings" />
+					<include name="verifyWiperCompatabiltyWarnings" />
+					<include name="verifyWheelAlinmentcompatabiltyWarrinings" />
+					
+				</methods>
+			</class>			
+			<class name="com.ch.tbc.testsMobile.SortPaginationMobileTest">
+				<methods>
+					<include name="isDisplayOfSort" />
+					<include name="functionalityOfSortInBreaks" />
+					<include name="functionalityOfSortWheelAlingment" />
+					<include name="functionalityOfSortWiperBlades" />
+					<include name="functionalityOfSortBatteries" />
+					<include name="functionalityOfSortOilListings" /> 
+					<include name="verifyGlobalSearchListingCount" />
+					<include name="verifyMaxCountSkuListing" />
+					<include name="verifyMaxCountGridView" />
+					<include name="functionalityOfviewMore" />
+					<include name="verifyTireCompatabiltyWarnings" />
+					<include name="verifyWiperCompatabiltyWarnings" />
+					<include name="verifyWheelAlinmentcompatabiltyWarrinings" />
+					
+				</methods>
+			</class>
+			
+			<class name="com.ch.tbc.tabletTest.SortPaginationTabletTest">
+				<methods>
+					<include name="isDisplayOfSort" />
+					<include name="functionalityOfSortInBreaks" />
+					<include name="functionalityOfSortWheelAlingment" />
+					<include name="functionalityOfSortWiperBlades" />
+					<include name="functionalityOfSortBatteries" />
+					<include name="functionalityOfSortOilListings" /> 
+					<include name="verifyGlobalSearchListingCount" />
+					<include name="verifyMaxCountSkuListing" />
+					<include name="verifyMaxCountGridView" />
+					<include name="functionalityOfviewMore" />
+					<include name="verifyTireCompatabiltyWarnings" />
+					<include name="verifyWiperCompatabiltyWarnings" />
+					<include name="verifyWheelAlinmentcompatabiltyWarrinings" />
+					
+				</methods>
+			</class>
+			
+					</classes>
+	</test>
+</suite>
