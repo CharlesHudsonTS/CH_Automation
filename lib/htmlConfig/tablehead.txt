@@ -1,0 +1,11 @@
+<center><h2>Summary</h2></center>
+<body><table class="blue shadow">
+<thead>
+  <tr>
+    <th bgcolor="#26c6da" height="25"><font color = "#FFFFFF">Test Suite Name</font color></th>
+    <th bgcolor="#26c6da" height="25"><font color = "#FFFFFF">Total Test cases</font color></th>		
+    <th bgcolor="#26c6da" height="25"><font color = "#FFFFFF">Passed Test cases</font color></th>
+	<th bgcolor="#26c6da" height="25"><font color = "#FFFFFF">Failed Test cases</font color></th>
+	<th bgcolor="#26c6da" height="25"><font color = "#FFFFFF">Pass Percentage</font color></th>
+  </tr>
+  </thead>

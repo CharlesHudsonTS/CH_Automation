@@ -1,0 +1,23 @@
+<table class="tg"><h2 style ="padding-left: 20px;">Detail Image Report</h2>
+  <tr>
+    <th  bgcolor = "#886A08" class="tg-031e" rowspan="2"><font color = "#FFFFFF">Test Suite</th>
+    <th  bgcolor = "#886A08" class="tg-031e" rowspan="2"><font color = "#FFFFFF">Test case Name</th>
+    <th  bgcolor = "#886A08" class="tg-yw4l" colspan="12"><font color = "#FFFFFF">Expected Result</th>
+    <th  bgcolor = "#886A08" class="tg-yw4l" rowspan="2"><font color = "#FFFFFF">Result</th>
+    <th  width = 5% bgcolor = "#886A08" class="tg-yw4l" rowspan="2"><font color = "#FFFFFF">Exception Trace</th>
+    <th width = 10% bgcolor = "#886A08" class="tg-031e" rowspan="2"><font color = "#FFFFFF">Error Message</th>
+  </tr>
+  <tr>
+    <th bgcolor = "#886A08" class="tg-yw4l"><font color = "#FFFFFF">Height (px)</th>
+    <th bgcolor = "#886A08" class="tg-yw4l"><font color = "#FFFFFF">Width (px)</th>
+    <th bgcolor = "#886A08" class="tg-yw4l"><font color = "#FFFFFF">Top (px)</th>
+    <th bgcolor = "#886A08" class="tg-yw4l"><font color = "#FFFFFF">Left (px)</th>
+    <th bgcolor = "#886A08" class="tg-yw4l"><font color = "#FFFFFF">Right (px)</th>
+    <th bgcolor = "#886A08" class="tg-yw4l"><font color = "#FFFFFF">MarginRight (px)</th>
+    <th bgcolor = "#886A08" class="tg-yw4l"><font color = "#FFFFFF">MarginLeft (px)</th>
+    <th bgcolor = "#886A08" class="tg-yw4l"><font color = "#FFFFFF">MarginTop (px)</th>
+    <th bgcolor = "#886A08" class="tg-yw4l"><font color = "#FFFFFF">MarginBottom (px)</th>
+	<th bgcolor = "#886A08" class="tg-yw4l"><font color = "#FFFFFF">Bottom (px)</th>
+	<th bgcolor = "#886A08" class="tg-yw4l"><font color = "#FFFFFF">Font Size (px)</th>
+	<th bgcolor = "#886A08" class="tg-yw4l"><font color = "#FFFFFF">Color (rgba)</th>
+   </tr>

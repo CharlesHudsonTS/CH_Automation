@@ -1,0 +1,12 @@
+<center><h2>Detailed Report</h2></center>
+  <table class="blue shadow">
+  <thead>
+  <tr>
+    <th bgcolor="#26c6da" height="25"><font color = "#FFFFFF">Test Suite Name</th>
+    <th bgcolor="#26c6da" height="25"><font color = "#FFFFFF">Test Case Name</th>
+    <th bgcolor="#26c6da" height="25"><font color = "#FFFFFF">Expected Result</th> 
+    <th bgcolor="#26c6da" height="25"><font color = "#FFFFFF">Result</th>
+    <th bgcolor="#26c6da" height="25"><font color = "#FFFFFF">Error Log/ Actual Result</th>
+    <th bgcolor="#26c6da" height="25"><font color = "#FFFFFF">Comments</th>
+  </tr>
+  </thead>
