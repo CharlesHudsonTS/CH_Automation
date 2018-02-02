@@ -1,0 +1,221 @@
+<project name="Test" default="test" basedir=".">
+
+	<property name="testdir" location="resources/classes" />
+	<property name="srcdir" location="src" />
+	<property name="libdir" location="lib" />
+	<property name="testconfig" location="resources/config" />
+	<property name="xmlsuitesdir" location="resources/suitexmls" />
+	<property name="full-compile" value="true" />
+
+	<path id="classpath.base" />
+
+	<path id="classpath.test">
+		<fileset dir="${libdir}">
+			<include name="**/*.jar" />
+		</fileset>
+
+		<pathelement location="${testdir}" />
+		<pathelement location="${srcdir}" />
+		<path refid="classpath.base" />
+	</path>
+
+	<target name="clean">
+		<delete>
+			<fileset dir="${testdir}" includes="**/*.class" />
+		</delete>
+	</target>
+
+	<target name="compile" depends="clean">
+		<javac encoding="ISO-8859-1" srcdir="${srcdir}" destdir="${testdir}" includeantruntime="false">
+			<classpath refid="classpath.test" />
+		</javac>
+	</target>
+
+	<taskdef resource="testngtasks">
+		<classpath>
+			<pathelement location="lib\testng-6.9.6.jar" />
+		</classpath>
+	</taskdef>
+
+	<target name="test" depends="compile">
+		<testng outputdir="${testdir}" classpathref="classpath.test">
+			<xmlfileset dir="${xmlsuitesdir}" includes="StoreLocator_Sprint1.xml" />
+		</testng>
+	</target>
+
+	<target name="Account_pref" depends="compile">
+		<testng outputdir="${testdir}" classpathref="classpath.test">
+			<xmlfileset dir="${xmlsuitesdir}" includes="AccountPreferences_sprint3.xml" />
+		</testng>
+	</target>
+	<target name="Cart" depends="compile">
+		<testng outputdir="${testdir}" classpathref="classpath.test">
+			<xmlfileset dir="${xmlsuitesdir}" includes="Cart_Sprint3.xml" />
+		</testng>
+	</target>
+	<target name="Credit_Card" depends="compile">
+		<testng outputdir="${testdir}" classpathref="classpath.test">
+			<xmlfileset dir="${xmlsuitesdir}" includes="CreditCard_Sprint3.xml" />
+		</testng>
+	</target>
+	<target name="Filters" depends="compile">
+		<testng outputdir="${testdir}" classpathref="classpath.test">
+			<xmlfileset dir="${xmlsuitesdir}" includes="Filters_Sprint2.xml" />
+		</testng>
+	</target>
+
+	<target name="HomePage" depends="compile">
+		<testng outputdir="${testdir}" classpathref="classpath.test">
+			<xmlfileset dir="${xmlsuitesdir}" includes="HomePage_Sprint1.xml" />
+		</testng>
+	</target>
+
+	<target name="RecentlyViewed" depends="compile">
+		<testng outputdir="${testdir}" classpathref="classpath.test">
+			<xmlfileset dir="${xmlsuitesdir}" includes="Recently_Viewed_Sprint2.xml" />
+		</testng>
+	</target>
+
+	<target name="SKUListing" depends="compile">
+		<testng outputdir="${testdir}" classpathref="classpath.test">
+			<xmlfileset dir="${xmlsuitesdir}" includes="SKU_Listing_Sprint2.xml" />
+		</testng>
+	</target>
+	<target name="SKUDetails" depends="compile">
+		<testng outputdir="${testdir}" classpathref="classpath.test">
+			<xmlfileset dir="${xmlsuitesdir}" includes="SKUDetails_Sprint2.xml" />
+		</testng>
+	</target>
+
+	<target name="SortPagination" depends="compile">
+		<testng outputdir="${testdir}" classpathref="classpath.test">
+			<xmlfileset dir="${xmlsuitesdir}" includes="SortPagination_Sprint2.xml" />
+		</testng>
+	</target>
+
+	<target name="TireFinder" depends="compile">
+		<testng outputdir="${testdir}" classpathref="classpath.test">
+			<xmlfileset dir="${xmlsuitesdir}" includes="TireFinderSprint_1.xml" />
+		</testng>
+	</target>
+
+	<target name="TireLineListing" depends="compile">
+		<testng outputdir="${testdir}" classpathref="classpath.test">
+			<xmlfileset dir="${xmlsuitesdir}" includes="TireLineListing_Sprint2.xml" />
+		</testng>
+	</target>
+
+	<target name="TarailerFilter" depends="compile">
+		<testng outputdir="${testdir}" classpathref="classpath.test">
+			<xmlfileset dir="${xmlsuitesdir}" includes="TrailerTireFilterSprint3.xml" />
+		</testng>
+	</target>
+
+	<target name="TrailerTireLineListing" depends="compile">
+		<testng outputdir="${testdir}" classpathref="classpath.test">
+			<xmlfileset dir="${xmlsuitesdir}" includes="TrailerTireLinesListing_Sprint3.xml" />
+		</testng>
+	</target>
+
+	<target name="annoymous" depends="compile">
+		<testng outputdir="${testdir}" classpathref="classpath.test">
+			<xmlfileset dir="${xmlsuitesdir}" includes="aynonmous.xml" />
+		</testng>
+	</target>
+
+	<target name="bookappointment" depends="compile">
+		<testng outputdir="${testdir}" classpathref="classpath.test">
+			<xmlfileset dir="${xmlsuitesdir}" includes="bookappointment.xml" />
+		</testng>
+	</target>
+
+	<target name="browseandshop" depends="compile">
+		<testng outputdir="${testdir}" classpathref="classpath.test">
+			<xmlfileset dir="${xmlsuitesdir}" includes="browseandshop.xml" />
+		</testng>
+	</target>
+
+	<target name="checkout" depends="compile">
+		<testng outputdir="${testdir}" classpathref="classpath.test">
+			<xmlfileset dir="${xmlsuitesdir}" includes="checkout.xml" />
+		</testng>
+	</target>
+
+	<target name="contactus" depends="compile">
+		<testng outputdir="${testdir}" classpathref="classpath.test">
+			<xmlfileset dir="${xmlsuitesdir}" includes="contactus.xml" />
+		</testng>
+	</target>
+
+	<target name="deals" depends="compile">
+		<testng outputdir="${testdir}" classpathref="classpath.test">
+			<xmlfileset dir="${xmlsuitesdir}" includes="deals.xml" />
+		</testng>
+	</target>
+
+	<target name="dynamicvehicle" depends="compile">
+		<testng outputdir="${testdir}" classpathref="classpath.test">
+			<xmlfileset dir="${xmlsuitesdir}" includes="dynamicvehicle.xml" />
+		</testng>
+	</target>
+
+	<target name="globle" depends="compile">
+		<testng outputdir="${testdir}" classpathref="classpath.test">
+			<xmlfileset dir="${xmlsuitesdir}" includes="globle.xml" />
+		</testng>
+	</target>
+
+	<target name="nosearchresult" depends="compile">
+		<testng outputdir="${testdir}" classpathref="classpath.test">
+			<xmlfileset dir="${xmlsuitesdir}" includes="nosearchresult.xml" />
+		</testng>
+	</target>
+
+	<target name="recommendation" depends="compile">
+		<testng outputdir="${testdir}" classpathref="classpath.test">
+			<xmlfileset dir="${xmlsuitesdir}" includes="recommendation.xml" />
+		</testng>
+	</target>
+
+	<target name="registration" depends="compile">
+		<testng outputdir="${testdir}" classpathref="classpath.test">
+			<xmlfileset dir="${xmlsuitesdir}" includes="registration.xml" />
+		</testng>
+	</target>
+
+	<target name="servicesfinder" depends="compile">
+		<testng outputdir="${testdir}" classpathref="classpath.test">
+			<xmlfileset dir="${xmlsuitesdir}" includes="servicesfinder.xml" />
+		</testng>
+	</target>
+
+	<target name="signin" depends="compile">
+		<testng outputdir="${testdir}" classpathref="classpath.test">
+			<xmlfileset dir="${xmlsuitesdir}" includes="signin.xml" />
+		</testng>
+	</target>
+	
+	<target name="mygarage" depends="compile">
+		<testng outputdir="${testdir}" classpathref="classpath.test">
+			<xmlfileset dir="${xmlsuitesdir}" includes="mygarage.xml" />
+		</testng>
+	</target>
+	
+	<target name="KnowledgeCenter" depends="compile">
+		<testng outputdir="${testdir}" classpathref="classpath.test">
+			<xmlfileset dir="${xmlsuitesdir}" includes="KnowledgeCenter.xml" />
+		</testng>
+	</target>
+
+	<target name="vehicleselector" depends="compile">
+		<testng outputdir="${testdir}" classpathref="classpath.test">
+			<xmlfileset dir="${xmlsuitesdir}" includes="vehicleselector.xml" />
+		</testng>
+	</target>
+	
+	<target name="smoketest" depends="compile">
+			<testng outputdir="${testdir}" classpathref="classpath.test">
+				<xmlfileset dir="${xmlsuitesdir}" includes="testng.xml" />
+			</testng>
+		</target>
+</project>
